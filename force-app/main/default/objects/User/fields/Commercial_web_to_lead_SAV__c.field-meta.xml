@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Commercial_web_to_lead_SAV__c</fullName>
-    <defaultValue>false</defaultValue>
-    <externalId>false</externalId>
-    <label>Commercial web-to-lead SAV</label>
-    <trackFeedHistory>false</trackFeedHistory>
-    <type>Checkbox</type>
-</CustomField>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_VR_1_Indicatif_Telephone_Mobile</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(LEFT(MobilePhone,3)=&apos;+34&apos; &amp;&amp; LEN(MobilePhone) = 12)
+&amp;&amp;
+NOT(LEFT(MobilePhone,3)=&apos;+33&apos; &amp;&amp; LEN(MobilePhone) = 12)
+&amp;&amp;
+NOT(LEFT(MobilePhone,3)=&apos;+39&apos; &amp;&amp; LEN(MobilePhone) = 13)
+&amp;&amp;
+NOT(LEFT(MobilePhone,4)=&apos;+971&apos; &amp;&amp; LEN(MobilePhone) = 13)
+&amp;&amp;
+NOT(LEFT(MobilePhone,4)=&apos;+966&apos; &amp;&amp; LEN(MobilePhone) = 13)
+&amp;&amp;
+NOT(LEFT(MobilePhone,4)=&apos;+212&apos; &amp;&amp; LEN(MobilePhone) = 13)</errorConditionFormula>
+    <errorDisplayField>MobilePhone</errorDisplayField>
+    <errorMessage>Les indicatifs supportés sont : +34, +33, +39, +971, +966, +212.</errorMessage>
+</ValidationRule>
