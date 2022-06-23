@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_preparation_visible__c</fullName>
+    <externalId>false</externalId>
+    <formula>(TEXT( $User.Showroom__c ) != TEXT( Localisation__c )) &amp;&amp;  (ISPICKVAL( Etat_vehicule__c,&quot;Réservé&quot;) || ISPICKVAL( Etat_vehicule__c,&quot;Facturé&quot;)) &amp;&amp; NOT(ISPICKVAL( $User.Showroom__c,&quot;Ryad Auto Rabat - Groupe Smeia&quot;)) &amp;&amp; NOT(ISPICKVAL( Localisation__c,&quot;Ryad Auto Rabat - Groupe Smeia&quot;)) &amp;&amp; (ISPICKVAL(Statut_preparation__c,&quot;Transféré&quot;) || ISPICKVAL( Statut_preparation__c,&quot;Préparation rejetée&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Is preparation visible</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stock_VR_002_blockage_de_suppression</fullName>
+    <active>true</active>
+    <errorConditionFormula>Tech_delete_stock__c</errorConditionFormula>
+    <errorMessage>Impossible de supprimer un stock no disponible</errorMessage>
+</ValidationRule>

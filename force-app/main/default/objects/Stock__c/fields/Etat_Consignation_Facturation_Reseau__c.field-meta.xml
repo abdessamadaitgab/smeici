@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Etat_Consignation_Facturation_Reseau__c</fullName>
+    <externalId>false</externalId>
+    <label>Etat Consignation / Facturation Réseau</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Demande de consignation</fullName>
+                <default>false</default>
+                <label>Demande de consignation</label>
+            </value>
+            <value>
+                <fullName>A consigner</fullName>
+                <default>false</default>
+                <label>A consigner</label>
+            </value>
+            <value>
+                <fullName>Consigné</fullName>
+                <default>false</default>
+                <label>Consigné</label>
+            </value>
+            <value>
+                <fullName>Consignation rejetée</fullName>
+                <default>false</default>
+                <label>Consignation rejetée</label>
+            </value>
+            <value>
+                <fullName>Demande de facturation</fullName>
+                <default>false</default>
+                <label>Demande de facturation</label>
+            </value>
+            <value>
+                <fullName>A Facturer</fullName>
+                <default>false</default>
+                <label>A Facturer</label>
+            </value>
+            <value>
+                <fullName>Facturé</fullName>
+                <default>false</default>
+                <label>Facturé</label>
+            </value>
+            <value>
+                <fullName>Facturation rejetée</fullName>
+                <default>false</default>
+                <label>Facturation rejetée</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

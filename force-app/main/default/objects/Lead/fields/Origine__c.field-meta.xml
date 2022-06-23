@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Origine__c</fullName>
+    <externalId>false</externalId>
+    <label>Origine</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>LeadSource</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Origines</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Visite showroom spontanée</controllingFieldValue>
+            <controllingFieldValue>Website</controllingFieldValue>
+            <valueName>Spontanée</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Visite showroom spontanée</controllingFieldValue>
+            <controllingFieldValue>Website</controllingFieldValue>
+            <valueName>Campagne marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Website</controllingFieldValue>
+            <valueName>Search</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

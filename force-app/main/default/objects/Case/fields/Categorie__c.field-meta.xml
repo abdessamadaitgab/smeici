@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Categorie__c</fullName>
+    <description>Anouar : J&apos;ai modifié le nom du champ</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Anouar : J&apos;ai modifié le nom du champ</inlineHelpText>
+    <label>Catégorie de réclamation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Activit_concernee__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Déréglage des options de conduite à la livraison</fullName>
+                <default>false</default>
+                <label>Déréglage des options de conduite à la livraison</label>
+            </value>
+            <value>
+                <fullName>Accessoires</fullName>
+                <default>false</default>
+                <label>Accessoires</label>
+            </value>
+            <value>
+                <fullName>Demande de Devis</fullName>
+                <default>false</default>
+                <label>Demande de Devis</label>
+            </value>
+            <value>
+                <fullName>Articles et accessoires lifestyle</fullName>
+                <default>false</default>
+                <label>Articles et accessoires lifestyle</label>
+            </value>
+            <value>
+                <fullName>Attitude et comportement</fullName>
+                <default>false</default>
+                <label>Attitude et comportement</label>
+            </value>
+            <value>
+                <fullName>Bâtiment et locaux</fullName>
+                <default>false</default>
+                <label>Bâtiment et locaux</label>
+            </value>
+            <value>
+                <fullName>Campagnes de rappel</fullName>
+                <default>false</default>
+                <label>Campagnes de rappel</label>
+            </value>
+            <value>
+                <fullName>Compétences</fullName>
+                <default>false</default>
+                <label>Compétences</label>
+            </value>
+            <value>
+                <fullName>Conditions générales</fullName>
+                <default>false</default>
+                <label>Conditions générales</label>
+            </value>
+            <value>
+                <fullName>Dépôt et restitution du véhicule</fullName>
+                <default>false</default>
+                <label>Dépôt et restitution du véhicule</label>
+            </value>
+            <value>
+                <fullName>Facturation</fullName>
+                <default>false</default>
+                <label>Facturation</label>
+            </value>
+            <value>
+                <fullName>Feedback Général sur le SAV</fullName>
+                <default>false</default>
+                <label>Feedback Général sur le SAV</label>
+            </value>
+            <value>
+                <fullName>Garantie</fullName>
+                <default>false</default>
+                <label>Garantie</label>
+            </value>
+            <value>
+                <fullName>Gestes commerciaux</fullName>
+                <default>false</default>
+                <label>Gestes commerciaux</label>
+            </value>
+            <value>
+                <fullName>Information et communication</fullName>
+                <default>false</default>
+                <label>Information et communication</label>
+            </value>
+            <value>
+                <fullName>Marketing &amp; Communication</fullName>
+                <default>false</default>
+                <label>Marketing &amp; Communication</label>
+            </value>
+            <value>
+                <fullName>Pièces de rechange</fullName>
+                <default>false</default>
+                <label>Pièces de rechange</label>
+            </value>
+            <value>
+                <fullName>Prix et remises</fullName>
+                <default>false</default>
+                <label>Prix et remises</label>
+            </value>
+            <value>
+                <fullName>Processus internes</fullName>
+                <default>false</default>
+                <label>Processus internes</label>
+            </value>
+            <value>
+                <fullName>Qualité des réparations</fullName>
+                <default>false</default>
+                <label>Qualité des réparations</label>
+            </value>
+            <value>
+                <fullName>Rendez-vous et accueil</fullName>
+                <default>false</default>
+                <label>Rendez-vous et accueil</label>
+            </value>
+            <value>
+                <fullName>Services digitaux</fullName>
+                <default>false</default>
+                <label>Services digitaux</label>
+            </value>
+            <value>
+                <fullName>Solutions de mobilité</fullName>
+                <default>false</default>
+                <label>Solutions de mobilité</label>
+            </value>
+            <value>
+                <fullName>Concurrence</fullName>
+                <default>false</default>
+                <label>Concurrence</label>
+            </value>
+            <value>
+                <fullName>Design</fullName>
+                <default>false</default>
+                <label>Design</label>
+            </value>
+            <value>
+                <fullName>Essais sur route</fullName>
+                <default>false</default>
+                <label>Essais sur route</label>
+            </value>
+            <value>
+                <fullName>Feedback général sur le VN</fullName>
+                <default>false</default>
+                <label>Feedback général sur le VN</label>
+            </value>
+            <value>
+                <fullName>Livraison du véhicule</fullName>
+                <default>false</default>
+                <label>Livraison du véhicule</label>
+            </value>
+            <value>
+                <fullName>Négociation de l&apos;offre de prix</fullName>
+                <default>false</default>
+                <label>Négociation de l&apos;offre de prix</label>
+            </value>
+            <value>
+                <fullName>Offres</fullName>
+                <default>false</default>
+                <label>Offres</label>
+            </value>
+            <value>
+                <fullName>Présentation du produit</fullName>
+                <default>false</default>
+                <label>Présentation du produit</label>
+            </value>
+            <value>
+                <fullName>Prise en main</fullName>
+                <default>false</default>
+                <label>Prise en main</label>
+            </value>
+            <value>
+                <fullName>Qualité du produit</fullName>
+                <default>false</default>
+                <label>Qualité du produit</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>VN</controllingFieldValue>
+            <valueName>Compétences</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VN</controllingFieldValue>
+            <valueName>Conditions générales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VN</controllingFieldValue>
+            <valueName>Facturation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VN</controllingFieldValue>
+            <valueName>Information et communication</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VN</controllingFieldValue>
+            <valueName>Marketing &amp; Communication</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VN</controllingFieldValue>
+            <valueName>Prix et remises</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VN</controllingFieldValue>
+            <valueName>Processus internes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VN</controllingFieldValue>
+            <valueName>Rendez-vous et accueil</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VN</controllingFieldValue>
+            <valueName>Services digitaux</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VN</controllingFieldValue>
+            <valueName>Concurrence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VN</controllingFieldValue>
+            <valueName>Design</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VN</controllingFieldValue>
+            <valueName>Essais sur route</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VN</controllingFieldValue>
+            <valueName>Feedback général sur le VN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VN</controllingFieldValue>
+            <valueName>Livraison du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VN</controllingFieldValue>
+            <valueName>Négociation de l&apos;offre de prix</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VN</controllingFieldValue>
+            <valueName>Offres</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VN</controllingFieldValue>
+            <valueName>Présentation du produit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VN</controllingFieldValue>
+            <valueName>Prise en main</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VO</controllingFieldValue>
+            <valueName>Accessoires</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VO</controllingFieldValue>
+            <valueName>Articles et accessoires lifestyle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VO</controllingFieldValue>
+            <valueName>Attitude et comportement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VO</controllingFieldValue>
+            <valueName>Bâtiment et locaux</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAV</controllingFieldValue>
+            <valueName>Déréglage des options de conduite à la livraison</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAV</controllingFieldValue>
+            <valueName>Demande de Devis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAV</controllingFieldValue>
+            <valueName>Campagnes de rappel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAV</controllingFieldValue>
+            <valueName>Dépôt et restitution du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAV</controllingFieldValue>
+            <valueName>Feedback Général sur le SAV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAV</controllingFieldValue>
+            <valueName>Garantie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAV</controllingFieldValue>
+            <valueName>Gestes commerciaux</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAV</controllingFieldValue>
+            <valueName>Pièces de rechange</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAV</controllingFieldValue>
+            <valueName>Qualité des réparations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAV</controllingFieldValue>
+            <valueName>Solutions de mobilité</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAV</controllingFieldValue>
+            <valueName>Qualité du produit</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

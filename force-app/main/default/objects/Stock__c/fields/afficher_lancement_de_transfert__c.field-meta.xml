@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>afficher_lancement_de_transfert__c</fullName>
+    <externalId>false</externalId>
+    <formula>NOT(ISBLANK( Date_d_approbation_rejet_consg_fact__c )) &amp;&amp;  (ISPICKVAL( Statut_preparation__c ,&quot;Préparé&quot;) || ISPICKVAL(Statut_preparation__c,&quot;A transférer&quot;)) &amp;&amp;  $User.role_name__c = &quot;PVN&quot;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>afficher lancement de transfert</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

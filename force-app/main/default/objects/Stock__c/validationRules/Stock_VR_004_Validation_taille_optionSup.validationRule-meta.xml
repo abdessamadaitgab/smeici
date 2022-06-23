@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stock_VR_004_Validation_taille_optionSup</fullName>
+    <active>true</active>
+    <errorConditionFormula>Tech_VR_pour_les_option_supp_et_prix__c</errorConditionFormula>
+    <errorMessage>Merci de verifier la taille des options supplémentaire et des prix</errorMessage>
+</ValidationRule>

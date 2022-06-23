@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMEIA_Stock_Compact_Layout</fullName>
+    <fields>Produit__c</fields>
+    <fields>N_de_commande__c</fields>
+    <fields>Name</fields>
+    <fields>Date_d_entree_en_stock__c</fields>
+    <fields>Etat_vehicule__c</fields>
+    <fields>Prix_public_CEM_Total__c</fields>
+    <label>SMEIA Stock Compact Layout</label>
+</CompactLayout>

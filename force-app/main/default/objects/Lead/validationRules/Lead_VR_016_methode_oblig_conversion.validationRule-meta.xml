@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_VR_016_methode_oblig_conversion</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL(Methode_preferee_de_contact__c,&apos;&apos;)
+&amp;&amp; IsConverted</errorConditionFormula>
+    <errorMessage>Merci de compléter les champ méthode de contact préférée du prospec avant conversion</errorMessage>
+</ValidationRule>

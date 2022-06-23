@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_VR_012_Campaign</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( (ISPICKVAL(Origine__c ,&quot;Campagne marketing&quot;) || ISPICKVAL(canal__c ,&quot;Campagne marketing&quot;) || 
+ISPICKVAL(LeadSource,&quot;Event&quot;)||
+ISPICKVAL(canal__c ,&quot;Campagne marketing Maroc&quot;)) &amp;&amp;  ISBLANK(Campagne_source__c) ,true,false)</errorConditionFormula>
+    <errorMessage>Le champs campaign source est obligatoire</errorMessage>
+</ValidationRule>

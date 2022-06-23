@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stock_VR_005_Validation_N_Plaque</fullName>
+    <active>true</active>
+    <errorConditionFormula>Tech_Check_VR_for_plaque__c</errorConditionFormula>
+    <errorMessage>Merci de bien respecter la forme de Nº plaque.
+Example : 1234-H-20</errorMessage>
+</ValidationRule>

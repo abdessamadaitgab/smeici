@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>canal__c</fullName>
+    <externalId>false</externalId>
+    <label>Canal</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>LeadSource</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Canaux</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Appel entrant</controllingFieldValue>
+            <valueName>Appel spontané</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Appel entrant</controllingFieldValue>
+            <controllingFieldValue>Email</controllingFieldValue>
+            <valueName>Campagne marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospection</controllingFieldValue>
+            <valueName>Appel Sortant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospection</controllingFieldValue>
+            <valueName>Visite chez le client</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Website</controllingFieldValue>
+            <valueName>RFS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Website</controllingFieldValue>
+            <valueName>TDA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Website</controllingFieldValue>
+            <valueName>RFO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Website</controllingFieldValue>
+            <valueName>HANDRAISER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Email</controllingFieldValue>
+            <valueName>Demande d&apos;offre</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Email</controllingFieldValue>
+            <valueName>Demande sponsoring</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Email</controllingFieldValue>
+            <valueName>Reclamation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Email</controllingFieldValue>
+            <valueName>RH</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

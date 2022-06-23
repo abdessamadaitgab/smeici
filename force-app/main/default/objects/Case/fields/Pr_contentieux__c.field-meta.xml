@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pr_contentieux__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Anouar : je viens de créer ce champ</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Anouar : je viens de créer ce champ</inlineHelpText>
+    <label>Précontentieux</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

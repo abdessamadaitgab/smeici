@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prix_Total_Options_TTC__c</fullName>
+    <externalId>false</externalId>
+    <label>Prix Total Options TTC</label>
+    <summarizedField>Option_stock__c.Prix_d_option__c</summarizedField>
+    <summaryFilterItems>
+        <field>Option_stock__c.Statut__c</field>
+        <operation>equals</operation>
+        <value>Confirmé, Supprimé</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Option_stock__c.Stock__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

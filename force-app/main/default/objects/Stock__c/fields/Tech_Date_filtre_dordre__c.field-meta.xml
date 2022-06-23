@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tech_Date_filtre_dordre__c</fullName>
+    <externalId>false</externalId>
+    <formula>If (Text(Statut_commande__c) == &quot;En stock&quot;,Date_d_entree_en_stock__c, IF (TEXT(Statut_commande__c) ==  &quot;En arrivage&quot;,Date_d_arrivage_estimee__c ,IF (TEXT(Statut_commande__c) == &quot;En production&quot;, Date_de_production__c, NULL)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Tech Date filtre d&apos;ordre</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

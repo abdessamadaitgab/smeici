@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_VR_017_ICE_Conversion</fullName>
+    <active>false</active>
+    <errorConditionFormula>(ISBLANK(ICE__c) || REGEX( ICE__c,&quot;^[a-zA-Z0-9]*$&quot;)) &amp;&amp; LEN(ICE__c) &lt;&gt; 15 &amp;&amp;
+NOT(ISPICKVAL( Categorie_du_prospect__c  ,&quot;Diplomate&quot;)) &amp;&amp;
+NOT(ISPICKVAL( Categorie_du_prospect__c  , &quot;Ambassade&quot;)) &amp;&amp;
+NOT(ISPICKVAL( Categorie_du_prospect__c  , &quot;consulat&quot;))
+&amp;&amp;  ISCHANGED(IsConverted)
+&amp;&amp;  RecordType.DeveloperName = &quot;Professionnel&quot;</errorConditionFormula>
+    <errorMessage>Merci de verifier ICE avant la conversion</errorMessage>
+</ValidationRule>

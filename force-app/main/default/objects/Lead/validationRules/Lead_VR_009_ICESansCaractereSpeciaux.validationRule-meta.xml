@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_VR_009_ICESansCaractereSpeciaux</fullName>
+    <active>true</active>
+    <errorConditionFormula>(REGEX(ICE__c,&quot;^[a-zA-Z0-9]*$&quot;) &amp;&amp; LEN(ICE__c) &lt;&gt; 15 &amp;&amp; LEN(ICE__c) &lt;&gt; 0)</errorConditionFormula>
+    <errorMessage>Merci de renseigner le ICE sans caractères spéciaux ni espaces avec 15 chiffres.</errorMessage>
+</ValidationRule>

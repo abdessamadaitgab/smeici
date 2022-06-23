@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_VR_017_Campaign_NotOblig</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF((
+Not(ISPICKVAL(Origine__c ,&quot;Campagne marketing&quot;)) &amp;&amp; NOT(ISPICKVAL(canal__c ,&quot;Campagne marketing&quot;)) &amp;&amp;
+Not(ISPICKVAL(LeadSource,&quot;Event&quot;))&amp;&amp;
+Not(ISPICKVAL(canal__c ,&quot;Campagne marketing Maroc&quot;)) &amp;&amp; Not(ISBLANK(Campagne_source__c))) ,true,false)</errorConditionFormula>
+    <errorMessage>Merci de vider le champs campaign</errorMessage>
+</ValidationRule>

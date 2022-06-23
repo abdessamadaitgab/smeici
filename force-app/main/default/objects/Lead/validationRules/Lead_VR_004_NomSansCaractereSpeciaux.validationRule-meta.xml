@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_VR_004_NomSansCaractereSpeciaux</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(ISBLANK(LastName)) &amp;&amp; NOT(REGEX( LastName,&quot;^[a-z  A-Z]*$&quot;))</errorConditionFormula>
+    <errorDisplayField>LastName</errorDisplayField>
+    <errorMessage>Merci de renseigner le nom sans caractères spéciaux</errorMessage>
+</ValidationRule>

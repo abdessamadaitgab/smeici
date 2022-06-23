@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Qualification_web_to_lead__c</fullName>
+    <externalId>false</externalId>
+    <label>Qualification web to lead</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Non qualifié</fullName>
+                <default>true</default>
+                <label>Non qualifié</label>
+            </value>
+            <value>
+                <fullName>À requalifier</fullName>
+                <default>false</default>
+                <label>À requalifier</label>
+            </value>
+            <value>
+                <fullName>Intéressé</fullName>
+                <default>false</default>
+                <label>Intéressé</label>
+            </value>
+            <value>
+                <fullName>Pas intéressé</fullName>
+                <default>false</default>
+                <label>Pas intéressé</label>
+            </value>
+            <value>
+                <fullName>Faux numéro</fullName>
+                <default>false</default>
+                <label>Faux numéro</label>
+            </value>
+            <value>
+                <fullName>Hors cible</fullName>
+                <default>false</default>
+                <label>Hors cible</label>
+            </value>
+            <value>
+                <fullName>À rappeler</fullName>
+                <default>false</default>
+                <label>À rappeler</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

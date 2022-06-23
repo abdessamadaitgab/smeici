@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>afficher_receptionner__c</fullName>
+    <externalId>false</externalId>
+    <formula>ISPICKVAL( Statut_preparation__c ,&quot;En cours de transfert&quot;) &amp;&amp;  NOT(ISBLANK( Date_d_approbation_rejet_consg_fact__c)) &amp;&amp; (TEXT( $User.Showroom__c) = TEXT( Site_de_destination__c))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>afficher receptionner</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

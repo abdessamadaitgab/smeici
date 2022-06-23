@@ -1,0 +1,1463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Serie_Modele__c</fullName>
+    <externalId>false</externalId>
+    <label>Série / Modèle</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Marque_d_interet__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Series_Modeles</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>KIA</controllingFieldValue>
+            <valueName>CARNIVAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KIA</controllingFieldValue>
+            <valueName>CERATO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KIA</controllingFieldValue>
+            <valueName>K2500</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KIA</controllingFieldValue>
+            <valueName>K3000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KIA</controllingFieldValue>
+            <valueName>NOUVEAU SPORTAGE 4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KIA</controllingFieldValue>
+            <valueName>OPTIMA 3 F/L</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KIA</controllingFieldValue>
+            <valueName>PICANTO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KIA</controllingFieldValue>
+            <valueName>PRO_CEE&apos;D</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KIA</controllingFieldValue>
+            <valueName>QUORIS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KIA</controllingFieldValue>
+            <valueName>RIO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KIA</controllingFieldValue>
+            <valueName>SORENTO 3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KIA</controllingFieldValue>
+            <valueName>SPORTAGE 3 F/L</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LANCIA</controllingFieldValue>
+            <valueName>DELTA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LANCIA</controllingFieldValue>
+            <valueName>THEMA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LANCIA</controllingFieldValue>
+            <valueName>YPSILON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LAND ROVER</controllingFieldValue>
+            <valueName>DEFENDER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LAND ROVER</controllingFieldValue>
+            <valueName>DISCOVERY SPORT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LAND ROVER</controllingFieldValue>
+            <valueName>FREELANDER 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LAND ROVER</controllingFieldValue>
+            <valueName>NEW DISCOVERY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LAND ROVER</controllingFieldValue>
+            <valueName>RANGE ROVER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LEXUS</controllingFieldValue>
+            <valueName>LC 500H</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LEXUS</controllingFieldValue>
+            <valueName>LS 500H</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LEXUS</controllingFieldValue>
+            <valueName>LX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LEXUS</controllingFieldValue>
+            <valueName>NX 300H</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LEXUS</controllingFieldValue>
+            <valueName>RX 450H</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LIFAN</controllingFieldValue>
+            <valueName>320</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAHINDRA</controllingFieldValue>
+            <valueName>GENIO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAHINDRA</controllingFieldValue>
+            <valueName>SCORPIO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAHINDRA</controllingFieldValue>
+            <valueName>XUV500</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MERCEDES</controllingFieldValue>
+            <valueName>CITAN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MERCEDES</controllingFieldValue>
+            <valueName>CLASSE S</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MERCEDES</controllingFieldValue>
+            <valueName>GLA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MERCEDES</controllingFieldValue>
+            <valueName>MERCEDES-AMG GT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MERCEDES</controllingFieldValue>
+            <valueName>NOUVELLE CLASSE A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MERCEDES</controllingFieldValue>
+            <valueName>SLC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MERCEDES</controllingFieldValue>
+            <valueName>SPRINTER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MERCEDES</controllingFieldValue>
+            <valueName>VITO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MITSUBISHI</controllingFieldValue>
+            <valueName>L200</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MITSUBISHI</controllingFieldValue>
+            <valueName>L300</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MITSUBISHI</controllingFieldValue>
+            <valueName>LANCER EX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MITSUBISHI</controllingFieldValue>
+            <valueName>OUTLANDER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MITSUBISHI</controllingFieldValue>
+            <valueName>PAJERO SPORT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NISSAN</controllingFieldValue>
+            <valueName>JUKE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NISSAN</controllingFieldValue>
+            <valueName>MICRA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NISSAN</controllingFieldValue>
+            <valueName>NAVARA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NISSAN</controllingFieldValue>
+            <valueName>NEW QASHQAI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NISSAN</controllingFieldValue>
+            <valueName>NOTE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NISSAN</controllingFieldValue>
+            <valueName>NV200 EVALIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NISSAN</controllingFieldValue>
+            <valueName>PATHFINDER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NISSAN</controllingFieldValue>
+            <valueName>QASHQAI DIESEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NISSAN</controllingFieldValue>
+            <valueName>URVAN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OPEL</controllingFieldValue>
+            <valueName>ADAM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OPEL</controllingFieldValue>
+            <valueName>ASTRA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OPEL</controllingFieldValue>
+            <valueName>CORSA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OPEL</controllingFieldValue>
+            <valueName>GRANDLAND X</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OPEL</controllingFieldValue>
+            <valueName>INSIGNIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OPEL</controllingFieldValue>
+            <valueName>MERIVA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OPEL</controllingFieldValue>
+            <valueName>MOVANO L3H2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OPEL</controllingFieldValue>
+            <valueName>VIVARO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEVROLET</controllingFieldValue>
+            <valueName>AVEO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEVROLET</controllingFieldValue>
+            <valueName>CAPTIVA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEVROLET</controllingFieldValue>
+            <valueName>CRUZE 1.6L LT 5P HB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEVROLET</controllingFieldValue>
+            <valueName>LABO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEVROLET</controllingFieldValue>
+            <valueName>NEW SPARK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEVROLET</controllingFieldValue>
+            <valueName>ORLANDO LS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEVROLET</controllingFieldValue>
+            <valueName>TRAVERSE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PEUGEOT</controllingFieldValue>
+            <valueName>107</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PEUGEOT</controllingFieldValue>
+            <valueName>207 CC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PEUGEOT</controllingFieldValue>
+            <valueName>3008</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PEUGEOT</controllingFieldValue>
+            <valueName>407 COUPE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PEUGEOT</controllingFieldValue>
+            <valueName>5008</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PEUGEOT</controllingFieldValue>
+            <valueName>508</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PEUGEOT</controllingFieldValue>
+            <valueName>BIPPER TEPEE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PEUGEOT</controllingFieldValue>
+            <valueName>BOXER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PEUGEOT</controllingFieldValue>
+            <valueName>EXPERT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PEUGEOT</controllingFieldValue>
+            <valueName>NEW PARTNER TEPEE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PEUGEOT</controllingFieldValue>
+            <valueName>PARTNER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PEUGEOT</controllingFieldValue>
+            <valueName>PICK_UP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PEUGEOT</controllingFieldValue>
+            <valueName>RCZ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PEUGEOT</controllingFieldValue>
+            <valueName>SUV 5008</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CITROEN</controllingFieldValue>
+            <valueName>BERLINGO VITAMINE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CITROEN</controllingFieldValue>
+            <valueName>C1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CITROEN</controllingFieldValue>
+            <valueName>C3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CITROEN</controllingFieldValue>
+            <valueName>C4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CITROEN</controllingFieldValue>
+            <valueName>C5 BREAK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CITROEN</controllingFieldValue>
+            <valueName>C6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CITROEN</controllingFieldValue>
+            <valueName>C ELYSEE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CITROEN</controllingFieldValue>
+            <valueName>DS5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CITROEN</controllingFieldValue>
+            <valueName>DYNAMIQUE VUL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CITROEN</controllingFieldValue>
+            <valueName>GRAND C4 PICASSO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CITROEN</controllingFieldValue>
+            <valueName>JUMPY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CITROEN</controllingFieldValue>
+            <valueName>NEW BERLINGO K9</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PORSCHE</controllingFieldValue>
+            <valueName>911 CARRERA 4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PORSCHE</controllingFieldValue>
+            <valueName>BOXSTER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PORSCHE</controllingFieldValue>
+            <valueName>CAYENNE TURBO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PORSCHE</controllingFieldValue>
+            <valueName>MACAN2 S</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PORSCHE</controllingFieldValue>
+            <valueName>PANAMERA 4 HYB V8</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DACIA</controllingFieldValue>
+            <valueName>DOKKER VAN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DACIA</controllingFieldValue>
+            <valueName>DUSTER II</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DACIA</controllingFieldValue>
+            <valueName>LOGAN PICK-UP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DACIA</controllingFieldValue>
+            <valueName>SANDERO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RENAULT</controllingFieldValue>
+            <valueName>CAPTUR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RENAULT</controllingFieldValue>
+            <valueName>CLIO 4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RENAULT</controllingFieldValue>
+            <valueName>FLUENCE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RENAULT</controllingFieldValue>
+            <valueName>KADJAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RENAULT</controllingFieldValue>
+            <valueName>KOLEOS II</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RENAULT</controllingFieldValue>
+            <valueName>LATITUDE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RENAULT</controllingFieldValue>
+            <valueName>MASTER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RENAULT</controllingFieldValue>
+            <valueName>MEGANE 4 V0</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RENAULT</controllingFieldValue>
+            <valueName>NOUVEAU MASTER L2H2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RENAULT</controllingFieldValue>
+            <valueName>SCENIC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RENAULT</controllingFieldValue>
+            <valueName>SYMBOL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RENAULT</controllingFieldValue>
+            <valueName>TALISMAN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RENAULT</controllingFieldValue>
+            <valueName>TRAFIC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RENAULT</controllingFieldValue>
+            <valueName>TWINGO 2012</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RENAULT</controllingFieldValue>
+            <valueName>ZOE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DODGE</controllingFieldValue>
+            <valueName>AVENGER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEAT</controllingFieldValue>
+            <valueName>ALTEA XL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEAT</controllingFieldValue>
+            <valueName>ATECA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEAT</controllingFieldValue>
+            <valueName>EXEO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEAT</controllingFieldValue>
+            <valueName>LEON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEAT</controllingFieldValue>
+            <valueName>MII STYLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEAT</controllingFieldValue>
+            <valueName>NEW LEON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEAT</controllingFieldValue>
+            <valueName>TOLEDO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FIAT</controllingFieldValue>
+            <valueName>500L</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FIAT</controllingFieldValue>
+            <valueName>BRAVO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FIAT</controllingFieldValue>
+            <valueName>DOBLO CARGO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FIAT</controllingFieldValue>
+            <valueName>DUCATO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FIAT</controllingFieldValue>
+            <valueName>FIORINO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FIAT</controllingFieldValue>
+            <valueName>FREEMONT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FIAT</controllingFieldValue>
+            <valueName>FULLBACK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FIAT</controllingFieldValue>
+            <valueName>G.PUNTO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FIAT</controllingFieldValue>
+            <valueName>LINEA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FIAT</controllingFieldValue>
+            <valueName>PANDA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FIAT</controllingFieldValue>
+            <valueName>PUNTO MY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FIAT</controllingFieldValue>
+            <valueName>SCUDO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FIAT</controllingFieldValue>
+            <valueName>TIPO 4P</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SKODA</controllingFieldValue>
+            <valueName>FABIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SKODA</controllingFieldValue>
+            <valueName>KAROQ 4X4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SKODA</controllingFieldValue>
+            <valueName>KODIAQ 4X4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SKODA</controllingFieldValue>
+            <valueName>OCTAVIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SKODA</controllingFieldValue>
+            <valueName>RAPID</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SKODA</controllingFieldValue>
+            <valueName>SUPERB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SKODA</controllingFieldValue>
+            <valueName>YETI 4X4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FORD</controllingFieldValue>
+            <valueName>B-MAX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FORD</controllingFieldValue>
+            <valueName>C-MAX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FORD</controllingFieldValue>
+            <valueName>CONNECT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FORD</controllingFieldValue>
+            <valueName>CUSTOM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FORD</controllingFieldValue>
+            <valueName>ECOSPORT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FORD</controllingFieldValue>
+            <valueName>EXPLORER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FORD</controllingFieldValue>
+            <valueName>FOCUS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FORD</controllingFieldValue>
+            <valueName>FUSION 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FORD</controllingFieldValue>
+            <valueName>GRAND C-MAX TITANIUM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FORD</controllingFieldValue>
+            <valueName>KA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FORD</controllingFieldValue>
+            <valueName>KUGA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FORD</controllingFieldValue>
+            <valueName>L2H2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FORD</controllingFieldValue>
+            <valueName>L3H2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FORD</controllingFieldValue>
+            <valueName>MONDEO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FORD</controllingFieldValue>
+            <valueName>MUSTANG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FORD</controllingFieldValue>
+            <valueName>NEW RANGER LIMITED</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FORD</controllingFieldValue>
+            <valueName>RANGER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FORD</controllingFieldValue>
+            <valueName>S-MAX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FORD</controllingFieldValue>
+            <valueName>TOURNEO CONNECT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FORD</controllingFieldValue>
+            <valueName>TRANSIT CONNECT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SSANGYONG</controllingFieldValue>
+            <valueName>ACTYON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SSANGYONG</controllingFieldValue>
+            <valueName>KORANDO 4X4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SSANGYONG</controllingFieldValue>
+            <valueName>KYRON II</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SSANGYONG</controllingFieldValue>
+            <valueName>REXTON II</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SSANGYONG</controllingFieldValue>
+            <valueName>STAVIC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SSANGYONG</controllingFieldValue>
+            <valueName>TIVOLI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SSANGYONG</controllingFieldValue>
+            <valueName>XLV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GWM</controllingFieldValue>
+            <valueName>FLORID CROSS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GWM</controllingFieldValue>
+            <valueName>HAVAL H5 4X4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GWM</controllingFieldValue>
+            <valueName>WINGLE 5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subaru</controllingFieldValue>
+            <valueName>LEGACY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subaru</controllingFieldValue>
+            <valueName>TRIBECA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HONDA</controllingFieldValue>
+            <valueName>ACCORD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HONDA</controllingFieldValue>
+            <valueName>CIVIC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HONDA</controllingFieldValue>
+            <valueName>CR-V</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HONDA</controllingFieldValue>
+            <valueName>INSIGHT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HONDA</controllingFieldValue>
+            <valueName>LEGEND</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HONDA</controllingFieldValue>
+            <valueName>NEW JAZZ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SUZUKI</controllingFieldValue>
+            <valueName>ALTO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SUZUKI</controllingFieldValue>
+            <valueName>APV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SUZUKI</controllingFieldValue>
+            <valueName>BALENO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SUZUKI</controllingFieldValue>
+            <valueName>CARRY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SUZUKI</controllingFieldValue>
+            <valueName>CELERIO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SUZUKI</controllingFieldValue>
+            <valueName>GRAND VITARA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SUZUKI</controllingFieldValue>
+            <valueName>IGNIS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SUZUKI</controllingFieldValue>
+            <valueName>JIMNY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SUZUKI</controllingFieldValue>
+            <valueName>MARUTI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SUZUKI</controllingFieldValue>
+            <valueName>NEW SWIFT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SUZUKI</controllingFieldValue>
+            <valueName>S-CROSS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SUZUKI</controllingFieldValue>
+            <valueName>SPLASH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SUZUKI</controllingFieldValue>
+            <valueName>SWIFT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SUZUKI</controllingFieldValue>
+            <valueName>SX4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SUZUKI</controllingFieldValue>
+            <valueName>VITARA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HYUNDAI</controllingFieldValue>
+            <valueName>ACCENT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HYUNDAI</controllingFieldValue>
+            <valueName>COUNTY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HYUNDAI</controllingFieldValue>
+            <valueName>CRETA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HYUNDAI</controllingFieldValue>
+            <valueName>ELANTRA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HYUNDAI</controllingFieldValue>
+            <valueName>GENESIS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HYUNDAI</controllingFieldValue>
+            <valueName>GRAND SANTA FE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HYUNDAI</controllingFieldValue>
+            <valueName>H1 AMBULANCE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HYUNDAI</controllingFieldValue>
+            <valueName>H350</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HYUNDAI</controllingFieldValue>
+            <valueName>I10</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HYUNDAI</controllingFieldValue>
+            <valueName>I20</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HYUNDAI</controllingFieldValue>
+            <valueName>I30</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HYUNDAI</controllingFieldValue>
+            <valueName>I40</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HYUNDAI</controllingFieldValue>
+            <valueName>IONIQ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HYUNDAI</controllingFieldValue>
+            <valueName>IX35</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HYUNDAI</controllingFieldValue>
+            <valueName>KONA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HYUNDAI</controllingFieldValue>
+            <valueName>LUXE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HYUNDAI</controllingFieldValue>
+            <valueName>MAJESTIC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HYUNDAI</controllingFieldValue>
+            <valueName>NOUVELLE I30</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HYUNDAI</controllingFieldValue>
+            <valueName>PICK UP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HYUNDAI</controllingFieldValue>
+            <valueName>SANTA FE 2018</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HYUNDAI</controllingFieldValue>
+            <valueName>SONATA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HYUNDAI</controllingFieldValue>
+            <valueName>TUCSON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HYUNDAI</controllingFieldValue>
+            <valueName>VELOSTER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ISUZU</controllingFieldValue>
+            <valueName>D-MAX TFR54HSL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>I4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>IX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>M2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>M3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>M4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>M5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>M8 CABRIOLET</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>M8 COUPÉ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>M8 GRAN COUPÉ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>SÉRIE 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>SÉRIE 2 COUPÉ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>SÉRIE 2  GRAN COUPÉ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>SÉRIE 3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>SÉRIE 4 CABRIOLET</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>SÉRIE 4 COUPÉ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>SÉRIE 4 GRAN COUPÉ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>SÉRIE 7 BERLINE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>SÉRIE 8 CABRIOLET</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>SÉRIE 8 COUPÉ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>SÉRIE 8 GRAN COUPÉ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>X1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>X2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>X3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>X4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>X5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>X6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>X7</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MINI</controllingFieldValue>
+            <valueName>COUNTRYMAN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MINI</controllingFieldValue>
+            <valueName>HATCH 3 PORTES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MINI</controllingFieldValue>
+            <valueName>HATCH 5 PORTES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MINI</controllingFieldValue>
+            <valueName>HATCH CABRIOLET</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOTORRAD</controllingFieldValue>
+            <valueName>C 400 GT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOTORRAD</controllingFieldValue>
+            <valueName>C 400 X</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOTORRAD</controllingFieldValue>
+            <valueName>F 750 GS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOTORRAD</controllingFieldValue>
+            <valueName>F 850 GS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOTORRAD</controllingFieldValue>
+            <valueName>F 850 GS ADVENTURE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOTORRAD</controllingFieldValue>
+            <valueName>F 900 R</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOTORRAD</controllingFieldValue>
+            <valueName>F 900 XR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOTORRAD</controllingFieldValue>
+            <valueName>G 310 GS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOTORRAD</controllingFieldValue>
+            <valueName>G 310 R</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOTORRAD</controllingFieldValue>
+            <valueName>K 1600 B</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOTORRAD</controllingFieldValue>
+            <valueName>K 1600 GRAND AMERICA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOTORRAD</controllingFieldValue>
+            <valueName>K 1600 GT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOTORRAD</controllingFieldValue>
+            <valueName>K 1600 GTL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOTORRAD</controllingFieldValue>
+            <valueName>M 1000 RR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOTORRAD</controllingFieldValue>
+            <valueName>R 1250 GS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOTORRAD</controllingFieldValue>
+            <valueName>R 1250 GS ADVENTURE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOTORRAD</controllingFieldValue>
+            <valueName>R 1250 R</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOTORRAD</controllingFieldValue>
+            <valueName>R 1250 RS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOTORRAD</controllingFieldValue>
+            <valueName>R 1250 RT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOTORRAD</controllingFieldValue>
+            <valueName>R18</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOTORRAD</controllingFieldValue>
+            <valueName>R NINET</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOTORRAD</controllingFieldValue>
+            <valueName>S 1000 R</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOTORRAD</controllingFieldValue>
+            <valueName>S 1000 RR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOTORRAD</controllingFieldValue>
+            <valueName>S1000 XR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mazda</controllingFieldValue>
+            <valueName>BT-50</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mazda</controllingFieldValue>
+            <valueName>MAZDA 3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mazda</controllingFieldValue>
+            <valueName>MAZDA5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mazda</controllingFieldValue>
+            <valueName>MAZDA 6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mazda</controllingFieldValue>
+            <valueName>MAZDA CX5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ALFA ROMEO</controllingFieldValue>
+            <valueName>147</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ALFA ROMEO</controllingFieldValue>
+            <valueName>159</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ALFA ROMEO</controllingFieldValue>
+            <valueName>4C</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ALFA ROMEO</controllingFieldValue>
+            <valueName>GIULIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ALFA ROMEO</controllingFieldValue>
+            <valueName>GT COUPE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ALFA ROMEO</controllingFieldValue>
+            <valueName>MITO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ALFA ROMEO</controllingFieldValue>
+            <valueName>STELVIO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUDI</controllingFieldValue>
+            <valueName>A3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUDI</controllingFieldValue>
+            <valueName>A4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUDI</controllingFieldValue>
+            <valueName>A6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUDI</controllingFieldValue>
+            <valueName>A7</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUDI</controllingFieldValue>
+            <valueName>A8</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUDI</controllingFieldValue>
+            <valueName>Q2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUDI</controllingFieldValue>
+            <valueName>Q3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUDI</controllingFieldValue>
+            <valueName>Q5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUDI</controllingFieldValue>
+            <valueName>Q7</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUDI</controllingFieldValue>
+            <valueName>S5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUDI</controllingFieldValue>
+            <valueName>S8</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUDI</controllingFieldValue>
+            <valueName>SQ5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUDI</controllingFieldValue>
+            <valueName>TT COUPE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHANGHE</controllingFieldValue>
+            <valueName>FREEDOM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHANGHE</controllingFieldValue>
+            <valueName>IDEAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHANGHE</controllingFieldValue>
+            <valueName>MINI PICK UP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHERY</controllingFieldValue>
+            <valueName>A1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHERY</controllingFieldValue>
+            <valueName>A5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHERY</controllingFieldValue>
+            <valueName>EASTAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHERY</controllingFieldValue>
+            <valueName>QQ6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHERY</controllingFieldValue>
+            <valueName>TIGGO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHERY</controllingFieldValue>
+            <valueName>V5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TOYOTA</controllingFieldValue>
+            <valueName>AURIS HSD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TOYOTA</controllingFieldValue>
+            <valueName>AVENSIS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TOYOTA</controllingFieldValue>
+            <valueName>AYGO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TOYOTA</controllingFieldValue>
+            <valueName>C-HR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TOYOTA</controllingFieldValue>
+            <valueName>COROLLA MILLENIUM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TOYOTA</controllingFieldValue>
+            <valueName>FORTUNER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TOYOTA</controllingFieldValue>
+            <valueName>GT 86</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TOYOTA</controllingFieldValue>
+            <valueName>HILUX SC EURO4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TOYOTA</controllingFieldValue>
+            <valueName>LAND CRUISER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TOYOTA</controllingFieldValue>
+            <valueName>NOUVELLE AVENSIS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TOYOTA</controllingFieldValue>
+            <valueName>PRIUS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TOYOTA</controllingFieldValue>
+            <valueName>RAV4 2013</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TOYOTA</controllingFieldValue>
+            <valueName>VERSO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TOYOTA</controllingFieldValue>
+            <valueName>YARIS 2017</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VOLKSWAGEN</controllingFieldValue>
+            <valueName>AMAROK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VOLKSWAGEN</controllingFieldValue>
+            <valueName>ARTEON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VOLKSWAGEN</controllingFieldValue>
+            <valueName>CADDY 4 MAXI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VOLKSWAGEN</controllingFieldValue>
+            <valueName>CC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VOLKSWAGEN</controllingFieldValue>
+            <valueName>COCCINELLE COUPE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VOLKSWAGEN</controllingFieldValue>
+            <valueName>CRAFTER 50 COMBI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VOLKSWAGEN</controllingFieldValue>
+            <valueName>EOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VOLKSWAGEN</controllingFieldValue>
+            <valueName>GOLF7</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VOLKSWAGEN</controllingFieldValue>
+            <valueName>JETTA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VOLKSWAGEN</controllingFieldValue>
+            <valueName>MULTIVAN LWB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VOLKSWAGEN</controllingFieldValue>
+            <valueName>PASSAT B8</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VOLKSWAGEN</controllingFieldValue>
+            <valueName>POLO5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VOLKSWAGEN</controllingFieldValue>
+            <valueName>SCIROCCO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VOLKSWAGEN</controllingFieldValue>
+            <valueName>T6 TRANSPORTER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VOLKSWAGEN</controllingFieldValue>
+            <valueName>TIGUAN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VOLKSWAGEN</controllingFieldValue>
+            <valueName>TOURAN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>JAGUAR</controllingFieldValue>
+            <valueName>E-PACE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>JAGUAR</controllingFieldValue>
+            <valueName>F-TYPE RWD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>JAGUAR</controllingFieldValue>
+            <valueName>XE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>JAGUAR</controllingFieldValue>
+            <valueName>XF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>JAGUAR</controllingFieldValue>
+            <valueName>XJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>JAGUAR</controllingFieldValue>
+            <valueName>XK COUPE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VOLVO</controllingFieldValue>
+            <valueName>C30</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VOLVO</controllingFieldValue>
+            <valueName>S40</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VOLVO</controllingFieldValue>
+            <valueName>S60</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VOLVO</controllingFieldValue>
+            <valueName>S80</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VOLVO</controllingFieldValue>
+            <valueName>S90</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VOLVO</controllingFieldValue>
+            <valueName>V4CC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VOLVO</controllingFieldValue>
+            <valueName>V60 CC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VOLVO</controllingFieldValue>
+            <valueName>V90</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VOLVO</controllingFieldValue>
+            <valueName>XC60</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>JEEP</controllingFieldValue>
+            <valueName>CHEROKEE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>JEEP</controllingFieldValue>
+            <valueName>COMPASS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>JEEP</controllingFieldValue>
+            <valueName>GRAND CHEROKEE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>JEEP</controllingFieldValue>
+            <valueName>NEW COMPASS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>JEEP</controllingFieldValue>
+            <valueName>RENEGADE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>JEEP</controllingFieldValue>
+            <valueName>WRANGLER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>YANGZI</controllingFieldValue>
+            <valueName>PICK UP FINE</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

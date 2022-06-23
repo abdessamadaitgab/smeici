@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stock_VR_003_Special_destockage</fullName>
+    <active>true</active>
+    <errorConditionFormula>Promo__c  &amp;&amp;  Destockage__c</errorConditionFormula>
+    <errorDisplayField>Promo__c</errorDisplayField>
+    <errorMessage>Destockage et offre spéciale ne peuvent pas être cumulés. Merci de choisir une seule valeur.</errorMessage>
+</ValidationRule>
