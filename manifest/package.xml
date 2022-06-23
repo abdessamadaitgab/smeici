@@ -16,6 +16,10 @@
 		<name>GlobalValueSet</name>
 	</types>
 	<types>
+		<members>*</members>
+		<name>Profile</name>
+	</types>
+	<types>
 		<members>Account.Compte_Professionnel</members>
 		<members>Account.PersonAccount</members>
 		<members>Lead.Particulier</members>
