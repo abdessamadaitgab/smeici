@@ -21,11 +21,12 @@
             <valueName>Campagne marketing</valueName>
         </valueSettings>
         <valueSettings>
-            
+
             <controllingFieldValue>Prospection</controllingFieldValue>
             <valueName>Appel Sortant</valueName>
         </valueSettings>
         <valueSettings>
+            
             <controllingFieldValue>Prospection</controllingFieldValue>
             <valueName>Visite chez le client</valueName>
         </valueSettings>
