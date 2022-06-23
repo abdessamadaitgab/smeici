@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>commentaire</fullName>
+        <default>false</default>
+        <label>commentaire</label>
+    </customValue>
+    <customValue>
+        <fullName>messenger</fullName>
+        <default>false</default>
+        <label>messenger</label>
+    </customValue>
+    <masterLabel>Interactions</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

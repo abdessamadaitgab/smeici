@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ALD Automotive</fullName>
+        <default>false</default>
+        <label>ALD Automotive</label>
+    </customValue>
+    <customValue>
+        <fullName>Arval Maroc</fullName>
+        <default>false</default>
+        <label>Arval Maroc</label>
+    </customValue>
+    <customValue>
+        <fullName>Avis Locafinance</fullName>
+        <default>false</default>
+        <label>Avis Locafinance</label>
+    </customValue>
+    <customValue>
+        <fullName>Bank Of Africa</fullName>
+        <default>false</default>
+        <label>Bank Of Africa</label>
+    </customValue>
+    <customValue>
+        <fullName>CFG Bank</fullName>
+        <default>false</default>
+        <label>CFG Bank</label>
+    </customValue>
+    <customValue>
+        <fullName>CGEM</fullName>
+        <default>false</default>
+        <label>CGEM</label>
+    </customValue>
+    <customValue>
+        <fullName>Chaabi LLD</fullName>
+        <default>false</default>
+        <label>Chaabi LLD</label>
+    </customValue>
+    <customValue>
+        <fullName>Crédit Du Maroc</fullName>
+        <default>false</default>
+        <label>Crédit Du Maroc</label>
+    </customValue>
+    <customValue>
+        <fullName>Europcar Marloc</fullName>
+        <default>false</default>
+        <label>Europcar Marloc</label>
+    </customValue>
+    <customValue>
+        <fullName>Locasom</fullName>
+        <default>false</default>
+        <label>Locasom</label>
+    </customValue>
+    <customValue>
+        <fullName>Ordre des Médecins région de Marrakech</fullName>
+        <default>false</default>
+        <label>Ordre des Médecins région de Marrakech</label>
+    </customValue>
+    <customValue>
+        <fullName>Wafa LLD</fullName>
+        <default>false</default>
+        <label>Wafa LLD</label>
+    </customValue>
+    <masterLabel>Conventions</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

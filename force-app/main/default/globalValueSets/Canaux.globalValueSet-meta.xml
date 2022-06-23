@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Google</fullName>
+        <default>false</default>
+        <label>Google</label>
+    </customValue>
+    <customValue>
+        <fullName>RFS</fullName>
+        <default>false</default>
+        <label>RFS</label>
+    </customValue>
+    <customValue>
+        <fullName>Facebook</fullName>
+        <default>false</default>
+        <label>Facebook</label>
+    </customValue>
+    <customValue>
+        <fullName>TDA</fullName>
+        <default>false</default>
+        <label>TDA</label>
+    </customValue>
+    <customValue>
+        <fullName>Linkedin</fullName>
+        <default>false</default>
+        <label>Linkedin</label>
+    </customValue>
+    <customValue>
+        <fullName>RFO</fullName>
+        <default>false</default>
+        <label>RFO</label>
+    </customValue>
+    <customValue>
+        <fullName>Instagram</fullName>
+        <default>false</default>
+        <label>Instagram</label>
+    </customValue>
+    <customValue>
+        <fullName>Appel Sortant</fullName>
+        <default>false</default>
+        <label>Appel Sortant</label>
+    </customValue>
+    <customValue>
+        <fullName>Appel spontané</fullName>
+        <default>false</default>
+        <label>Appel spontané</label>
+    </customValue>
+    <customValue>
+        <fullName>Campagne marketing</fullName>
+        <default>false</default>
+        <label>Campagne marketing</label>
+    </customValue>
+    <customValue>
+        <fullName>Campagne marketing Maroc</fullName>
+        <default>false</default>
+        <label>Campagne marketing Maroc</label>
+    </customValue>
+    <customValue>
+        <fullName>Closed Room BMW iX</fullName>
+        <default>false</default>
+        <label>Closed Room BMW iX</label>
+    </customValue>
+    <customValue>
+        <fullName>Demande d&apos;offre</fullName>
+        <default>false</default>
+        <label>Demande d&apos;offre</label>
+    </customValue>
+    <customValue>
+        <fullName>Demande sponsoring</fullName>
+        <default>false</default>
+        <label>Demande sponsoring</label>
+    </customValue>
+    <customValue>
+        <fullName>Exposition Soco Alto</fullName>
+        <default>false</default>
+        <label>Exposition Soco Alto</label>
+    </customValue>
+    <customValue>
+        <fullName>Reclamation</fullName>
+        <default>false</default>
+        <label>Réclamation</label>
+    </customValue>
+    <customValue>
+        <fullName>RH</fullName>
+        <default>false</default>
+        <label>RH</label>
+    </customValue>
+    <customValue>
+        <fullName>Salon auto-expo</fullName>
+        <default>false</default>
+        <label>Salon auto-expo</label>
+    </customValue>
+    <customValue>
+        <fullName>Site press Maroc</fullName>
+        <default>false</default>
+        <label>Site press Maroc</label>
+    </customValue>
+    <customValue>
+        <fullName>Visite chez le client</fullName>
+        <default>false</default>
+        <label>Visite chez le client</label>
+    </customValue>
+    <customValue>
+        <fullName>HANDRAISER</fullName>
+        <default>false</default>
+        <label>HANDRAISER</label>
+    </customValue>
+    <masterLabel>Canaux</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

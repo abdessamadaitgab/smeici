@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>7M71</fullName>
+        <default>false</default>
+        <label>116d</label>
+    </customValue>
+    <customValue>
+        <fullName>7M91</fullName>
+        <default>false</default>
+        <label>118d</label>
+    </customValue>
+    <customValue>
+        <fullName>7N31</fullName>
+        <default>false</default>
+        <label>120d</label>
+    </customValue>
+    <customValue>
+        <fullName>7L11</fullName>
+        <default>false</default>
+        <label>M135i xDrive</label>
+    </customValue>
+    <customValue>
+        <fullName>2J91</fullName>
+        <default>false</default>
+        <label>218d Cp</label>
+    </customValue>
+    <customValue>
+        <fullName>2U11</fullName>
+        <default>false</default>
+        <label>220d Cp</label>
+    </customValue>
+    <customValue>
+        <fullName>2J51</fullName>
+        <default>false</default>
+        <label>M 240i Cp</label>
+    </customValue>
+    <customValue>
+        <fullName>2U71</fullName>
+        <default>false</default>
+        <label>M2 COMPETITION</label>
+    </customValue>
+    <customValue>
+        <fullName>11AM</fullName>
+        <default>false</default>
+        <label>216d GC</label>
+    </customValue>
+    <customValue>
+        <fullName>31AM</fullName>
+        <default>false</default>
+        <label>218d GC</label>
+    </customValue>
+    <customValue>
+        <fullName>51AM</fullName>
+        <default>false</default>
+        <label>220d GC</label>
+    </customValue>
+    <customValue>
+        <fullName>11AL</fullName>
+        <default>false</default>
+        <label>M235i xDrive GC</label>
+    </customValue>
+    <customValue>
+        <fullName>5W71</fullName>
+        <default>false</default>
+        <label>316d</label>
+    </customValue>
+    <customValue>
+        <fullName>5V31</fullName>
+        <default>false</default>
+        <label>318d </label>
+    </customValue>
+    <customValue>
+        <fullName>5V51</fullName>
+        <default>false</default>
+        <label>320d</label>
+    </customValue>
+    <customValue>
+        <fullName>5R11</fullName>
+        <default>false</default>
+        <label>330i </label>
+    </customValue>
+    <customValue>
+        <fullName>5P51</fullName>
+        <default>false</default>
+        <label>330e Hybride</label>
+    </customValue>
+    <customValue>
+        <fullName>5U91</fullName>
+        <default>false</default>
+        <label>M340i xDrive</label>
+    </customValue>
+    <customValue>
+        <fullName>31AY</fullName>
+        <default>false</default>
+        <label>M3 COMPETITION</label>
+    </customValue>
+    <customValue>
+        <fullName>11AS</fullName>
+        <default>false</default>
+        <label>420d Cp</label>
+    </customValue>
+    <customValue>
+        <fullName>11AP</fullName>
+        <default>false</default>
+        <label>420i Cp</label>
+    </customValue>
+    <customValue>
+        <fullName>51AP</fullName>
+        <default>false</default>
+        <label>430i Cp</label>
+    </customValue>
+    <customValue>
+        <fullName>11AR</fullName>
+        <default>false</default>
+        <label>M440i xDrive Cp</label>
+    </customValue>
+    <customValue>
+        <fullName>31AZ</fullName>
+        <default>false</default>
+        <label>M4 Cp COMPETITION</label>
+    </customValue>
+    <customValue>
+        <fullName>21AX</fullName>
+        <default>false</default>
+        <label>420d GC</label>
+    </customValue>
+    <customValue>
+        <fullName>11AV</fullName>
+        <default>false</default>
+        <label>420i GC</label>
+    </customValue>
+    <customValue>
+        <fullName>61AV</fullName>
+        <default>false</default>
+        <label>430i GC</label>
+    </customValue>
+    <customValue>
+        <fullName>71AW</fullName>
+        <default>false</default>
+        <label>i4 eDrive40</label>
+    </customValue>
+    <customValue>
+        <fullName>31AW</fullName>
+        <default>false</default>
+        <label>i4 M50</label>
+    </customValue>
+    <customValue>
+        <fullName>11AU</fullName>
+        <default>false</default>
+        <label>420d Cab</label>
+    </customValue>
+    <customValue>
+        <fullName>11AT</fullName>
+        <default>false</default>
+        <label>420i Cab</label>
+    </customValue>
+    <customValue>
+        <fullName>21AT</fullName>
+        <default>false</default>
+        <label>430i Cab</label>
+    </customValue>
+    <customValue>
+        <fullName>61AT</fullName>
+        <default>false</default>
+        <label>M440i xDrive Cab</label>
+    </customValue>
+    <customValue>
+        <fullName>31BL</fullName>
+        <default>false</default>
+        <label>520d</label>
+    </customValue>
+    <customValue>
+        <fullName>11AH</fullName>
+        <default>false</default>
+        <label>530d</label>
+    </customValue>
+    <customValue>
+        <fullName>71AG</fullName>
+        <default>false</default>
+        <label>520i</label>
+    </customValue>
+    <customValue>
+        <fullName>51BH</fullName>
+        <default>false</default>
+        <label>530i</label>
+    </customValue>
+    <customValue>
+        <fullName>51BJ</fullName>
+        <default>false</default>
+        <label>540i</label>
+    </customValue>
+    <customValue>
+        <fullName>11AG</fullName>
+        <default>false</default>
+        <label>530e Hybride</label>
+    </customValue>
+    <customValue>
+        <fullName>11BK</fullName>
+        <default>false</default>
+        <label>M550i xDrive</label>
+    </customValue>
+    <customValue>
+        <fullName>7A61</fullName>
+        <default>false</default>
+        <label>730d</label>
+    </customValue>
+    <customValue>
+        <fullName>7R21</fullName>
+        <default>false</default>
+        <label>740i</label>
+    </customValue>
+    <customValue>
+        <fullName>7D21</fullName>
+        <default>false</default>
+        <label>740d xDrive</label>
+    </customValue>
+    <customValue>
+        <fullName>7R81</fullName>
+        <default>false</default>
+        <label>750i xDrive</label>
+    </customValue>
+    <customValue>
+        <fullName>7D61</fullName>
+        <default>false</default>
+        <label>745e Hybride</label>
+    </customValue>
+    <customValue>
+        <fullName>7H81</fullName>
+        <default>false</default>
+        <label>730Ld</label>
+    </customValue>
+    <customValue>
+        <fullName>7T21</fullName>
+        <default>false</default>
+        <label>740Li</label>
+    </customValue>
+    <customValue>
+        <fullName>7U81</fullName>
+        <default>false</default>
+        <label>740Ld xDrive</label>
+    </customValue>
+    <customValue>
+        <fullName>7U21</fullName>
+        <default>false</default>
+        <label>750Li xDrive</label>
+    </customValue>
+    <customValue>
+        <fullName>7W21</fullName>
+        <default>false</default>
+        <label>745Le Hybride</label>
+    </customValue>
+    <customValue>
+        <fullName>7W41</fullName>
+        <default>false</default>
+        <label>745Le xDrive Hybride</label>
+    </customValue>
+    <customValue>
+        <fullName>7U61</fullName>
+        <default>false</default>
+        <label>M760Li xDrive</label>
+    </customValue>
+    <customValue>
+        <fullName>BC61</fullName>
+        <default>false</default>
+        <label>840d xDrive Cp</label>
+    </customValue>
+    <customValue>
+        <fullName>BC41</fullName>
+        <default>false</default>
+        <label>M850i xDrive Cp</label>
+    </customValue>
+    <customValue>
+        <fullName>GW01</fullName>
+        <default>false</default>
+        <label>840d xDrive GC</label>
+    </customValue>
+    <customValue>
+        <fullName>GV81</fullName>
+        <default>false</default>
+        <label>M850i xDrive GC</label>
+    </customValue>
+    <customValue>
+        <fullName>FY61</fullName>
+        <default>false</default>
+        <label>840d xDrive Cab</label>
+    </customValue>
+    <customValue>
+        <fullName>FY41</fullName>
+        <default>false</default>
+        <label>M850i xDrive Cab</label>
+    </customValue>
+    <customValue>
+        <fullName>31AC</fullName>
+        <default>false</default>
+        <label>X1 sDrive 16d</label>
+    </customValue>
+    <customValue>
+        <fullName>51AC</fullName>
+        <default>false</default>
+        <label>X1 sDrive 18d</label>
+    </customValue>
+    <customValue>
+        <fullName>YL51</fullName>
+        <default>false</default>
+        <label>X2 sDrive 18d</label>
+    </customValue>
+    <customValue>
+        <fullName>51BZ</fullName>
+        <default>false</default>
+        <label>X3 sDrive 18d</label>
+    </customValue>
+    <customValue>
+        <fullName>11BZ</fullName>
+        <default>false</default>
+        <label>X3 xDrive 20d</label>
+    </customValue>
+    <customValue>
+        <fullName>71BZ</fullName>
+        <default>false</default>
+        <label>X3 xDrive 30d</label>
+    </customValue>
+    <customValue>
+        <fullName>61DP</fullName>
+        <default>false</default>
+        <label>X3 xDrive 30e </label>
+    </customValue>
+    <customValue>
+        <fullName>11DN</fullName>
+        <default>false</default>
+        <label>X3 M40d</label>
+    </customValue>
+    <customValue>
+        <fullName>81DP</fullName>
+        <default>false</default>
+        <label>X3 M40i</label>
+    </customValue>
+    <customValue>
+        <fullName>TS01</fullName>
+        <default>false</default>
+        <label>X3 M</label>
+    </customValue>
+    <customValue>
+        <fullName>31CA</fullName>
+        <default>false</default>
+        <label>X4 xDrive 20d</label>
+    </customValue>
+    <customValue>
+        <fullName>51CA</fullName>
+        <default>false</default>
+        <label>X4 xDrive 30d</label>
+    </customValue>
+    <customValue>
+        <fullName>71CA</fullName>
+        <default>false</default>
+        <label>X4 M40d</label>
+    </customValue>
+    <customValue>
+        <fullName>UJ71</fullName>
+        <default>false</default>
+        <label>X4 20i xDrive</label>
+    </customValue>
+    <customValue>
+        <fullName>2V11</fullName>
+        <default>false</default>
+        <label>X4 30i xDrive</label>
+    </customValue>
+    <customValue>
+        <fullName>41DT</fullName>
+        <default>false</default>
+        <label>X4 M40i</label>
+    </customValue>
+    <customValue>
+        <fullName>UJ01</fullName>
+        <default>false</default>
+        <label>X4 M</label>
+    </customValue>
+    <customValue>
+        <fullName>CV41</fullName>
+        <default>false</default>
+        <label>X5 xDrive 25d</label>
+    </customValue>
+    <customValue>
+        <fullName>CV61</fullName>
+        <default>false</default>
+        <label>X5 xDrive 30d</label>
+    </customValue>
+    <customValue>
+        <fullName>TH41</fullName>
+        <default>false</default>
+        <label>X5 xDrive 40d</label>
+    </customValue>
+    <customValue>
+        <fullName>CV01</fullName>
+        <default>false</default>
+        <label>X5 M50d</label>
+    </customValue>
+    <customValue>
+        <fullName>TA61</fullName>
+        <default>false</default>
+        <label>X5 xDrive 45e</label>
+    </customValue>
+    <customValue>
+        <fullName>CR61</fullName>
+        <default>false</default>
+        <label>X5 xDrive 40i</label>
+    </customValue>
+    <customValue>
+        <fullName>JU41</fullName>
+        <default>false</default>
+        <label>X5 M50i</label>
+    </customValue>
+    <customValue>
+        <fullName>JU01</fullName>
+        <default>false</default>
+        <label>X5 M</label>
+    </customValue>
+    <customValue>
+        <fullName>GT21</fullName>
+        <default>false</default>
+        <label>X6 xDrive 30d </label>
+    </customValue>
+    <customValue>
+        <fullName>TC61</fullName>
+        <default>false</default>
+        <label>X6 xDrive 40d </label>
+    </customValue>
+    <customValue>
+        <fullName>GT61</fullName>
+        <default>false</default>
+        <label>X6 M50d</label>
+    </customValue>
+    <customValue>
+        <fullName>CY61</fullName>
+        <default>false</default>
+        <label>X6 xDrive 40i</label>
+    </customValue>
+    <customValue>
+        <fullName>CY81</fullName>
+        <default>false</default>
+        <label>X6 M50i</label>
+    </customValue>
+    <customValue>
+        <fullName>CY01</fullName>
+        <default>false</default>
+        <label>X6 M</label>
+    </customValue>
+    <customValue>
+        <fullName>CW81</fullName>
+        <default>false</default>
+        <label>X7 xDrive 30d</label>
+    </customValue>
+    <customValue>
+        <fullName>TB41</fullName>
+        <default>false</default>
+        <label>X7 xDrive 40d</label>
+    </customValue>
+    <customValue>
+        <fullName>CW01</fullName>
+        <default>false</default>
+        <label>X7 M50d</label>
+    </customValue>
+    <customValue>
+        <fullName>CW21</fullName>
+        <default>false</default>
+        <label>X7 40i xDrive</label>
+    </customValue>
+    <customValue>
+        <fullName>CX61</fullName>
+        <default>false</default>
+        <label>X7 M50i</label>
+    </customValue>
+    <customValue>
+        <fullName>11CF</fullName>
+        <default>false</default>
+        <label>iX xDrive40</label>
+    </customValue>
+    <customValue>
+        <fullName>21CF</fullName>
+        <default>false</default>
+        <label>iX xDrive50 </label>
+    </customValue>
+    <customValue>
+        <fullName>HF11</fullName>
+        <default>false</default>
+        <label>Z4 20i</label>
+    </customValue>
+    <customValue>
+        <fullName>HF31</fullName>
+        <default>false</default>
+        <label>Z4 30i</label>
+    </customValue>
+    <customValue>
+        <fullName>HF91</fullName>
+        <default>false</default>
+        <label>Z4 M40i</label>
+    </customValue>
+    <customValue>
+        <fullName>BP322P56B1E</fullName>
+        <default>false</default>
+        <label>Mazda 3 : 1,5 CE 6MT - SDN CORE</label>
+    </customValue>
+    <customValue>
+        <fullName>BP324P56B1E</fullName>
+        <default>false</default>
+        <label>Mazda 3 : 1,5 CE 6MT - HB CORE</label>
+    </customValue>
+    <customValue>
+        <fullName>GL722HAD1E</fullName>
+        <default>false</default>
+        <label>Mazda 6 : 2.2 DE 6AT - HIGH</label>
+    </customValue>
+    <customValue>
+        <fullName>GJ322SH6J1E</fullName>
+        <default>false</default>
+        <label>Mazda 6 : 2.0 CE 6MT - CORE</label>
+    </customValue>
+    <customValue>
+        <fullName>GJ322SHAR1E</fullName>
+        <default>false</default>
+        <label>Mazda 6 : 2.0 CE 6AT - CORE</label>
+    </customValue>
+    <customValue>
+        <fullName>KF655SHAQ1E</fullName>
+        <default>false</default>
+        <label>Mazda CX5 : 2.2 DE 6AT - CORE</label>
+    </customValue>
+    <customValue>
+        <fullName>KF655SHA11E</fullName>
+        <default>false</default>
+        <label>Mazda CX5 : 2.2 DE 6AT - HIGH</label>
+    </customValue>
+    <customValue>
+        <fullName>KF455SHAW1E</fullName>
+        <default>false</default>
+        <label>Mazda CX5 : 2.2 DE 6AT - HIGH +</label>
+    </customValue>
+    <customValue>
+        <fullName>21DH</fullName>
+        <default>false</default>
+        <label>HATCH 3 PORTES : ONE</label>
+    </customValue>
+    <customValue>
+        <fullName>51DH</fullName>
+        <default>false</default>
+        <label>HATCH 3 PORTES : COOPER S</label>
+    </customValue>
+    <customValue>
+        <fullName>71DH</fullName>
+        <default>false</default>
+        <label>HATCH 3 PORTES : JCW</label>
+    </customValue>
+    <customValue>
+        <fullName>21DK</fullName>
+        <default>false</default>
+        <label>HATCH 5 PORTES : ONE</label>
+    </customValue>
+    <customValue>
+        <fullName>51DK</fullName>
+        <default>false</default>
+        <label>HATCH 5 PORTES : COOPER S</label>
+    </customValue>
+    <customValue>
+        <fullName>21DL</fullName>
+        <default>false</default>
+        <label>HATCH CABRIOLET : COOPER</label>
+    </customValue>
+    <customValue>
+        <fullName>61DL</fullName>
+        <default>false</default>
+        <label>HATCH CABRIOLET : JCW</label>
+    </customValue>
+    <customValue>
+        <fullName>11BR</fullName>
+        <default>false</default>
+        <label>COUNTRYMAN : ONE</label>
+    </customValue>
+    <customValue>
+        <fullName>31BS</fullName>
+        <default>false</default>
+        <label>COUNTRYMAN : JCW</label>
+    </customValue>
+    <customValue>
+        <fullName>0G41</fullName>
+        <default>false</default>
+        <label>G 310 R</label>
+    </customValue>
+    <customValue>
+        <fullName>0G31</fullName>
+        <default>false</default>
+        <label>G 310 GS</label>
+    </customValue>
+    <customValue>
+        <fullName>0C31</fullName>
+        <default>false</default>
+        <label>C 400 X</label>
+    </customValue>
+    <customValue>
+        <fullName>0C61</fullName>
+        <default>false</default>
+        <label>C 400 GT</label>
+    </customValue>
+    <customValue>
+        <fullName>0B08</fullName>
+        <default>false</default>
+        <label>F 750 GS</label>
+    </customValue>
+    <customValue>
+        <fullName>0B09</fullName>
+        <default>false</default>
+        <label>F 850 GS</label>
+    </customValue>
+    <customValue>
+        <fullName>0K01</fullName>
+        <default>false</default>
+        <label>F 850 GS Adventure</label>
+    </customValue>
+    <customValue>
+        <fullName>0K11</fullName>
+        <default>false</default>
+        <label>F 900 R</label>
+    </customValue>
+    <customValue>
+        <fullName>0K21</fullName>
+        <default>false</default>
+        <label>F 900 XR</label>
+    </customValue>
+    <customValue>
+        <fullName>0M01</fullName>
+        <default>false</default>
+        <label>R 1250 GS</label>
+    </customValue>
+    <customValue>
+        <fullName>0M11</fullName>
+        <default>false</default>
+        <label>R 1250 GS Adventure</label>
+    </customValue>
+    <customValue>
+        <fullName>0L01</fullName>
+        <default>false</default>
+        <label>R 1250 RT</label>
+    </customValue>
+    <customValue>
+        <fullName>0J71</fullName>
+        <default>false</default>
+        <label>R 1250 R</label>
+    </customValue>
+    <customValue>
+        <fullName>0J81</fullName>
+        <default>false</default>
+        <label>R 1250 RS</label>
+    </customValue>
+    <customValue>
+        <fullName>0L51</fullName>
+        <default>false</default>
+        <label>R NineT</label>
+    </customValue>
+    <customValue>
+        <fullName>0L71</fullName>
+        <default>false</default>
+        <label>R NineT Scrambler</label>
+    </customValue>
+    <customValue>
+        <fullName>0L61</fullName>
+        <default>false</default>
+        <label>R nine T Pure</label>
+    </customValue>
+    <customValue>
+        <fullName>0L91</fullName>
+        <default>false</default>
+        <label>R nine T Urban G/S</label>
+    </customValue>
+    <customValue>
+        <fullName>0L11</fullName>
+        <default>false</default>
+        <label>R18 First Edition</label>
+    </customValue>
+    <customValue>
+        <fullName>0L21</fullName>
+        <default>false</default>
+        <label>R18 Classic</label>
+    </customValue>
+    <customValue>
+        <fullName>0L31</fullName>
+        <default>false</default>
+        <label>R18 B</label>
+    </customValue>
+    <customValue>
+        <fullName>0L41</fullName>
+        <default>false</default>
+        <label>R 18 Transcontinental</label>
+    </customValue>
+    <customValue>
+        <fullName>0E51</fullName>
+        <default>false</default>
+        <label>S 1000 R</label>
+    </customValue>
+    <customValue>
+        <fullName>0E41</fullName>
+        <default>false</default>
+        <label>S1000 XR</label>
+    </customValue>
+    <customValue>
+        <fullName>0E21</fullName>
+        <default>false</default>
+        <label>S 1000 RR</label>
+    </customValue>
+    <customValue>
+        <fullName>0E71</fullName>
+        <default>false</default>
+        <label>M 1000 RR</label>
+    </customValue>
+    <customValue>
+        <fullName>0F21</fullName>
+        <default>false</default>
+        <label>K 1600 GT</label>
+    </customValue>
+    <customValue>
+        <fullName>0F31</fullName>
+        <default>false</default>
+        <label>K 1600 GTL</label>
+    </customValue>
+    <masterLabel>Modèles</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>
