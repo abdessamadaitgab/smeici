@@ -238,6 +238,13 @@
     <picklistValues>
         <picklist>LeadSource</picklist>
         
+        
+        
+        
+        <values>
+            <fullName>Appel entrant</fullName>
+            <default>false</default>
+        </values>
         <values>
             <fullName>Email</fullName>
             <default>false</default>
@@ -268,10 +275,6 @@
         </values>
         <values>
             <fullName>Website</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Appel entrant</fullName>
             <default>false</default>
         </values>
     </picklistValues>
