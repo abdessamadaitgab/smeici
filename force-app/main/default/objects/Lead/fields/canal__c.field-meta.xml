@@ -26,7 +26,7 @@
             <valueName>Appel Sortant</valueName>
         </valueSettings>
         <valueSettings>
-            
+
             <controllingFieldValue>Prospection</controllingFieldValue>
             <valueName>Visite chez le client</valueName>
         </valueSettings>
@@ -61,6 +61,7 @@
         <valueSettings>
             <controllingFieldValue>Email</controllingFieldValue>
             <valueName>RH</valueName>
+            
         </valueSettings>
     </valueSet>
 </CustomField>
