@@ -256,16 +256,7 @@
     <enableFeeds>true</enableFeeds>
     <enableHistory>true</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
-    <profileSearchLayouts>
-        <fields>FULL_NAME</fields>
-        <fields>LEAD.TITLE</fields>
-        <fields>LEAD.COMPANY</fields>
-        <fields>LEAD.MOBILE_PHONE</fields>
-        <fields>LEAD.EMAIL</fields>
-        <fields>LEAD.STATUS</fields>
-        <fields>CORE.USERS.ALIAS</fields>
-        <profileName>Administrateur système</profileName>
-    </profileSearchLayouts>
+   
     <profileSearchLayouts>
         <fields>FULL_NAME</fields>
         <fields>LEAD.TITLE</fields>
