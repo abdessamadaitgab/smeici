@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <classAccesses>
+        <apexClass>CMTD__ERL_RTSelector_CC</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CMTD__EnhancedRelatedList_CC</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <description>Permission Set to access CMTD Enhanced Related List App</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CMTD ERL Permission Set</label>
+</PermissionSet>
