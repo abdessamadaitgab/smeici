@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contentieux__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Anouar : je viens d&apos;ajouter ce champ</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Anouar : je viens d&apos;ajouter ce champ</inlineHelpText>
+    <label>Contentieux</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

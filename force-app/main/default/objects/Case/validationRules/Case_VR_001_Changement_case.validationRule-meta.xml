@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_VR_001_Changement_case</fullName>
+    <active>false</active>
+    <errorConditionFormula>Tech_is_changed__c</errorConditionFormula>
+    <errorMessage>Vous ne pouvez pas modifier une requête lie aux équipes CRM, Merci d&apos;accepter d&apos;abord la requête.</errorMessage>
+</ValidationRule>

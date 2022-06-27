@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>flag__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( IsClosed ,IMAGE( &apos;/resource/flag_done&apos; ,&apos;flag&apos;,30,30),
+             CASE( Status_coleur__c, &apos;Vert&apos;,IMAGE( &apos;/resource/flag_vert&apos; ,&apos;flag&apos;,30,30),
+                                      &apos;Orange&apos;,IMAGE( &apos;/resource/flag_orange&apos; ,&apos;flag&apos;,30,30),
+                                      &apos;Rouge&apos;,IMAGE( &apos;/resource/flag_rouge&apos; ,&apos;flag&apos;,30,30),
+                                      IMAGE( &apos;/resource/flag_noire&apos; ,&apos;flag&apos;,30,30)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>flag</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
