@@ -1,0 +1,13 @@
+Bonjour {!Case.SuppliedName} , 
+
+Nous avons bien pris en compte votre réclamation reçue le {!Case.CreatedDate},enregistrée sous la référence {!Case.CaseNumber} . 
+
+Nous vous confirmons que celle-ci est traitée par notre équipe conformément aux standards de qualité de la marque BMW/MINI.
+
+N’hésitez pas à revenir vers nous si vous avez d’autres questions, en appelant le numéro 05 22 418 859 ou en adressant un mail à l’adresse électronique : serviceclient.bmwmini@smeia.com.
+
+Nous vous assurons que votre satisfaction est notre priorité et nous restons à votre entière disposition pour toute information complémentaire.
+
+Nous vous remercions pour votre confiance et nous vous prions d’agréer, {!Case.SuppliedName}, nos salutations distinguées.
+
+Le Service Client,

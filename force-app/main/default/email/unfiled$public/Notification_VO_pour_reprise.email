@@ -1,0 +1,6 @@
+Bonjour,
+le Client "{!Account.Name}" est intéressé par une reprise.
+
+https://smeia--partial.lightning.force.com/lightning/r/Account/{!Account.Id}/view
+
+Cordialement,

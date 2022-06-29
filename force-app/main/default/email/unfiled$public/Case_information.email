@@ -1,0 +1,25 @@
+Information de ticket référence {!Case.CaseNumber}.
+
+Type : {!Case.Type}
+
+Priorité : {!Case.Priority} 
+
+Activité concernée par la réclamation : {!Case.Activit_concernee__c}
+
+Source : {!Case.Origin}
+
+Catégorie de réclamation : {!Case.Categorie__c}
+
+Etat contact : {!Case.Etat_contact__c}
+
+Cause de réclamation : {!Case.Cause_de_reclamation__c}
+
+NPS : {!Case.NPS__c}
+
+Showroom : {!Case.showroom__c}
+
+NPS Group : {!Case.NPS_Group__c}
+
+Touchpoints : {!Case.Touchpoints__c}
+
+Advisor : {!Case.Advisor__c}
