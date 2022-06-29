@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>ADV National</name>
+    <queueMembers>
+        <users>
+            <user>smeia.contact@gmail.com.smeia</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Stock__c</sobjectType>
+    </queueSobject>
+</Queue>

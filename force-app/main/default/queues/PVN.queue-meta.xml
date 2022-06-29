@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>PVN</name>
+    <queueMembers>
+        <users>
+            <user>b.zari@smeia.com</user>
+            <user>l.barradi@smeia.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Stock__c</sobjectType>
+    </queueSobject>
+</Queue>

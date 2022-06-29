@@ -1,0 +1,3156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cause_de_reclamation__c</fullName>
+    <description>Anouar : je viens de modifier le label du champ</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Anouar : je viens de modifier le label du champ</inlineHelpText>
+    <label>Cause principal de réclamation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Categorie__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>la disponibilité des articles et accessoires lifestyle</fullName>
+                <default>false</default>
+                <label>la disponibilité des articles et accessoires lifestyle</label>
+            </value>
+            <value>
+                <fullName>la qualité des articles et accessoires lifestyle</fullName>
+                <default>false</default>
+                <label>la qualité des articles et accessoires lifestyle</label>
+            </value>
+            <value>
+                <fullName>le design des articles et accessoires lifestyle</fullName>
+                <default>false</default>
+                <label>le design des articles et accessoires lifestyle</label>
+            </value>
+            <value>
+                <fullName>la praticité des articles et accessoires lifestyle</fullName>
+                <default>false</default>
+                <label>la praticité des articles et accessoires lifestyle</label>
+            </value>
+            <value>
+                <fullName>l&apos;alignement des articles et accessoires lifestyle avec l&apos;image de marque</fullName>
+                <default>false</default>
+                <label>l&apos;alignement des articles et accessoires lifestyle avec l&apos;image de marque</label>
+            </value>
+            <value>
+                <fullName>le processus d&apos;achat des articles et accessoires lifestyle</fullName>
+                <default>false</default>
+                <label>le processus d&apos;achat des articles et accessoires lifestyle</label>
+            </value>
+            <value>
+                <fullName>la réactivité du personnel Smeia</fullName>
+                <default>false</default>
+                <label>la réactivité du personnel Smeia</label>
+            </value>
+            <value>
+                <fullName>le sens client du personnel Smeia</fullName>
+                <default>false</default>
+                <label>le sens client du personnel Smeia</label>
+            </value>
+            <value>
+                <fullName>l&apos;assistance du personnel Smeia</fullName>
+                <default>false</default>
+                <label>l&apos;assistance du personnel Smeia</label>
+            </value>
+            <value>
+                <fullName>la flexibilité du personnel Smeia</fullName>
+                <default>false</default>
+                <label>la flexibilité du personnel Smeia</label>
+            </value>
+            <value>
+                <fullName>le comportement du personnel Smeia</fullName>
+                <default>false</default>
+                <label>le comportement du personnel Smeia</label>
+            </value>
+            <value>
+                <fullName>l&apos;apparence extérieure des bâtiments</fullName>
+                <default>false</default>
+                <label>l&apos;apparence extérieure des bâtiments</label>
+            </value>
+            <value>
+                <fullName>les horaires d&apos;ouverture de la succursale</fullName>
+                <default>false</default>
+                <label>les horaires d&apos;ouverture de la succursale</label>
+            </value>
+            <value>
+                <fullName>le parking visiteur</fullName>
+                <default>false</default>
+                <label>le parking visiteur</label>
+            </value>
+            <value>
+                <fullName>la propreté de la succursale</fullName>
+                <default>false</default>
+                <label>la propreté de la succursale</label>
+            </value>
+            <value>
+                <fullName>la visibilité de la marque</fullName>
+                <default>false</default>
+                <label>la visibilité de la marque</label>
+            </value>
+            <value>
+                <fullName>les rafraichissements et boissons offerts</fullName>
+                <default>false</default>
+                <label>les rafraichissements et boissons offerts</label>
+            </value>
+            <value>
+                <fullName>l&apos;accessibilité à la succursale</fullName>
+                <default>false</default>
+                <label>l&apos;accessibilité à la succursale</label>
+            </value>
+            <value>
+                <fullName>le réseau des succursales</fullName>
+                <default>false</default>
+                <label>le réseau des succursales</label>
+            </value>
+            <value>
+                <fullName>l&apos;aspect privé des consultations</fullName>
+                <default>false</default>
+                <label>l&apos;aspect privé des consultations</label>
+            </value>
+            <value>
+                <fullName>la zone d&apos;accueil au sein de la succursale</fullName>
+                <default>false</default>
+                <label>la zone d&apos;accueil au sein de la succursale</label>
+            </value>
+            <value>
+                <fullName>la zone d&apos;attente au sein de la succursale</fullName>
+                <default>false</default>
+                <label>la zone d&apos;attente au sein de la succursale</label>
+            </value>
+            <value>
+                <fullName>la signalétique au sein de la succursale</fullName>
+                <default>false</default>
+                <label>la signalétique au sein de la succursale</label>
+            </value>
+            <value>
+                <fullName>le confort des clients au sein de la succursale</fullName>
+                <default>false</default>
+                <label>le confort des clients au sein de la succursale</label>
+            </value>
+            <value>
+                <fullName>l&apos;expertise des équipes</fullName>
+                <default>false</default>
+                <label>l&apos;expertise des équipes</label>
+            </value>
+            <value>
+                <fullName>l&apos;identification claire des besoins exprimés</fullName>
+                <default>false</default>
+                <label>l&apos;identification claire des besoins exprimés</label>
+            </value>
+            <value>
+                <fullName>la maîtrise du produit de la part des équipes</fullName>
+                <default>false</default>
+                <label>la maîtrise du produit de la part des équipes</label>
+            </value>
+            <value>
+                <fullName>la maîtrise des services offerts de la part des équipes</fullName>
+                <default>false</default>
+                <label>la maîtrise des services offerts de la part des équipes</label>
+            </value>
+            <value>
+                <fullName>le processus de prise de décision au sein des équipes</fullName>
+                <default>false</default>
+                <label>le processus de prise de décision au sein des équipes</label>
+            </value>
+            <value>
+                <fullName>la connaisance de l&apos;historique du client</fullName>
+                <default>false</default>
+                <label>la connaisance de l&apos;historique du client</label>
+            </value>
+            <value>
+                <fullName>la gestion contractuelle interne</fullName>
+                <default>false</default>
+                <label>la gestion contractuelle interne</label>
+            </value>
+            <value>
+                <fullName>l&apos;aspect juridique relatif à la contractualisation</fullName>
+                <default>false</default>
+                <label>l&apos;aspect juridique relatif à la contractualisation</label>
+            </value>
+            <value>
+                <fullName>la clarté des bons de commandes</fullName>
+                <default>false</default>
+                <label>la clarté des bons de commandes</label>
+            </value>
+            <value>
+                <fullName>le remboursement demandé</fullName>
+                <default>false</default>
+                <label>le remboursement demandé</label>
+            </value>
+            <value>
+                <fullName>l&apos;annulation des bons de commandes</fullName>
+                <default>false</default>
+                <label>l&apos;annulation des bons de commandes</label>
+            </value>
+            <value>
+                <fullName>les packs de garantie</fullName>
+                <default>false</default>
+                <label>les packs de garantie</label>
+            </value>
+            <value>
+                <fullName>les packs d&apos;entretiens</fullName>
+                <default>false</default>
+                <label>les packs d&apos;entretiens</label>
+            </value>
+            <value>
+                <fullName>Les cadres et éléments rapportés MOTORRAD</fullName>
+                <default>false</default>
+                <label>Les cadres et éléments rapportés MOTORRAD</label>
+            </value>
+            <value>
+                <fullName>le design extérieur du véhicule</fullName>
+                <default>false</default>
+                <label>le design extérieur du véhicule</label>
+            </value>
+            <value>
+                <fullName>le design intérieur du véhicule</fullName>
+                <default>false</default>
+                <label>le design intérieur du véhicule</label>
+            </value>
+            <value>
+                <fullName>la couleur du véhicule</fullName>
+                <default>false</default>
+                <label>la couleur du véhicule</label>
+            </value>
+            <value>
+                <fullName>la technologie hybride du véhicule</fullName>
+                <default>false</default>
+                <label>la technologie hybride du véhicule</label>
+            </value>
+            <value>
+                <fullName>la technologie électrique du véhicule</fullName>
+                <default>false</default>
+                <label>la technologie électrique du véhicule</label>
+            </value>
+            <value>
+                <fullName>la batterie du véhicule</fullName>
+                <default>false</default>
+                <label>la batterie du véhicule</label>
+            </value>
+            <value>
+                <fullName>la boite à vitesse du véhicule</fullName>
+                <default>false</default>
+                <label>la boite à vitesse du véhicule</label>
+            </value>
+            <value>
+                <fullName>la conduite du véhicule</fullName>
+                <default>false</default>
+                <label>la conduite du véhicule</label>
+            </value>
+            <value>
+                <fullName>le système de freinage</fullName>
+                <default>false</default>
+                <label>le système de freinage</label>
+            </value>
+            <value>
+                <fullName>la carbonne du véhicule</fullName>
+                <default>false</default>
+                <label>la carbonne du véhicule</label>
+            </value>
+            <value>
+                <fullName>la pneumatique du véhicule</fullName>
+                <default>false</default>
+                <label>la pneumatique du véhicule</label>
+            </value>
+            <value>
+                <fullName>les feux avant du véhicule</fullName>
+                <default>false</default>
+                <label>les feux avant du véhicule</label>
+            </value>
+            <value>
+                <fullName>les feux arrière du véhicule</fullName>
+                <default>false</default>
+                <label>les feux arrière du véhicule</label>
+            </value>
+            <value>
+                <fullName>les rétroviseurs du véhicules</fullName>
+                <default>false</default>
+                <label>les rétroviseurs du véhicules</label>
+            </value>
+            <value>
+                <fullName>les portières du véhicule</fullName>
+                <default>false</default>
+                <label>les portières du véhicule</label>
+            </value>
+            <value>
+                <fullName>les clés du véhicule</fullName>
+                <default>false</default>
+                <label>les clés du véhicule</label>
+            </value>
+            <value>
+                <fullName>le toit panoramique du véhicule</fullName>
+                <default>false</default>
+                <label>le toit panoramique du véhicule</label>
+            </value>
+            <value>
+                <fullName>le toit ouvrant du véhicule</fullName>
+                <default>false</default>
+                <label>le toit ouvrant du véhicule</label>
+            </value>
+            <value>
+                <fullName>les accessoires du véhicule</fullName>
+                <default>false</default>
+                <label>les accessoires du véhicule</label>
+            </value>
+            <value>
+                <fullName>la couleur intérieure du véhicule</fullName>
+                <default>false</default>
+                <label>la couleur intérieure du véhicule</label>
+            </value>
+            <value>
+                <fullName>le volant du véhicule</fullName>
+                <default>false</default>
+                <label>le volant du véhicule</label>
+            </value>
+            <value>
+                <fullName>les lumières ambiantes du véhicule</fullName>
+                <default>false</default>
+                <label>les lumières ambiantes du véhicule</label>
+            </value>
+            <value>
+                <fullName>l&apos;espace intérieur du véhicule</fullName>
+                <default>false</default>
+                <label>l&apos;espace intérieur du véhicule</label>
+            </value>
+            <value>
+                <fullName>le coffre du véhicule</fullName>
+                <default>false</default>
+                <label>le coffre du véhicule</label>
+            </value>
+            <value>
+                <fullName>la capacité du véhicule</fullName>
+                <default>false</default>
+                <label>la capacité du véhicule</label>
+            </value>
+            <value>
+                <fullName>les porte-goblets du véhicule</fullName>
+                <default>false</default>
+                <label>les porte-goblets du véhicule</label>
+            </value>
+            <value>
+                <fullName>la console centrale du véhicule</fullName>
+                <default>false</default>
+                <label>la console centrale du véhicule</label>
+            </value>
+            <value>
+                <fullName>les sièges du véhicle</fullName>
+                <default>false</default>
+                <label>les sièges du véhicle</label>
+            </value>
+            <value>
+                <fullName>le chauffage des sièges du véhicule</fullName>
+                <default>false</default>
+                <label>le chauffage des sièges du véhicule</label>
+            </value>
+            <value>
+                <fullName>le chauffage du véhicule</fullName>
+                <default>false</default>
+                <label>le chauffage du véhicule</label>
+            </value>
+            <value>
+                <fullName>la climatisation du véhicule</fullName>
+                <default>false</default>
+                <label>la climatisation du véhicule</label>
+            </value>
+            <value>
+                <fullName>le head-up display du véhicule</fullName>
+                <default>false</default>
+                <label>le head-up display du véhicule</label>
+            </value>
+            <value>
+                <fullName>le régulateur de vitesse du véhicule</fullName>
+                <default>false</default>
+                <label>le régulateur de vitesse du véhicule</label>
+            </value>
+            <value>
+                <fullName>la vision nocturne du véhicule</fullName>
+                <default>false</default>
+                <label>la vision nocturne du véhicule</label>
+            </value>
+            <value>
+                <fullName>le système de contrôle de téléphonie</fullName>
+                <default>false</default>
+                <label>le système de contrôle de téléphonie</label>
+            </value>
+            <value>
+                <fullName>le système audio du véhicule</fullName>
+                <default>false</default>
+                <label>le système audio du véhicule</label>
+            </value>
+            <value>
+                <fullName>le système de navigation du véhicule</fullName>
+                <default>false</default>
+                <label>le système de navigation du véhicule</label>
+            </value>
+            <value>
+                <fullName>l&apos;assistant au stationnement du véhicule</fullName>
+                <default>false</default>
+                <label>l&apos;assistant au stationnement du véhicule</label>
+            </value>
+            <value>
+                <fullName>le système de sécurité du véhicule</fullName>
+                <default>false</default>
+                <label>le système de sécurité du véhicule</label>
+            </value>
+            <value>
+                <fullName>l&apos;affichage du tableau de bord du véhicule</fullName>
+                <default>false</default>
+                <label>l&apos;affichage du tableau de bord du véhicule</label>
+            </value>
+            <value>
+                <fullName>les contrôles tactiles</fullName>
+                <default>false</default>
+                <label>les contrôles tactiles</label>
+            </value>
+            <value>
+                <fullName>la connectivité des teminaux mobiles</fullName>
+                <default>false</default>
+                <label>la connectivité des teminaux mobiles</label>
+            </value>
+            <value>
+                <fullName>l&apos;équipement moto</fullName>
+                <default>false</default>
+                <label>l&apos;équipement moto</label>
+            </value>
+            <value>
+                <fullName>le cable de recharge du véhicule</fullName>
+                <default>false</default>
+                <label>le cable de recharge du véhicule</label>
+            </value>
+            <value>
+                <fullName>la transmission du véhicule</fullName>
+                <default>false</default>
+                <label>la transmission du véhicule</label>
+            </value>
+            <value>
+                <fullName>les suspensions du véhicule</fullName>
+                <default>false</default>
+                <label>les suspensions du véhicule</label>
+            </value>
+            <value>
+                <fullName>le système iDrive</fullName>
+                <default>false</default>
+                <label>le système iDrive</label>
+            </value>
+            <value>
+                <fullName>le claxon du véhicule</fullName>
+                <default>false</default>
+                <label>le claxon du véhicule</label>
+            </value>
+            <value>
+                <fullName>le moteur de transmission du véhicule</fullName>
+                <default>false</default>
+                <label>le moteur de transmission du véhicule</label>
+            </value>
+            <value>
+                <fullName>le processus d&apos;essai sur route</fullName>
+                <default>false</default>
+                <label>le processus d&apos;essai sur route</label>
+            </value>
+            <value>
+                <fullName>l&apos;expérience globale de l&apos;essai sur route</fullName>
+                <default>false</default>
+                <label>l&apos;expérience globale de l&apos;essai sur route</label>
+            </value>
+            <value>
+                <fullName>l&apos;offre d&apos;essai sur route</fullName>
+                <default>false</default>
+                <label>l&apos;offre d&apos;essai sur route</label>
+            </value>
+            <value>
+                <fullName>la disponibilité des véhicules de démonstration</fullName>
+                <default>false</default>
+                <label>la disponibilité des véhicules de démonstration</label>
+            </value>
+            <value>
+                <fullName>la précision de la facturation</fullName>
+                <default>false</default>
+                <label>la précision de la facturation</label>
+            </value>
+            <value>
+                <fullName>l&apos;explication de la facturation</fullName>
+                <default>false</default>
+                <label>l&apos;explication de la facturation</label>
+            </value>
+            <value>
+                <fullName>les changements additionnels au niveau de la facturation</fullName>
+                <default>false</default>
+                <label>les changements additionnels au niveau de la facturation</label>
+            </value>
+            <value>
+                <fullName>Assistance VN</fullName>
+                <default>false</default>
+                <label>Assistance VN</label>
+            </value>
+            <value>
+                <fullName>le statut d&apos;avancement</fullName>
+                <default>false</default>
+                <label>le statut d&apos;avancement</label>
+            </value>
+            <value>
+                <fullName>les relances de suivi</fullName>
+                <default>false</default>
+                <label>les relances de suivi</label>
+            </value>
+            <value>
+                <fullName>la disponibilité de l&apos;information</fullName>
+                <default>false</default>
+                <label>la disponibilité de l&apos;information</label>
+            </value>
+            <value>
+                <fullName>la fréquence d&apos;information</fullName>
+                <default>false</default>
+                <label>la fréquence d&apos;information</label>
+            </value>
+            <value>
+                <fullName>la qualité d&apos;information</fullName>
+                <default>false</default>
+                <label>la qualité d&apos;information</label>
+            </value>
+            <value>
+                <fullName>les informations du contact</fullName>
+                <default>false</default>
+                <label>les informations du contact</label>
+            </value>
+            <value>
+                <fullName>le manuel d&apos;instruction</fullName>
+                <default>false</default>
+                <label>le manuel d&apos;instruction</label>
+            </value>
+            <value>
+                <fullName>le kilométrage requis pour la maintenance</fullName>
+                <default>false</default>
+                <label>le kilométrage requis pour la maintenance</label>
+            </value>
+            <value>
+                <fullName>la consultation en ligne</fullName>
+                <default>false</default>
+                <label>la consultation en ligne</label>
+            </value>
+            <value>
+                <fullName>le canal de communication</fullName>
+                <default>false</default>
+                <label>le canal de communication</label>
+            </value>
+            <value>
+                <fullName>le rappel téléphonique</fullName>
+                <default>false</default>
+                <label>le rappel téléphonique</label>
+            </value>
+            <value>
+                <fullName>l&apos;expérience de livraison du véhicule</fullName>
+                <default>false</default>
+                <label>l&apos;expérience de livraison du véhicule</label>
+            </value>
+            <value>
+                <fullName>la date de livraison du véhicule</fullName>
+                <default>false</default>
+                <label>la date de livraison du véhicule</label>
+            </value>
+            <value>
+                <fullName>le délai de livraison du véhicule</fullName>
+                <default>false</default>
+                <label>le délai de livraison du véhicule</label>
+            </value>
+            <value>
+                <fullName>l&apos;heure de livraison du véhicule</fullName>
+                <default>false</default>
+                <label>l&apos;heure de livraison du véhicule</label>
+            </value>
+            <value>
+                <fullName>les explications lors de la livraison du véhicule</fullName>
+                <default>false</default>
+                <label>les explications lors de la livraison du véhicule</label>
+            </value>
+            <value>
+                <fullName>la différence entre les attentes anticipées et le véhicule livré</fullName>
+                <default>false</default>
+                <label>la différence entre les attentes anticipées et le véhicule livré</label>
+            </value>
+            <value>
+                <fullName>la différente entre le véhicule livré et celui convenu sur le bon de commande</fullName>
+                <default>false</default>
+                <label>la différente entre le véhicule livré et celui convenu sur le bon de commande</label>
+            </value>
+            <value>
+                <fullName>les avaries detectées sur le véhicule livré</fullName>
+                <default>false</default>
+                <label>les avaries detectées sur le véhicule livré</label>
+            </value>
+            <value>
+                <fullName>la propreté du véhicule</fullName>
+                <default>false</default>
+                <label>la propreté du véhicule</label>
+            </value>
+            <value>
+                <fullName>le niveau de charge</fullName>
+                <default>false</default>
+                <label>le niveau de charge</label>
+            </value>
+            <value>
+                <fullName>l&apos;absence de welcome pack</fullName>
+                <default>false</default>
+                <label>l&apos;absence de welcome pack</label>
+            </value>
+            <value>
+                <fullName>l&apos;expérience marketing globale</fullName>
+                <default>false</default>
+                <label>l&apos;expérience marketing globale</label>
+            </value>
+            <value>
+                <fullName>le centre d&apos;expérience</fullName>
+                <default>false</default>
+                <label>le centre d&apos;expérience</label>
+            </value>
+            <value>
+                <fullName>l&apos;evènement organisé par le Groupe Smeia</fullName>
+                <default>false</default>
+                <label>l&apos;evènement organisé par le Groupe Smeia</label>
+            </value>
+            <value>
+                <fullName>le programme de fidélisation des clients</fullName>
+                <default>false</default>
+                <label>le programme de fidélisation des clients</label>
+            </value>
+            <value>
+                <fullName>l&apos;aspect premium du Groupe Smeia</fullName>
+                <default>false</default>
+                <label>l&apos;aspect premium du Groupe Smeia</label>
+            </value>
+            <value>
+                <fullName>l&apos;alignement du Groupe Smeia avec la marque</fullName>
+                <default>false</default>
+                <label>l&apos;alignement du Groupe Smeia avec la marque</label>
+            </value>
+            <value>
+                <fullName>la fréquence de communication</fullName>
+                <default>false</default>
+                <label>la fréquence de communication</label>
+            </value>
+            <value>
+                <fullName>la précision des informations communiquées</fullName>
+                <default>false</default>
+                <label>la précision des informations communiquées</label>
+            </value>
+            <value>
+                <fullName>les documents et catalogues d&apos;information</fullName>
+                <default>false</default>
+                <label>les documents et catalogues d&apos;information</label>
+            </value>
+            <value>
+                <fullName>le processus de négociation de l&apos;offre de prix</fullName>
+                <default>false</default>
+                <label>le processus de négociation de l&apos;offre de prix</label>
+            </value>
+            <value>
+                <fullName>l&apos;expérience d&apos;achat du véhicule</fullName>
+                <default>false</default>
+                <label>l&apos;expérience d&apos;achat du véhicule</label>
+            </value>
+            <value>
+                <fullName>l&apos;administration des ventes</fullName>
+                <default>false</default>
+                <label>l&apos;administration des ventes</label>
+            </value>
+            <value>
+                <fullName>la transparence des procédures en vigueur</fullName>
+                <default>false</default>
+                <label>la transparence des procédures en vigueur</label>
+            </value>
+            <value>
+                <fullName>la rapidité de traitement</fullName>
+                <default>false</default>
+                <label>la rapidité de traitement</label>
+            </value>
+            <value>
+                <fullName>la configuration du véhicule souhaité</fullName>
+                <default>false</default>
+                <label>la configuration du véhicule souhaité</label>
+            </value>
+            <value>
+                <fullName>l&apos;acompte requis pour la prise de commande</fullName>
+                <default>false</default>
+                <label>l&apos;acompte requis pour la prise de commande</label>
+            </value>
+            <value>
+                <fullName>l&apos;évaluation de l&apos;offre de reprise</fullName>
+                <default>false</default>
+                <label>l&apos;évaluation de l&apos;offre de reprise</label>
+            </value>
+            <value>
+                <fullName>l&apos;identification d&apos;une fraude commise</fullName>
+                <default>false</default>
+                <label>l&apos;identification d&apos;une fraude commise</label>
+            </value>
+            <value>
+                <fullName>le cas de corruption identifié</fullName>
+                <default>false</default>
+                <label>le cas de corruption identifié</label>
+            </value>
+            <value>
+                <fullName>le modèle du véhicule</fullName>
+                <default>false</default>
+                <label>le modèle du véhicule</label>
+            </value>
+            <value>
+                <fullName>l&apos;autonomie du moteur</fullName>
+                <default>false</default>
+                <label>l&apos;autonomie du moteur</label>
+            </value>
+            <value>
+                <fullName>les équipements basiques</fullName>
+                <default>false</default>
+                <label>les équipements basiques</label>
+            </value>
+            <value>
+                <fullName>les options du véhicule</fullName>
+                <default>false</default>
+                <label>les options du véhicule</label>
+            </value>
+            <value>
+                <fullName>les packs du véhicule</fullName>
+                <default>false</default>
+                <label>les packs du véhicule</label>
+            </value>
+            <value>
+                <fullName>l&apos;innovation du véhicule</fullName>
+                <default>false</default>
+                <label>l&apos;innovation du véhicule</label>
+            </value>
+            <value>
+                <fullName>le moteur du véhicule</fullName>
+                <default>false</default>
+                <label>le moteur du véhicule</label>
+            </value>
+            <value>
+                <fullName>le pot d&apos;échappement du véhicule</fullName>
+                <default>false</default>
+                <label>le pot d&apos;échappement du véhicule</label>
+            </value>
+            <value>
+                <fullName>la peinture de la carrosserie</fullName>
+                <default>false</default>
+                <label>la peinture de la carrosserie</label>
+            </value>
+            <value>
+                <fullName>les feux du véhicule</fullName>
+                <default>false</default>
+                <label>les feux du véhicule</label>
+            </value>
+            <value>
+                <fullName>le système de verouillage des portières</fullName>
+                <default>false</default>
+                <label>le système de verouillage des portières</label>
+            </value>
+            <value>
+                <fullName>les émission du véhicule</fullName>
+                <default>false</default>
+                <label>les émission du véhicule</label>
+            </value>
+            <value>
+                <fullName>la présence d&apos;un véhicule de démonstration</fullName>
+                <default>false</default>
+                <label>la présence d&apos;un véhicule de démonstration</label>
+            </value>
+            <value>
+                <fullName>les conditions du véhicule de démonstration</fullName>
+                <default>false</default>
+                <label>les conditions du véhicule de démonstration</label>
+            </value>
+            <value>
+                <fullName>la présence du véhicule souhaité</fullName>
+                <default>false</default>
+                <label>la présence du véhicule souhaité</label>
+            </value>
+            <value>
+                <fullName>les conditions du véhicule souhaité</fullName>
+                <default>false</default>
+                <label>les conditions du véhicule souhaité</label>
+            </value>
+            <value>
+                <fullName>la maniabilité du véhicule</fullName>
+                <default>false</default>
+                <label>la maniabilité du véhicule</label>
+            </value>
+            <value>
+                <fullName>l&apos;ergonomie du véhicule</fullName>
+                <default>false</default>
+                <label>l&apos;ergonomie du véhicule</label>
+            </value>
+            <value>
+                <fullName>les fonctionnalités du véhicule</fullName>
+                <default>false</default>
+                <label>les fonctionnalités du véhicule</label>
+            </value>
+            <value>
+                <fullName>la consommation du carburant</fullName>
+                <default>false</default>
+                <label>la consommation du carburant</label>
+            </value>
+            <value>
+                <fullName>l&apos;autonomie du véhicule</fullName>
+                <default>false</default>
+                <label>l&apos;autonomie du véhicule</label>
+            </value>
+            <value>
+                <fullName>l&apos;accessibilité au véhicule</fullName>
+                <default>false</default>
+                <label>l&apos;accessibilité au véhicule</label>
+            </value>
+            <value>
+                <fullName>la motorisation du véhicule</fullName>
+                <default>false</default>
+                <label>la motorisation du véhicule</label>
+            </value>
+            <value>
+                <fullName>l&apos;embrayage du véhicule</fullName>
+                <default>false</default>
+                <label>l&apos;embrayage du véhicule</label>
+            </value>
+            <value>
+                <fullName>le boitier de transfert du véhicule</fullName>
+                <default>false</default>
+                <label>le boitier de transfert du véhicule</label>
+            </value>
+            <value>
+                <fullName>le carbonne du véhicule</fullName>
+                <default>false</default>
+                <label>le carbonne du véhicule</label>
+            </value>
+            <value>
+                <fullName>l&apos;ouverture et la fermeture des portières du véhicule</fullName>
+                <default>false</default>
+                <label>l&apos;ouverture et la fermeture des portières du véhicule</label>
+            </value>
+            <value>
+                <fullName>le toit ouvrant du véhicue</fullName>
+                <default>false</default>
+                <label>le toit ouvrant du véhicue</label>
+            </value>
+            <value>
+                <fullName>la lumière ambiante du véhicule</fullName>
+                <default>false</default>
+                <label>la lumière ambiante du véhicule</label>
+            </value>
+            <value>
+                <fullName>le volume du coffre du véhicule</fullName>
+                <default>false</default>
+                <label>le volume du coffre du véhicule</label>
+            </value>
+            <value>
+                <fullName>les porte-gobelets du véhicule</fullName>
+                <default>false</default>
+                <label>les porte-gobelets du véhicule</label>
+            </value>
+            <value>
+                <fullName>les sièges du véhicules</fullName>
+                <default>false</default>
+                <label>les sièges du véhicules</label>
+            </value>
+            <value>
+                <fullName>le système de téléphonie</fullName>
+                <default>false</default>
+                <label>le système de téléphonie</label>
+            </value>
+            <value>
+                <fullName>l&apos;affichage du tableau de bord</fullName>
+                <default>false</default>
+                <label>l&apos;affichage du tableau de bord</label>
+            </value>
+            <value>
+                <fullName>le système de contrôle tactile</fullName>
+                <default>false</default>
+                <label>le système de contrôle tactile</label>
+            </value>
+            <value>
+                <fullName>le système de connectivité aux terminaux mobiles</fullName>
+                <default>false</default>
+                <label>le système de connectivité aux terminaux mobiles</label>
+            </value>
+            <value>
+                <fullName>les équipements Motorrad</fullName>
+                <default>false</default>
+                <label>les équipements Motorrad</label>
+            </value>
+            <value>
+                <fullName>les suspension du véhicule</fullName>
+                <default>false</default>
+                <label>les suspension du véhicule</label>
+            </value>
+            <value>
+                <fullName>le système iDrive du véhicule</fullName>
+                <default>false</default>
+                <label>le système iDrive du véhicule</label>
+            </value>
+            <value>
+                <fullName>les claxons du véhicule</fullName>
+                <default>false</default>
+                <label>les claxons du véhicule</label>
+            </value>
+            <value>
+                <fullName>la consommation d&apos;huile du véhicule</fullName>
+                <default>false</default>
+                <label>la consommation d&apos;huile du véhicule</label>
+            </value>
+            <value>
+                <fullName>la perception du prix proposé</fullName>
+                <default>false</default>
+                <label>la perception du prix proposé</label>
+            </value>
+            <value>
+                <fullName>le calcul du prix</fullName>
+                <default>false</default>
+                <label>le calcul du prix</label>
+            </value>
+            <value>
+                <fullName>la remise appliquée</fullName>
+                <default>false</default>
+                <label>la remise appliquée</label>
+            </value>
+            <value>
+                <fullName>la transparence de l&apos;application des prix et des remises</fullName>
+                <default>false</default>
+                <label>la transparence de l&apos;application des prix et des remises</label>
+            </value>
+            <value>
+                <fullName>le mode de paiement</fullName>
+                <default>false</default>
+                <label>le mode de paiement</label>
+            </value>
+            <value>
+                <fullName>la qualité des services offerts</fullName>
+                <default>false</default>
+                <label>la qualité des services offerts</label>
+            </value>
+            <value>
+                <fullName>l&apos;efficacité des services offerts</fullName>
+                <default>false</default>
+                <label>l&apos;efficacité des services offerts</label>
+            </value>
+            <value>
+                <fullName>la transparence</fullName>
+                <default>false</default>
+                <label>la transparence</label>
+            </value>
+            <value>
+                <fullName>la définition des rôles</fullName>
+                <default>false</default>
+                <label>la définition des rôles</label>
+            </value>
+            <value>
+                <fullName>la délimitation des responsabilités</fullName>
+                <default>false</default>
+                <label>la délimitation des responsabilités</label>
+            </value>
+            <value>
+                <fullName>la coordination entre les équipes</fullName>
+                <default>false</default>
+                <label>la coordination entre les équipes</label>
+            </value>
+            <value>
+                <fullName>l&apos;aspect premium du véhicule</fullName>
+                <default>false</default>
+                <label>l&apos;aspect premium du véhicule</label>
+            </value>
+            <value>
+                <fullName>les peformances du véhicule</fullName>
+                <default>false</default>
+                <label>les peformances du véhicule</label>
+            </value>
+            <value>
+                <fullName>l&apos;acoustique du véhicule</fullName>
+                <default>false</default>
+                <label>l&apos;acoustique du véhicule</label>
+            </value>
+            <value>
+                <fullName>l&apos;odeur du véhicule</fullName>
+                <default>false</default>
+                <label>l&apos;odeur du véhicule</label>
+            </value>
+            <value>
+                <fullName>la moisissure du véhicule</fullName>
+                <default>false</default>
+                <label>la moisissure du véhicule</label>
+            </value>
+            <value>
+                <fullName>les défauts présents dans le véhicule</fullName>
+                <default>false</default>
+                <label>les défauts présents dans le véhicule</label>
+            </value>
+            <value>
+                <fullName>la composition du véhicule</fullName>
+                <default>false</default>
+                <label>la composition du véhicule</label>
+            </value>
+            <value>
+                <fullName>la corrosion du véhicule</fullName>
+                <default>false</default>
+                <label>la corrosion du véhicule</label>
+            </value>
+            <value>
+                <fullName>la durabilité du véhicule</fullName>
+                <default>false</default>
+                <label>la durabilité du véhicule</label>
+            </value>
+            <value>
+                <fullName>la sécurité du véhicule</fullName>
+                <default>false</default>
+                <label>la sécurité du véhicule</label>
+            </value>
+            <value>
+                <fullName>la fiabilité du véhicule</fullName>
+                <default>false</default>
+                <label>la fiabilité du véhicule</label>
+            </value>
+            <value>
+                <fullName>la qualité long-terme du véhicule</fullName>
+                <default>false</default>
+                <label>la qualité long-terme du véhicule</label>
+            </value>
+            <value>
+                <fullName>la chaîne de distribution du véhicule</fullName>
+                <default>false</default>
+                <label>la chaîne de distribution du véhicule</label>
+            </value>
+            <value>
+                <fullName>la gestion du carburant du véhicule</fullName>
+                <default>false</default>
+                <label>la gestion du carburant du véhicule</label>
+            </value>
+            <value>
+                <fullName>le système de refroidissement du véhicule</fullName>
+                <default>false</default>
+                <label>le système de refroidissement du véhicule</label>
+            </value>
+            <value>
+                <fullName>le démarrage du véhicule</fullName>
+                <default>false</default>
+                <label>le démarrage du véhicule</label>
+            </value>
+            <value>
+                <fullName>le turbo-chargeur du véhicule</fullName>
+                <default>false</default>
+                <label>le turbo-chargeur du véhicule</label>
+            </value>
+            <value>
+                <fullName>le termostat du véhicule</fullName>
+                <default>false</default>
+                <label>le termostat du véhicule</label>
+            </value>
+            <value>
+                <fullName>l&apos;embrayage du véhicle</fullName>
+                <default>false</default>
+                <label>l&apos;embrayage du véhicle</label>
+            </value>
+            <value>
+                <fullName>le propulseur du véhicule</fullName>
+                <default>false</default>
+                <label>le propulseur du véhicule</label>
+            </value>
+            <value>
+                <fullName>la traction avant et arrière du véhicule</fullName>
+                <default>false</default>
+                <label>la traction avant et arrière du véhicule</label>
+            </value>
+            <value>
+                <fullName>l&apos;axe du véhicule</fullName>
+                <default>false</default>
+                <label>l&apos;axe du véhicule</label>
+            </value>
+            <value>
+                <fullName>le système de freinage du véhicule</fullName>
+                <default>false</default>
+                <label>le système de freinage du véhicule</label>
+            </value>
+            <value>
+                <fullName>la couleur extérieure</fullName>
+                <default>false</default>
+                <label>la couleur extérieure</label>
+            </value>
+            <value>
+                <fullName>les rétroviseurs du véhicule</fullName>
+                <default>false</default>
+                <label>les rétroviseurs du véhicule</label>
+            </value>
+            <value>
+                <fullName>le pare-brise du véhicule</fullName>
+                <default>false</default>
+                <label>le pare-brise du véhicule</label>
+            </value>
+            <value>
+                <fullName>les fenêtres du véhicule</fullName>
+                <default>false</default>
+                <label>les fenêtres du véhicule</label>
+            </value>
+            <value>
+                <fullName>le système de verrouillage du véhicule</fullName>
+                <default>false</default>
+                <label>le système de verrouillage du véhicule</label>
+            </value>
+            <value>
+                <fullName>la couleur intérieur du véhicule</fullName>
+                <default>false</default>
+                <label>la couleur intérieur du véhicule</label>
+            </value>
+            <value>
+                <fullName>les défaux électriques/électroniques du véhicule</fullName>
+                <default>false</default>
+                <label>les défaux électriques/électroniques du véhicule</label>
+            </value>
+            <value>
+                <fullName>l&apos;unité de contrôle du véhicule</fullName>
+                <default>false</default>
+                <label>l&apos;unité de contrôle du véhicule</label>
+            </value>
+            <value>
+                <fullName>les cables et faisseaux électriques</fullName>
+                <default>false</default>
+                <label>les cables et faisseaux électriques</label>
+            </value>
+            <value>
+                <fullName>l&apos;alternateur du véhicule</fullName>
+                <default>false</default>
+                <label>l&apos;alternateur du véhicule</label>
+            </value>
+            <value>
+                <fullName>les airbags du véhicule</fullName>
+                <default>false</default>
+                <label>les airbags du véhicule</label>
+            </value>
+            <value>
+                <fullName>la consommation d&apos;huile</fullName>
+                <default>false</default>
+                <label>la consommation d&apos;huile</label>
+            </value>
+            <value>
+                <fullName>la convenance des prises de rendez-vous</fullName>
+                <default>false</default>
+                <label>la convenance des prises de rendez-vous</label>
+            </value>
+            <value>
+                <fullName>le temps d&apos;attente pour la prise d&apos;un rendez-vous</fullName>
+                <default>false</default>
+                <label>le temps d&apos;attente pour la prise d&apos;un rendez-vous</label>
+            </value>
+            <value>
+                <fullName>la disponibilité du contact</fullName>
+                <default>false</default>
+                <label>la disponibilité du contact</label>
+            </value>
+            <value>
+                <fullName>l&apos;accueil personnalisé</fullName>
+                <default>false</default>
+                <label>l&apos;accueil personnalisé</label>
+            </value>
+            <value>
+                <fullName>le temps d&apos;attente à l&apos;arrivée à la succursale</fullName>
+                <default>false</default>
+                <label>le temps d&apos;attente à l&apos;arrivée à la succursale</label>
+            </value>
+            <value>
+                <fullName>le feedback général sur le Groupe Smeia</fullName>
+                <default>false</default>
+                <label>le feedback général sur le Groupe Smeia</label>
+            </value>
+            <value>
+                <fullName>le feedback général</fullName>
+                <default>false</default>
+                <label>le feedback général</label>
+            </value>
+            <value>
+                <fullName>la disponibilité des accessoires</fullName>
+                <default>false</default>
+                <label>la disponibilité des accessoires</label>
+            </value>
+            <value>
+                <fullName>la date de livraison des accessoires</fullName>
+                <default>false</default>
+                <label>la date de livraison des accessoires</label>
+            </value>
+            <value>
+                <fullName>le délai de livraison des accessoires</fullName>
+                <default>false</default>
+                <label>le délai de livraison des accessoires</label>
+            </value>
+            <value>
+                <fullName>la qualité des accessoires</fullName>
+                <default>false</default>
+                <label>la qualité des accessoires</label>
+            </value>
+            <value>
+                <fullName>le prix des accessoires</fullName>
+                <default>false</default>
+                <label>le prix des accessoires</label>
+            </value>
+            <value>
+                <fullName>l&apos;état des accessoires</fullName>
+                <default>false</default>
+                <label>l&apos;état des accessoires</label>
+            </value>
+            <value>
+                <fullName>le prix des articles et accessoires lifestyle</fullName>
+                <default>false</default>
+                <label>le prix des articles et accessoires lifestyle</label>
+            </value>
+            <value>
+                <fullName>la variété des articles et accessoires lifetyle</fullName>
+                <default>false</default>
+                <label>la variété des articles et accessoires lifetyle</label>
+            </value>
+            <value>
+                <fullName>le retard de la facturation</fullName>
+                <default>false</default>
+                <label>le retard de la facturation</label>
+            </value>
+            <value>
+                <fullName>Les equipement de Carrosserie MOTORRAD</fullName>
+                <default>false</default>
+                <label>Les equipement de Carrosserie MOTORRAD</label>
+            </value>
+            <value>
+                <fullName>Le système électrique générale MOTORRAD</fullName>
+                <default>false</default>
+                <label>Le système électrique générale MOTORRAD</label>
+            </value>
+            <value>
+                <fullName>Les Instruments MOTORRAD</fullName>
+                <default>false</default>
+                <label>Les Instruments MOTORRAD</label>
+            </value>
+            <value>
+                <fullName>Les modes audio</fullName>
+                <default>false</default>
+                <label>Les modes audio</label>
+            </value>
+            <value>
+                <fullName>Le système régulation distance</fullName>
+                <default>false</default>
+                <label>Le système régulation distance</label>
+            </value>
+            <value>
+                <fullName>Les equipement du pilote BMW MOTORRAD</fullName>
+                <default>false</default>
+                <label>Les equipement du pilote BMW MOTORRAD</label>
+            </value>
+            <value>
+                <fullName>Les accessoires Spéciaux MOTORRAD</fullName>
+                <default>false</default>
+                <label>Les accessoires Spéciaux MOTORRAD</label>
+            </value>
+            <value>
+                <fullName>Problème apparu sur véhicule neuf</fullName>
+                <default>false</default>
+                <label>Problème apparu sur véhicule neuf</label>
+            </value>
+            <value>
+                <fullName>Efficacité VN</fullName>
+                <default>false</default>
+                <label>Efficacité VN</label>
+            </value>
+            <value>
+                <fullName>Les lampes MOTORRAD</fullName>
+                <default>false</default>
+                <label>Les lampes MOTORRAD</label>
+            </value>
+            <value>
+                <fullName>Le montant de la facture</fullName>
+                <default>false</default>
+                <label>Le montant de la facture</label>
+            </value>
+            <value>
+                <fullName>Les désignations de la facture</fullName>
+                <default>false</default>
+                <label>Les désignations de la facture</label>
+            </value>
+            <value>
+                <fullName>La remise sur la facture</fullName>
+                <default>false</default>
+                <label>La remise sur la facture</label>
+            </value>
+            <value>
+                <fullName>l&apos;honeteté du personnel Smeia</fullName>
+                <default>false</default>
+                <label>l&apos;honeteté du personnel Smeia</label>
+            </value>
+            <value>
+                <fullName>La discretion lors des consultations</fullName>
+                <default>false</default>
+                <label>La discretion lors des consultations</label>
+            </value>
+            <value>
+                <fullName>l&apos;organisation des campagnes de rappel</fullName>
+                <default>false</default>
+                <label>l&apos;organisation des campagnes de rappel</label>
+            </value>
+            <value>
+                <fullName>la procédure générale des campagnes de rappel</fullName>
+                <default>false</default>
+                <label>la procédure générale des campagnes de rappel</label>
+            </value>
+            <value>
+                <fullName>l&apos;information relative aux campagnes de rappel</fullName>
+                <default>false</default>
+                <label>l&apos;information relative aux campagnes de rappel</label>
+            </value>
+            <value>
+                <fullName>les coûts des campagnes de rappel</fullName>
+                <default>false</default>
+                <label>les coûts des campagnes de rappel</label>
+            </value>
+            <value>
+                <fullName>la planification des campagnes de rappel</fullName>
+                <default>false</default>
+                <label>la planification des campagnes de rappel</label>
+            </value>
+            <value>
+                <fullName>le temps d&apos;attente des campagnes de rappel</fullName>
+                <default>false</default>
+                <label>le temps d&apos;attente des campagnes de rappel</label>
+            </value>
+            <value>
+                <fullName>l&apos;identification des besoins</fullName>
+                <default>false</default>
+                <label>l&apos;identification des besoins</label>
+            </value>
+            <value>
+                <fullName>la maîtrise des packs d&apos;entretien de la part des équipes</fullName>
+                <default>false</default>
+                <label>la maîtrise des packs d&apos;entretien de la part des équipes</label>
+            </value>
+            <value>
+                <fullName>la maîtrise des packages produits de la part des équipes</fullName>
+                <default>false</default>
+                <label>la maîtrise des packages produits de la part des équipes</label>
+            </value>
+            <value>
+                <fullName>l&apos;identification du problème remonté</fullName>
+                <default>false</default>
+                <label>l&apos;identification du problème remonté</label>
+            </value>
+            <value>
+                <fullName>la résolution du problème identifié</fullName>
+                <default>false</default>
+                <label>la résolution du problème identifié</label>
+            </value>
+            <value>
+                <fullName>l&apos;estimation des coûts</fullName>
+                <default>false</default>
+                <label>l&apos;estimation des coûts</label>
+            </value>
+            <value>
+                <fullName>l&apos;estimation des délais</fullName>
+                <default>false</default>
+                <label>l&apos;estimation des délais</label>
+            </value>
+            <value>
+                <fullName>l&apos;aspect juridique relatif au terms et conditions du service</fullName>
+                <default>false</default>
+                <label>l&apos;aspect juridique relatif au terms et conditions du service</label>
+            </value>
+            <value>
+                <fullName>la procédure de dépôt et de restitution du véhicule</fullName>
+                <default>false</default>
+                <label>la procédure de dépôt et de restitution du véhicule</label>
+            </value>
+            <value>
+                <fullName>Retard livraison du véhicule</fullName>
+                <default>false</default>
+                <label>Retard livraison du véhicule</label>
+            </value>
+            <value>
+                <fullName>Retard de réparation carosserie</fullName>
+                <default>false</default>
+                <label>Retard de réparation carosserie</label>
+            </value>
+            <value>
+                <fullName>Retard de réparation mécanique</fullName>
+                <default>false</default>
+                <label>Retard de réparation mécanique</label>
+            </value>
+            <value>
+                <fullName>Retard de réparation maintenance</fullName>
+                <default>false</default>
+                <label>Retard de réparation maintenance</label>
+            </value>
+            <value>
+                <fullName>la rapidité de l&apos;opération de dépôt et de restitution du véhicule</fullName>
+                <default>false</default>
+                <label>la rapidité de l&apos;opération de dépôt et de restitution du véhicule</label>
+            </value>
+            <value>
+                <fullName>l&apos;inspection du véhicule déposé</fullName>
+                <default>false</default>
+                <label>l&apos;inspection du véhicule déposé</label>
+            </value>
+            <value>
+                <fullName>l&apos;accord des travaux de réparation</fullName>
+                <default>false</default>
+                <label>l&apos;accord des travaux de réparation</label>
+            </value>
+            <value>
+                <fullName>la fiabilité du délai de restitution du véhicule déposé</fullName>
+                <default>false</default>
+                <label>la fiabilité du délai de restitution du véhicule déposé</label>
+            </value>
+            <value>
+                <fullName>les explication des travaux effectués sur le véhicule</fullName>
+                <default>false</default>
+                <label>les explication des travaux effectués sur le véhicule</label>
+            </value>
+            <value>
+                <fullName>le niveau de charge de la batterie du véhicule</fullName>
+                <default>false</default>
+                <label>le niveau de charge de la batterie du véhicule</label>
+            </value>
+            <value>
+                <fullName>Retard de remise de la facture</fullName>
+                <default>false</default>
+                <label>Retard de remise de la facture</label>
+            </value>
+            <value>
+                <fullName>Efficacité SAV</fullName>
+                <default>false</default>
+                <label>Efficacité SAV</label>
+            </value>
+            <value>
+                <fullName>La prise en compte de la garantie</fullName>
+                <default>false</default>
+                <label>La prise en compte de la garantie</label>
+            </value>
+            <value>
+                <fullName>le niveau de couverture de la garantie</fullName>
+                <default>false</default>
+                <label>le niveau de couverture de la garantie</label>
+            </value>
+            <value>
+                <fullName>La prise en charge de la garantie</fullName>
+                <default>false</default>
+                <label>La prise en charge de la garantie</label>
+            </value>
+            <value>
+                <fullName>l&apos;extension de garantie</fullName>
+                <default>false</default>
+                <label>l&apos;extension de garantie</label>
+            </value>
+            <value>
+                <fullName>la requête générale</fullName>
+                <default>false</default>
+                <label>la requête générale</label>
+            </value>
+            <value>
+                <fullName>la couverture des coûts</fullName>
+                <default>false</default>
+                <label>la couverture des coûts</label>
+            </value>
+            <value>
+                <fullName>les suivi des contacts</fullName>
+                <default>false</default>
+                <label>les suivi des contacts</label>
+            </value>
+            <value>
+                <fullName>la promesse de rappel non tenu</fullName>
+                <default>false</default>
+                <label>la promesse de rappel non tenu</label>
+            </value>
+            <value>
+                <fullName>La mise à jour des informations client</fullName>
+                <default>false</default>
+                <label>La mise à jour des informations client</label>
+            </value>
+            <value>
+                <fullName>le rappel de la maintenance</fullName>
+                <default>false</default>
+                <label>le rappel de la maintenance</label>
+            </value>
+            <value>
+                <fullName>la disponibilité des pièces de rechange</fullName>
+                <default>false</default>
+                <label>la disponibilité des pièces de rechange</label>
+            </value>
+            <value>
+                <fullName>la date de livraison des pièces de rechange</fullName>
+                <default>false</default>
+                <label>la date de livraison des pièces de rechange</label>
+            </value>
+            <value>
+                <fullName>le retard de livraison des pièces de rechange</fullName>
+                <default>false</default>
+                <label>le retard de livraison des pièces de rechange</label>
+            </value>
+            <value>
+                <fullName>la qualité des pièces de rechange</fullName>
+                <default>false</default>
+                <label>la qualité des pièces de rechange</label>
+            </value>
+            <value>
+                <fullName>le prix des pièces de rechange</fullName>
+                <default>false</default>
+                <label>le prix des pièces de rechange</label>
+            </value>
+            <value>
+                <fullName>l&apos;endommagement des pièces de rechange</fullName>
+                <default>false</default>
+                <label>l&apos;endommagement des pièces de rechange</label>
+            </value>
+            <value>
+                <fullName>l&apos;authenticité des pièces de rechange</fullName>
+                <default>false</default>
+                <label>l&apos;authenticité des pièces de rechange</label>
+            </value>
+            <value>
+                <fullName>Prix vidange</fullName>
+                <default>false</default>
+                <label>Prix vidange</label>
+            </value>
+            <value>
+                <fullName>Prix du pick-up and delivery</fullName>
+                <default>false</default>
+                <label>Prix du pick-up and delivery</label>
+            </value>
+            <value>
+                <fullName>Prix du contrôle technique</fullName>
+                <default>false</default>
+                <label>Prix du contrôle technique</label>
+            </value>
+            <value>
+                <fullName>Prix des pièces</fullName>
+                <default>false</default>
+                <label>Prix des pièces</label>
+            </value>
+            <value>
+                <fullName>la bureaucratie</fullName>
+                <default>false</default>
+                <label>la bureaucratie</label>
+            </value>
+            <value>
+                <fullName>le retour atelier du véhicule</fullName>
+                <default>false</default>
+                <label>le retour atelier du véhicule</label>
+            </value>
+            <value>
+                <fullName>le défaut detecté au niveau du véhicule</fullName>
+                <default>false</default>
+                <label>le défaut detecté au niveau du véhicule</label>
+            </value>
+            <value>
+                <fullName>La proposition d&apos;une boisson lors de l&apos;accueil</fullName>
+                <default>false</default>
+                <label>La proposition d&apos;une boisson lors de l&apos;accueil</label>
+            </value>
+            <value>
+                <fullName>La qualité de l&apos;accueil</fullName>
+                <default>false</default>
+                <label>La qualité de l&apos;accueil</label>
+            </value>
+            <value>
+                <fullName>le feedback général sur le service digital</fullName>
+                <default>false</default>
+                <label>le feedback général sur le service digital</label>
+            </value>
+            <value>
+                <fullName>L&apos;indisponibilité d&apos;un véhicule de courtoisie</fullName>
+                <default>false</default>
+                <label>L&apos;indisponibilité d&apos;un véhicule de courtoisie</label>
+            </value>
+            <value>
+                <fullName>le coût de la solution de mobilité</fullName>
+                <default>false</default>
+                <label>le coût de la solution de mobilité</label>
+            </value>
+            <value>
+                <fullName>Le respect des rendez-vous</fullName>
+                <default>false</default>
+                <label>Le respect des rendez-vous</label>
+            </value>
+            <value>
+                <fullName>le retard d&apos;établissement du devis</fullName>
+                <default>false</default>
+                <label>le retard d&apos;établissement du devis</label>
+            </value>
+            <value>
+                <fullName>l&apos;offre de navette offerte pour les clients</fullName>
+                <default>false</default>
+                <label>l&apos;offre de navette offerte pour les clients</label>
+            </value>
+            <value>
+                <fullName>le service de mobilité offert pour les clients</fullName>
+                <default>false</default>
+                <label>le service de mobilité offert pour les clients</label>
+            </value>
+            <value>
+                <fullName>le service de taxi offert pour les clients</fullName>
+                <default>false</default>
+                <label>le service de taxi offert pour les clients</label>
+            </value>
+            <value>
+                <fullName>L&apos;indisponibilité de navette</fullName>
+                <default>false</default>
+                <label>L&apos;indisponibilité de navette</label>
+            </value>
+            <value>
+                <fullName>les transports communs</fullName>
+                <default>false</default>
+                <label>les transports communs</label>
+            </value>
+            <value>
+                <fullName>le retard de livraison des accessoires</fullName>
+                <default>false</default>
+                <label>le retard de livraison des accessoires</label>
+            </value>
+            <value>
+                <fullName>le retard de réparation du véhicule</fullName>
+                <default>false</default>
+                <label>le retard de réparation du véhicule</label>
+            </value>
+            <value>
+                <fullName>L&apos;autonomie du véhicule électrique</fullName>
+                <default>false</default>
+                <label>L&apos;autonomie du véhicule électrique</label>
+            </value>
+            <value>
+                <fullName>La qualité de la batterie du véhicule électrique</fullName>
+                <default>false</default>
+                <label>La qualité de la batterie du véhicule électrique</label>
+            </value>
+            <value>
+                <fullName>Le tableau de bord du véhicule électrique</fullName>
+                <default>false</default>
+                <label>Le tableau de bord du véhicule électrique</label>
+            </value>
+            <value>
+                <fullName>Le chargeur du véhicule électrique</fullName>
+                <default>false</default>
+                <label>Le chargeur du véhicule électrique</label>
+            </value>
+            <value>
+                <fullName>Le moteur du véhicule électrique</fullName>
+                <default>false</default>
+                <label>Le moteur du véhicule électrique</label>
+            </value>
+            <value>
+                <fullName>Le chargeur monophasé</fullName>
+                <default>false</default>
+                <label>Le chargeur monophasé</label>
+            </value>
+            <value>
+                <fullName>Le chargeur triphasé</fullName>
+                <default>false</default>
+                <label>Le chargeur triphasé</label>
+            </value>
+            <value>
+                <fullName>La consommation électrique du véhicule électrique</fullName>
+                <default>false</default>
+                <label>La consommation électrique du véhicule électrique</label>
+            </value>
+            <value>
+                <fullName>la climatisation du véhicule électrique</fullName>
+                <default>false</default>
+                <label>la climatisation du véhicule électrique</label>
+            </value>
+            <value>
+                <fullName>devis mécanique</fullName>
+                <default>false</default>
+                <label>devis mécanique</label>
+            </value>
+            <value>
+                <fullName>devis carrosserie</fullName>
+                <default>false</default>
+                <label>devis carrosserie</label>
+            </value>
+            <value>
+                <fullName>Pièces de rechange</fullName>
+                <default>false</default>
+                <label>Pièces de rechange</label>
+            </value>
+            <value>
+                <fullName>Refus de prise en charge des réparations en garantie</fullName>
+                <default>false</default>
+                <label>Refus de prise en charge des réparations en garantie</label>
+            </value>
+            <value>
+                <fullName>Promesse de rappel non tenu</fullName>
+                <default>false</default>
+                <label>Promesse de rappel non tenu</label>
+            </value>
+            <value>
+                <fullName>Délai d’attente à la livraison du véhicule</fullName>
+                <default>false</default>
+                <label>Délai d’attente à la livraison du véhicule</label>
+            </value>
+            <value>
+                <fullName>Délai d’attente au dépôt du véhicule</fullName>
+                <default>false</default>
+                <label>Délai d’attente au dépôt du véhicule</label>
+            </value>
+            <value>
+                <fullName>Le respect du délai des réparations</fullName>
+                <default>false</default>
+                <label>Le respect du délai des réparations</label>
+            </value>
+            <value>
+                <fullName>Délai d’attente de la prise en charge du véhicule</fullName>
+                <default>false</default>
+                <label>Délai d’attente de la prise en charge du véhicule</label>
+            </value>
+            <value>
+                <fullName>Délai d’attente au niveau de la caisse</fullName>
+                <default>false</default>
+                <label>Délai d’attente au niveau de la caisse</label>
+            </value>
+            <value>
+                <fullName>Déréglage de la position des sièges</fullName>
+                <default>false</default>
+                <label>Déréglage de la position des sièges</label>
+            </value>
+            <value>
+                <fullName>Déréglage des options de la radio</fullName>
+                <default>false</default>
+                <label>Déréglage des options de la radio</label>
+            </value>
+            <value>
+                <fullName>Déréglage des options de patinage</fullName>
+                <default>false</default>
+                <label>Déréglage des options de patinage</label>
+            </value>
+            <value>
+                <fullName>Déréglage du mirroir central</fullName>
+                <default>false</default>
+                <label>Déréglage du mirroir central</label>
+            </value>
+            <value>
+                <fullName>Déréglage de la position des rétroviseurs</fullName>
+                <default>false</default>
+                <label>Déréglage de la position des rétroviseurs</label>
+            </value>
+            <value>
+                <fullName>Feedback Général sur le SAV</fullName>
+                <default>false</default>
+                <label>Feedback Général sur le SAV</label>
+            </value>
+            <value>
+                <fullName>Assistance SAV</fullName>
+                <default>false</default>
+                <label>Assistance SAV</label>
+            </value>
+            <value>
+                <fullName>Estimation des coûts</fullName>
+                <default>false</default>
+                <label>Estimation des coûts</label>
+            </value>
+            <value>
+                <fullName>Mise à jour du kilométrage requis pour la maintenance</fullName>
+                <default>false</default>
+                <label>Mise à jour du kilométrage requis pour la maintenance</label>
+            </value>
+            <value>
+                <fullName>Retard d’établissement du devis</fullName>
+                <default>false</default>
+                <label>Retard d’établissement du devis</label>
+            </value>
+            <value>
+                <fullName>Conception et usage du site web</fullName>
+                <default>false</default>
+                <label>Conception et usage du site web</label>
+            </value>
+            <value>
+                <fullName>Délai de prise en charge du rdv en ligne</fullName>
+                <default>false</default>
+                <label>Délai de prise en charge du rdv en ligne</label>
+            </value>
+            <value>
+                <fullName>La mauvaise réparation</fullName>
+                <default>false</default>
+                <label>La mauvaise réparation</label>
+            </value>
+            <value>
+                <fullName>Rendez-vous non planifié par l&apos;assistant</fullName>
+                <default>false</default>
+                <label>Rendez-vous non planifié par l&apos;assistant</label>
+            </value>
+            <value>
+                <fullName>Disponibilité des pièces pour les actions de rappel</fullName>
+                <default>false</default>
+                <label>Disponibilité des pièces pour les actions de rappel</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Concurrence</controllingFieldValue>
+            <valueName>le feedback général</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Design</controllingFieldValue>
+            <valueName>le design extérieur du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Design</controllingFieldValue>
+            <valueName>le design intérieur du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Design</controllingFieldValue>
+            <valueName>la couleur du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Design</controllingFieldValue>
+            <valueName>la carbonne du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Design</controllingFieldValue>
+            <valueName>les rétroviseurs du véhicules</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Design</controllingFieldValue>
+            <valueName>la couleur intérieure du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Design</controllingFieldValue>
+            <valueName>le système iDrive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Essais sur route</controllingFieldValue>
+            <valueName>le processus d&apos;essai sur route</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Essais sur route</controllingFieldValue>
+            <valueName>l&apos;expérience globale de l&apos;essai sur route</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Essais sur route</controllingFieldValue>
+            <valueName>l&apos;offre d&apos;essai sur route</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Essais sur route</controllingFieldValue>
+            <valueName>la disponibilité des véhicules de démonstration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Livraison du véhicule</controllingFieldValue>
+            <valueName>l&apos;expérience de livraison du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Livraison du véhicule</controllingFieldValue>
+            <valueName>la date de livraison du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Livraison du véhicule</controllingFieldValue>
+            <valueName>le délai de livraison du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Livraison du véhicule</controllingFieldValue>
+            <valueName>l&apos;heure de livraison du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Livraison du véhicule</controllingFieldValue>
+            <valueName>les explications lors de la livraison du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Livraison du véhicule</controllingFieldValue>
+            <valueName>la différence entre les attentes anticipées et le véhicule livré</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Livraison du véhicule</controllingFieldValue>
+            <valueName>la différente entre le véhicule livré et celui convenu sur le bon de commande</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Livraison du véhicule</controllingFieldValue>
+            <valueName>les avaries detectées sur le véhicule livré</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Livraison du véhicule</controllingFieldValue>
+            <valueName>le niveau de charge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Livraison du véhicule</controllingFieldValue>
+            <valueName>l&apos;absence de welcome pack</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Négociation de l&apos;offre de prix</controllingFieldValue>
+            <valueName>le processus de négociation de l&apos;offre de prix</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Négociation de l&apos;offre de prix</controllingFieldValue>
+            <valueName>l&apos;expérience d&apos;achat du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Négociation de l&apos;offre de prix</controllingFieldValue>
+            <valueName>l&apos;administration des ventes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Négociation de l&apos;offre de prix</controllingFieldValue>
+            <valueName>la transparence des procédures en vigueur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Négociation de l&apos;offre de prix</controllingFieldValue>
+            <valueName>la rapidité de traitement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Négociation de l&apos;offre de prix</controllingFieldValue>
+            <valueName>la configuration du véhicule souhaité</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Négociation de l&apos;offre de prix</controllingFieldValue>
+            <valueName>l&apos;acompte requis pour la prise de commande</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Négociation de l&apos;offre de prix</controllingFieldValue>
+            <valueName>l&apos;évaluation de l&apos;offre de reprise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Négociation de l&apos;offre de prix</controllingFieldValue>
+            <valueName>l&apos;identification d&apos;une fraude commise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Négociation de l&apos;offre de prix</controllingFieldValue>
+            <valueName>le cas de corruption identifié</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Offres</controllingFieldValue>
+            <valueName>le modèle du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Offres</controllingFieldValue>
+            <valueName>l&apos;autonomie du moteur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Offres</controllingFieldValue>
+            <valueName>les équipements basiques</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Offres</controllingFieldValue>
+            <valueName>les options du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Offres</controllingFieldValue>
+            <valueName>les packs du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Offres</controllingFieldValue>
+            <valueName>l&apos;innovation du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Offres</controllingFieldValue>
+            <valueName>les feux du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Offres</controllingFieldValue>
+            <valueName>le système de verouillage des portières</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Offres</controllingFieldValue>
+            <valueName>les émission du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Présentation du produit</controllingFieldValue>
+            <valueName>la présence d&apos;un véhicule de démonstration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Présentation du produit</controllingFieldValue>
+            <valueName>les conditions du véhicule de démonstration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Présentation du produit</controllingFieldValue>
+            <valueName>la présence du véhicule souhaité</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Présentation du produit</controllingFieldValue>
+            <valueName>les conditions du véhicule souhaité</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prise en main</controllingFieldValue>
+            <valueName>le système de freinage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prise en main</controllingFieldValue>
+            <valueName>la maniabilité du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prise en main</controllingFieldValue>
+            <valueName>l&apos;ergonomie du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prise en main</controllingFieldValue>
+            <valueName>les fonctionnalités du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prise en main</controllingFieldValue>
+            <valueName>la consommation du carburant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prise en main</controllingFieldValue>
+            <valueName>l&apos;autonomie du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prise en main</controllingFieldValue>
+            <valueName>l&apos;accessibilité au véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prise en main</controllingFieldValue>
+            <valueName>la motorisation du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prise en main</controllingFieldValue>
+            <valueName>l&apos;embrayage du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prise en main</controllingFieldValue>
+            <valueName>l&apos;ouverture et la fermeture des portières du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prise en main</controllingFieldValue>
+            <valueName>le toit ouvrant du véhicue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prise en main</controllingFieldValue>
+            <valueName>la lumière ambiante du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prise en main</controllingFieldValue>
+            <valueName>le volume du coffre du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prise en main</controllingFieldValue>
+            <valueName>les porte-gobelets du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prise en main</controllingFieldValue>
+            <valueName>les sièges du véhicules</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prise en main</controllingFieldValue>
+            <valueName>le système de téléphonie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prise en main</controllingFieldValue>
+            <valueName>l&apos;affichage du tableau de bord</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prise en main</controllingFieldValue>
+            <valueName>le système de contrôle tactile</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prise en main</controllingFieldValue>
+            <valueName>le système de connectivité aux terminaux mobiles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prise en main</controllingFieldValue>
+            <valueName>les équipements Motorrad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prise en main</controllingFieldValue>
+            <valueName>les suspension du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prise en main</controllingFieldValue>
+            <valueName>les claxons du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prise en main</controllingFieldValue>
+            <valueName>la consommation d&apos;huile du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>Les cadres et éléments rapportés MOTORRAD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>la technologie hybride du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>la technologie électrique du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>la batterie du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>la boite à vitesse du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>la conduite du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>la pneumatique du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>les feux avant du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>les feux arrière du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>les portières du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>les clés du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>le toit panoramique du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>le toit ouvrant du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>les accessoires du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>le volant du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>les lumières ambiantes du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>l&apos;espace intérieur du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>le coffre du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>la capacité du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>les porte-goblets du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>la console centrale du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>les sièges du véhicle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>le chauffage des sièges du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>le chauffage du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>la climatisation du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>le head-up display du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>le régulateur de vitesse du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>la vision nocturne du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>le système de contrôle de téléphonie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>le système audio du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>le système de navigation du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>l&apos;assistant au stationnement du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>le système de sécurité du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>l&apos;affichage du tableau de bord du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>les contrôles tactiles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>la connectivité des teminaux mobiles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>l&apos;équipement moto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>le cable de recharge du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>la transmission du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>les suspensions du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>le claxon du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>le moteur de transmission du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>le moteur du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>le pot d&apos;échappement du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>la peinture de la carrosserie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>le boitier de transfert du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>le carbonne du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>le système iDrive du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>l&apos;aspect premium du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>les peformances du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>l&apos;acoustique du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>l&apos;odeur du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>la moisissure du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>les défauts présents dans le véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>la composition du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>la corrosion du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>la durabilité du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>la sécurité du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>la fiabilité du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>la qualité long-terme du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>la chaîne de distribution du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>la gestion du carburant du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>le système de refroidissement du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>le démarrage du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>le turbo-chargeur du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>le termostat du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>l&apos;embrayage du véhicle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>le propulseur du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>la traction avant et arrière du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>l&apos;axe du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>le système de freinage du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>la couleur extérieure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>les rétroviseurs du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>le pare-brise du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>les fenêtres du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>le système de verrouillage du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>la couleur intérieur du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>les défaux électriques/électroniques du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>l&apos;unité de contrôle du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>les cables et faisseaux électriques</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>l&apos;alternateur du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>les airbags du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>la consommation d&apos;huile</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>Les equipement de Carrosserie MOTORRAD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>Le système électrique générale MOTORRAD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>Les Instruments MOTORRAD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>Les equipement du pilote BMW MOTORRAD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>Les accessoires Spéciaux MOTORRAD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>Problème apparu sur véhicule neuf</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>Les lampes MOTORRAD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>L&apos;autonomie du véhicule électrique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>La qualité de la batterie du véhicule électrique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>Le tableau de bord du véhicule électrique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>Le chargeur du véhicule électrique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>Le moteur du véhicule électrique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>Le chargeur monophasé</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>Le chargeur triphasé</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>La consommation électrique du véhicule électrique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité du produit</controllingFieldValue>
+            <valueName>la climatisation du véhicule électrique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feedback Général sur le SAV</controllingFieldValue>
+            <valueName>Assistance VN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feedback Général sur le SAV</controllingFieldValue>
+            <valueName>Efficacité VN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feedback Général sur le SAV</controllingFieldValue>
+            <valueName>Efficacité SAV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feedback Général sur le SAV</controllingFieldValue>
+            <valueName>Feedback Général sur le SAV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feedback Général sur le SAV</controllingFieldValue>
+            <valueName>Assistance SAV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demande de Devis</controllingFieldValue>
+            <valueName>devis mécanique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demande de Devis</controllingFieldValue>
+            <valueName>devis carrosserie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demande de Devis</controllingFieldValue>
+            <valueName>Pièces de rechange</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Garantie</controllingFieldValue>
+            <valueName>La prise en compte de la garantie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Garantie</controllingFieldValue>
+            <valueName>le niveau de couverture de la garantie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Garantie</controllingFieldValue>
+            <valueName>l&apos;extension de garantie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Garantie</controllingFieldValue>
+            <valueName>Refus de prise en charge des réparations en garantie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Déréglage des options de conduite à la livraison</controllingFieldValue>
+            <valueName>Déréglage de la position des sièges</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Déréglage des options de conduite à la livraison</controllingFieldValue>
+            <valueName>Déréglage des options de la radio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Déréglage des options de conduite à la livraison</controllingFieldValue>
+            <valueName>Déréglage des options de patinage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Déréglage des options de conduite à la livraison</controllingFieldValue>
+            <valueName>Déréglage du mirroir central</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Déréglage des options de conduite à la livraison</controllingFieldValue>
+            <valueName>Déréglage de la position des rétroviseurs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gestes commerciaux</controllingFieldValue>
+            <valueName>la requête générale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gestes commerciaux</controllingFieldValue>
+            <valueName>la couverture des coûts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information et communication</controllingFieldValue>
+            <valueName>le statut d&apos;avancement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information et communication</controllingFieldValue>
+            <valueName>les relances de suivi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information et communication</controllingFieldValue>
+            <valueName>la disponibilité de l&apos;information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information et communication</controllingFieldValue>
+            <valueName>la fréquence d&apos;information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information et communication</controllingFieldValue>
+            <valueName>la qualité d&apos;information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information et communication</controllingFieldValue>
+            <valueName>les informations du contact</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information et communication</controllingFieldValue>
+            <valueName>le manuel d&apos;instruction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information et communication</controllingFieldValue>
+            <valueName>le kilométrage requis pour la maintenance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information et communication</controllingFieldValue>
+            <valueName>la consultation en ligne</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information et communication</controllingFieldValue>
+            <valueName>le canal de communication</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information et communication</controllingFieldValue>
+            <valueName>le rappel téléphonique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information et communication</controllingFieldValue>
+            <valueName>les suivi des contacts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information et communication</controllingFieldValue>
+            <valueName>la promesse de rappel non tenu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information et communication</controllingFieldValue>
+            <valueName>La mise à jour des informations client</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information et communication</controllingFieldValue>
+            <valueName>le rappel de la maintenance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information et communication</controllingFieldValue>
+            <valueName>Promesse de rappel non tenu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing &amp; Communication</controllingFieldValue>
+            <valueName>l&apos;expérience marketing globale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing &amp; Communication</controllingFieldValue>
+            <valueName>le centre d&apos;expérience</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing &amp; Communication</controllingFieldValue>
+            <valueName>l&apos;evènement organisé par le Groupe Smeia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing &amp; Communication</controllingFieldValue>
+            <valueName>le programme de fidélisation des clients</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing &amp; Communication</controllingFieldValue>
+            <valueName>l&apos;aspect premium du Groupe Smeia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing &amp; Communication</controllingFieldValue>
+            <valueName>l&apos;alignement du Groupe Smeia avec la marque</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing &amp; Communication</controllingFieldValue>
+            <valueName>la fréquence de communication</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing &amp; Communication</controllingFieldValue>
+            <valueName>la précision des informations communiquées</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing &amp; Communication</controllingFieldValue>
+            <valueName>les documents et catalogues d&apos;information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing &amp; Communication</controllingFieldValue>
+            <valueName>Conception et usage du site web</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pièces de rechange</controllingFieldValue>
+            <valueName>la disponibilité des pièces de rechange</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pièces de rechange</controllingFieldValue>
+            <valueName>la date de livraison des pièces de rechange</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pièces de rechange</controllingFieldValue>
+            <valueName>le retard de livraison des pièces de rechange</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pièces de rechange</controllingFieldValue>
+            <valueName>la qualité des pièces de rechange</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pièces de rechange</controllingFieldValue>
+            <valueName>le prix des pièces de rechange</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pièces de rechange</controllingFieldValue>
+            <valueName>l&apos;endommagement des pièces de rechange</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pièces de rechange</controllingFieldValue>
+            <valueName>l&apos;authenticité des pièces de rechange</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prix et remises</controllingFieldValue>
+            <valueName>la perception du prix proposé</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prix et remises</controllingFieldValue>
+            <valueName>le calcul du prix</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prix et remises</controllingFieldValue>
+            <valueName>la remise appliquée</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prix et remises</controllingFieldValue>
+            <valueName>la transparence de l&apos;application des prix et des remises</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prix et remises</controllingFieldValue>
+            <valueName>le mode de paiement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prix et remises</controllingFieldValue>
+            <valueName>Prix vidange</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prix et remises</controllingFieldValue>
+            <valueName>Prix du pick-up and delivery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prix et remises</controllingFieldValue>
+            <valueName>Prix du contrôle technique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prix et remises</controllingFieldValue>
+            <valueName>Prix des pièces</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prix et remises</controllingFieldValue>
+            <valueName>le retard d&apos;établissement du devis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prix et remises</controllingFieldValue>
+            <valueName>Estimation des coûts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Processus internes</controllingFieldValue>
+            <valueName>la qualité des services offerts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Processus internes</controllingFieldValue>
+            <valueName>l&apos;efficacité des services offerts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Processus internes</controllingFieldValue>
+            <valueName>la transparence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Processus internes</controllingFieldValue>
+            <valueName>la définition des rôles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Processus internes</controllingFieldValue>
+            <valueName>la délimitation des responsabilités</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Processus internes</controllingFieldValue>
+            <valueName>la coordination entre les équipes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Processus internes</controllingFieldValue>
+            <valueName>la bureaucratie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité des réparations</controllingFieldValue>
+            <valueName>le retour atelier du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité des réparations</controllingFieldValue>
+            <valueName>le défaut detecté au niveau du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité des réparations</controllingFieldValue>
+            <valueName>le retard de réparation du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualité des réparations</controllingFieldValue>
+            <valueName>La mauvaise réparation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rendez-vous et accueil</controllingFieldValue>
+            <valueName>la convenance des prises de rendez-vous</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rendez-vous et accueil</controllingFieldValue>
+            <valueName>le temps d&apos;attente pour la prise d&apos;un rendez-vous</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rendez-vous et accueil</controllingFieldValue>
+            <valueName>la disponibilité du contact</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rendez-vous et accueil</controllingFieldValue>
+            <valueName>l&apos;accueil personnalisé</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rendez-vous et accueil</controllingFieldValue>
+            <valueName>le temps d&apos;attente à l&apos;arrivée à la succursale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rendez-vous et accueil</controllingFieldValue>
+            <valueName>La proposition d&apos;une boisson lors de l&apos;accueil</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rendez-vous et accueil</controllingFieldValue>
+            <valueName>La qualité de l&apos;accueil</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rendez-vous et accueil</controllingFieldValue>
+            <valueName>Le respect des rendez-vous</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rendez-vous et accueil</controllingFieldValue>
+            <valueName>Délai de prise en charge du rdv en ligne</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rendez-vous et accueil</controllingFieldValue>
+            <valueName>Rendez-vous non planifié par l&apos;assistant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accessoires</controllingFieldValue>
+            <valueName>la disponibilité des accessoires</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accessoires</controllingFieldValue>
+            <valueName>la date de livraison des accessoires</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accessoires</controllingFieldValue>
+            <valueName>le délai de livraison des accessoires</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accessoires</controllingFieldValue>
+            <valueName>la qualité des accessoires</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accessoires</controllingFieldValue>
+            <valueName>le prix des accessoires</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accessoires</controllingFieldValue>
+            <valueName>l&apos;état des accessoires</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accessoires</controllingFieldValue>
+            <valueName>le retard de livraison des accessoires</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Articles et accessoires lifestyle</controllingFieldValue>
+            <valueName>la variété des articles et accessoires lifetyle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Attitude et comportement</controllingFieldValue>
+            <valueName>la réactivité du personnel Smeia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Attitude et comportement</controllingFieldValue>
+            <valueName>le sens client du personnel Smeia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Attitude et comportement</controllingFieldValue>
+            <valueName>l&apos;assistance du personnel Smeia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Attitude et comportement</controllingFieldValue>
+            <valueName>la flexibilité du personnel Smeia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Attitude et comportement</controllingFieldValue>
+            <valueName>le comportement du personnel Smeia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Attitude et comportement</controllingFieldValue>
+            <valueName>l&apos;honeteté du personnel Smeia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bâtiment et locaux</controllingFieldValue>
+            <valueName>l&apos;apparence extérieure des bâtiments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bâtiment et locaux</controllingFieldValue>
+            <valueName>les horaires d&apos;ouverture de la succursale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bâtiment et locaux</controllingFieldValue>
+            <valueName>le parking visiteur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bâtiment et locaux</controllingFieldValue>
+            <valueName>la propreté de la succursale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bâtiment et locaux</controllingFieldValue>
+            <valueName>la visibilité de la marque</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bâtiment et locaux</controllingFieldValue>
+            <valueName>les rafraichissements et boissons offerts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bâtiment et locaux</controllingFieldValue>
+            <valueName>l&apos;accessibilité à la succursale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bâtiment et locaux</controllingFieldValue>
+            <valueName>le réseau des succursales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bâtiment et locaux</controllingFieldValue>
+            <valueName>l&apos;aspect privé des consultations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bâtiment et locaux</controllingFieldValue>
+            <valueName>la zone d&apos;accueil au sein de la succursale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bâtiment et locaux</controllingFieldValue>
+            <valueName>la zone d&apos;attente au sein de la succursale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bâtiment et locaux</controllingFieldValue>
+            <valueName>la signalétique au sein de la succursale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bâtiment et locaux</controllingFieldValue>
+            <valueName>le confort des clients au sein de la succursale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bâtiment et locaux</controllingFieldValue>
+            <valueName>La discretion lors des consultations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Campagnes de rappel</controllingFieldValue>
+            <valueName>l&apos;organisation des campagnes de rappel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Campagnes de rappel</controllingFieldValue>
+            <valueName>la procédure générale des campagnes de rappel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Campagnes de rappel</controllingFieldValue>
+            <valueName>l&apos;information relative aux campagnes de rappel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Campagnes de rappel</controllingFieldValue>
+            <valueName>les coûts des campagnes de rappel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Campagnes de rappel</controllingFieldValue>
+            <valueName>la planification des campagnes de rappel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Campagnes de rappel</controllingFieldValue>
+            <valueName>le temps d&apos;attente des campagnes de rappel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Campagnes de rappel</controllingFieldValue>
+            <valueName>Disponibilité des pièces pour les actions de rappel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Compétences</controllingFieldValue>
+            <valueName>l&apos;expertise des équipes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Compétences</controllingFieldValue>
+            <valueName>l&apos;identification claire des besoins exprimés</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Compétences</controllingFieldValue>
+            <valueName>la maîtrise du produit de la part des équipes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Compétences</controllingFieldValue>
+            <valueName>la maîtrise des services offerts de la part des équipes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Compétences</controllingFieldValue>
+            <valueName>le processus de prise de décision au sein des équipes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Compétences</controllingFieldValue>
+            <valueName>la connaisance de l&apos;historique du client</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Compétences</controllingFieldValue>
+            <valueName>l&apos;identification des besoins</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Compétences</controllingFieldValue>
+            <valueName>la maîtrise des packs d&apos;entretien de la part des équipes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Compétences</controllingFieldValue>
+            <valueName>la maîtrise des packages produits de la part des équipes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Compétences</controllingFieldValue>
+            <valueName>l&apos;identification du problème remonté</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Compétences</controllingFieldValue>
+            <valueName>la résolution du problème identifié</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Compétences</controllingFieldValue>
+            <valueName>l&apos;estimation des coûts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Compétences</controllingFieldValue>
+            <valueName>l&apos;estimation des délais</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Conditions générales</controllingFieldValue>
+            <valueName>la gestion contractuelle interne</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Conditions générales</controllingFieldValue>
+            <valueName>l&apos;aspect juridique relatif à la contractualisation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Conditions générales</controllingFieldValue>
+            <valueName>la clarté des bons de commandes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Conditions générales</controllingFieldValue>
+            <valueName>l&apos;annulation des bons de commandes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Conditions générales</controllingFieldValue>
+            <valueName>les packs de garantie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Conditions générales</controllingFieldValue>
+            <valueName>les packs d&apos;entretiens</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Conditions générales</controllingFieldValue>
+            <valueName>l&apos;aspect juridique relatif au terms et conditions du service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dépôt et restitution du véhicule</controllingFieldValue>
+            <valueName>la propreté du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dépôt et restitution du véhicule</controllingFieldValue>
+            <valueName>la procédure de dépôt et de restitution du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dépôt et restitution du véhicule</controllingFieldValue>
+            <valueName>Retard livraison du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dépôt et restitution du véhicule</controllingFieldValue>
+            <valueName>Retard de réparation carosserie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dépôt et restitution du véhicule</controllingFieldValue>
+            <valueName>Retard de réparation mécanique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dépôt et restitution du véhicule</controllingFieldValue>
+            <valueName>Retard de réparation maintenance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dépôt et restitution du véhicule</controllingFieldValue>
+            <valueName>la rapidité de l&apos;opération de dépôt et de restitution du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dépôt et restitution du véhicule</controllingFieldValue>
+            <valueName>l&apos;inspection du véhicule déposé</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dépôt et restitution du véhicule</controllingFieldValue>
+            <valueName>l&apos;accord des travaux de réparation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dépôt et restitution du véhicule</controllingFieldValue>
+            <valueName>la fiabilité du délai de restitution du véhicule déposé</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dépôt et restitution du véhicule</controllingFieldValue>
+            <valueName>les explication des travaux effectués sur le véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dépôt et restitution du véhicule</controllingFieldValue>
+            <valueName>le niveau de charge de la batterie du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dépôt et restitution du véhicule</controllingFieldValue>
+            <valueName>Délai d’attente à la livraison du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dépôt et restitution du véhicule</controllingFieldValue>
+            <valueName>Délai d’attente au dépôt du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dépôt et restitution du véhicule</controllingFieldValue>
+            <valueName>Le respect du délai des réparations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dépôt et restitution du véhicule</controllingFieldValue>
+            <valueName>Délai d’attente de la prise en charge du véhicule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dépôt et restitution du véhicule</controllingFieldValue>
+            <valueName>Délai d’attente au niveau de la caisse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dépôt et restitution du véhicule</controllingFieldValue>
+            <valueName>Mise à jour du kilométrage requis pour la maintenance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dépôt et restitution du véhicule</controllingFieldValue>
+            <valueName>Retard d’établissement du devis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facturation</controllingFieldValue>
+            <valueName>le remboursement demandé</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facturation</controllingFieldValue>
+            <valueName>la précision de la facturation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facturation</controllingFieldValue>
+            <valueName>l&apos;explication de la facturation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facturation</controllingFieldValue>
+            <valueName>les changements additionnels au niveau de la facturation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facturation</controllingFieldValue>
+            <valueName>le retard de la facturation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facturation</controllingFieldValue>
+            <valueName>Le montant de la facture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facturation</controllingFieldValue>
+            <valueName>Les désignations de la facture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facturation</controllingFieldValue>
+            <valueName>La remise sur la facture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facturation</controllingFieldValue>
+            <valueName>Retard de remise de la facture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Services digitaux</controllingFieldValue>
+            <valueName>le feedback général sur le Groupe Smeia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Services digitaux</controllingFieldValue>
+            <valueName>le feedback général sur le service digital</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solutions de mobilité</controllingFieldValue>
+            <valueName>L&apos;indisponibilité d&apos;un véhicule de courtoisie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solutions de mobilité</controllingFieldValue>
+            <valueName>le coût de la solution de mobilité</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solutions de mobilité</controllingFieldValue>
+            <valueName>l&apos;offre de navette offerte pour les clients</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solutions de mobilité</controllingFieldValue>
+            <valueName>le service de mobilité offert pour les clients</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solutions de mobilité</controllingFieldValue>
+            <valueName>le service de taxi offert pour les clients</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solutions de mobilité</controllingFieldValue>
+            <valueName>L&apos;indisponibilité de navette</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solutions de mobilité</controllingFieldValue>
+            <valueName>les transports communs</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
