@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_VR_003_PrenomSansCaractereSpeciaux</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(ISBLANK(FirstName)) &amp;&amp; NOT(REGEX( FirstName,&quot;^[a-z  A-Z]*$&quot;))</errorConditionFormula>
+    <errorDisplayField>FirstName</errorDisplayField>
+    <errorMessage>Merci de renseigner le prénom sans caractères spéciaux</errorMessage>
+</ValidationRule>

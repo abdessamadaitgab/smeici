@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Search</fullName>
+        <default>false</default>
+        <label>Search</label>
+    </customValue>
+    <customValue>
+        <fullName>Sponsoring ponctuel</fullName>
+        <default>false</default>
+        <label>Sponsoring ponctuel</label>
+    </customValue>
+    <customValue>
+        <fullName>Spontanée</fullName>
+        <default>false</default>
+        <label>Spontanée</label>
+    </customValue>
+    <customValue>
+        <fullName>Campagne marketing</fullName>
+        <default>false</default>
+        <label>Campagne marketing</label>
+    </customValue>
+    <masterLabel>Origines</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

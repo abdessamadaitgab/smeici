@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_VR_007_Marque_non_autorisee</fullName>
+    <active>true</active>
+    <errorConditionFormula>TECH_marque_ko__c</errorConditionFormula>
+    <errorDisplayField>Marque_d_interet__c</errorDisplayField>
+    <errorMessage>Votre profil ne dispose pas des droits nécessaires pour la marque choisie.
+Veuillez contacter votre administrateur.</errorMessage>
+</ValidationRule>

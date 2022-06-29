@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_VR_010_Validation_statut_Prospect</fullName>
+    <active>true</active>
+    <errorConditionFormula>( IsConverted &amp;&amp; NOT(ISPICKVAL(Status, &apos;Compte&apos;)))
+||
+(!IsConverted &amp;&amp; NOT(ISPICKVAL(Status, &apos;Prospect&apos;)))</errorConditionFormula>
+    <errorDisplayField>Status</errorDisplayField>
+    <errorMessage>Le statut du prospect n&apos;est conforme. Veuillez modifier le statut ou contactez votre administrateur.</errorMessage>
+</ValidationRule>

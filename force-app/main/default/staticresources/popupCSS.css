@@ -1,0 +1,20 @@
+.slds-modal__container{
+    max-width: 98% !important;
+    width: 98% !important;
+}
+.slds-modal__content{
+    height: 500px !important;
+    max-height: none !important;
+    min-height: calc(100vh - 80px) !important;
+}
+.slds-modal__content.slds-p-around--medium{
+    min-height: calc(100vh - 195px) !important;
+}
+
+@media only screen and (max-width : 768px){
+    .slds-modal__container {
+        max-width: 99% !important;
+        width: 99% !important;
+        margin: 0 auto;
+    }
+}

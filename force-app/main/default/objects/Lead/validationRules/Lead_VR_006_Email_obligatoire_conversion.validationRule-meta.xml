@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_VR_006_Email_obligatoire_conversion</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISBLANK(Email)
+&amp;&amp; IsConverted</errorConditionFormula>
+    <errorMessage>Merci de compléter le champ email avant conversion</errorMessage>
+</ValidationRule>

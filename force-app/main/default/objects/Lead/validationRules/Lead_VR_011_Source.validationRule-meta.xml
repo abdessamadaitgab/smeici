@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_VR_011_Source</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( (is_Web__c)  &amp;&amp;  (Not(ISPICKVAL(LeadSource, &quot;Website&quot;))  &amp;&amp;  Not(ISPICKVAL(LeadSource, &quot;Lead Ad&quot;)) &amp;&amp;  Not(ISPICKVAL(LeadSource, &quot;Modération réseaux sociaux&quot;)) &amp;&amp; Not(ISPICKVAL(LeadSource, &quot;Moteur.ma&quot;)) ) ,true,false)</errorConditionFormula>
+    <errorDisplayField>LeadSource</errorDisplayField>
+    <errorMessage>Pour un prospect web, les sources autorisées sont : Site Web, Lead Ad, Modération réseaux sociaux.</errorMessage>
+</ValidationRule>

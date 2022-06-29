@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Soutra - Concessionnaire agréé Smeia BMW</fullName>
+        <default>false</default>
+        <label>Soutra - Concessionnaire agréé Smeia BMW</label>
+    </customValue>
+    <customValue>
+        <fullName>Smeia - Casablanca</fullName>
+        <default>false</default>
+        <label>Smeia - Casablanca</label>
+    </customValue>
+    <customValue>
+        <fullName>Smeia - Fès</fullName>
+        <default>false</default>
+        <label>Smeia - Fès</label>
+    </customValue>
+    <customValue>
+        <fullName>Smeia - Marrakech</fullName>
+        <default>false</default>
+        <label>Smeia - Marrakech</label>
+    </customValue>
+    <customValue>
+        <fullName>Smeia - Oujda</fullName>
+        <default>false</default>
+        <label>Smeia - Oujda</label>
+    </customValue>
+    <customValue>
+        <fullName>Ryad Auto Rabat - Groupe Smeia</fullName>
+        <default>false</default>
+        <label>Ryad Auto Rabat - Groupe Smeia</label>
+    </customValue>
+    <customValue>
+        <fullName>Smeia - Tanger</fullName>
+        <default>false</default>
+        <label>Smeia - Tanger</label>
+    </customValue>
+    <customValue>
+        <fullName>Magasin central</fullName>
+        <default>false</default>
+        <label>Magasin central</label>
+    </customValue>
+    <masterLabel>Showrooms</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

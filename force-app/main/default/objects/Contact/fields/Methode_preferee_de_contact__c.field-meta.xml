@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Methode_preferee_de_contact__c</fullName>
+    <externalId>false</externalId>
+    <label>Méthode préférée de contact</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>M_thodes_pr_f_r_es_de_contact</valueSetName>
+    </valueSet>
+</CustomField>

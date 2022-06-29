@@ -1,0 +1,11 @@
+{!Today}
+
+Dear {!Lead.Name}
+
+Thank you for your interest in {!Organization.Name}. We look forward to working with you.
+Commercial Information 
+Name : {!Lead.OwnerFullName}
+Email : {!Lead.OwnerEmail}
+Phone : {!Lead.OwnerPhone}
+
+Sincerely,

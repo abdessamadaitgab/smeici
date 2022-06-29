@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ATHLETIQUE</fullName>
+        <default>false</default>
+        <label>ATHLETIQUE</label>
+    </customValue>
+    <customValue>
+        <fullName>AVANTAGE</fullName>
+        <default>false</default>
+        <label>AVANTAGE</label>
+    </customValue>
+    <customValue>
+        <fullName>CONFORT</fullName>
+        <default>false</default>
+        <label>CONFORT</label>
+    </customValue>
+    <customValue>
+        <fullName>ÉLÉGANCE</fullName>
+        <default>false</default>
+        <label>ÉLÉGANCE</label>
+    </customValue>
+    <customValue>
+        <fullName>EXCLUSIVE</fullName>
+        <default>false</default>
+        <label>EXCLUSIVE</label>
+    </customValue>
+    <customValue>
+        <fullName>EXCLUSIVE LTD</fullName>
+        <default>false</default>
+        <label>EXCLUSIVE LTD</label>
+    </customValue>
+    <customValue>
+        <fullName>FIRST</fullName>
+        <default>false</default>
+        <label>FIRST</label>
+    </customValue>
+    <customValue>
+        <fullName>HÉRITAGE</fullName>
+        <default>false</default>
+        <label>HÉRITAGE</label>
+    </customValue>
+    <customValue>
+        <fullName>JCW</fullName>
+        <default>false</default>
+        <label>JCW</label>
+    </customValue>
+    <customValue>
+        <fullName>LOUNGE</fullName>
+        <default>false</default>
+        <label>LOUNGE</label>
+    </customValue>
+    <customValue>
+        <fullName>LUXURY</fullName>
+        <default>false</default>
+        <label>LUXURY</label>
+    </customValue>
+    <customValue>
+        <fullName>MAGNETIQUE</fullName>
+        <default>false</default>
+        <label>MAGNETIQUE</label>
+    </customValue>
+    <customValue>
+        <fullName>MAYFAIR</fullName>
+        <default>false</default>
+        <label>MAYFAIR</label>
+    </customValue>
+    <customValue>
+        <fullName>M EDITION</fullName>
+        <default>false</default>
+        <label>M EDITION</label>
+    </customValue>
+    <customValue>
+        <fullName>M SPORT</fullName>
+        <default>false</default>
+        <label>M SPORT</label>
+    </customValue>
+    <customValue>
+        <fullName>OXFORD</fullName>
+        <default>false</default>
+        <label>OXFORD</label>
+    </customValue>
+    <customValue>
+        <fullName>PACK M</fullName>
+        <default>false</default>
+        <label>PACK M</label>
+    </customValue>
+    <customValue>
+        <fullName>PACK M LTD</fullName>
+        <default>false</default>
+        <label>PACK M LTD</label>
+    </customValue>
+    <customValue>
+        <fullName>PARK LANE</fullName>
+        <default>false</default>
+        <label>PARK LANE</label>
+    </customValue>
+    <customValue>
+        <fullName>SIGNATURE</fullName>
+        <default>false</default>
+        <label>SIGNATURE</label>
+    </customValue>
+    <customValue>
+        <fullName>SPORT</fullName>
+        <default>false</default>
+        <label>SPORT</label>
+    </customValue>
+    <customValue>
+        <fullName>XLINE</fullName>
+        <default>false</default>
+        <label>XLINE</label>
+    </customValue>
+    <customValue>
+        <fullName>SDN CORE</fullName>
+        <default>false</default>
+        <label>SDN CORE</label>
+    </customValue>
+    <customValue>
+        <fullName>HB CORE</fullName>
+        <default>false</default>
+        <label>HB CORE</label>
+    </customValue>
+    <customValue>
+        <fullName>HIGH</fullName>
+        <default>false</default>
+        <label>HIGH</label>
+    </customValue>
+    <customValue>
+        <fullName>CORE</fullName>
+        <default>false</default>
+        <label>CORE</label>
+    </customValue>
+    <customValue>
+        <fullName>HIGH +</fullName>
+        <default>false</default>
+        <label>HIGH +</label>
+    </customValue>
+    <masterLabel>Finitions</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

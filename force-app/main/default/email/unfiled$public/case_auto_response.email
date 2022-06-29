@@ -1,0 +1,13 @@
+{!Case.SuppliedName}, 
+
+Nous avons bien pris en compte votre demande reçue le {!Case.CreatedDate},enregistrée sous la référence {!Case.CaseNumber}.
+ 
+Nous vous assurons que celle-ci sera étudiée avec le plus grand soin et traitée dans les meilleurs délais par le responsable en charge de votre demande au sein de notre entreprise.
+
+A cet effet, il est possible que nous ayons à vous contacter pour un complément d’informations.
+
+N’hésitez pas à revenir vers nous si vous avez d’autres questions, en appelant le numéro 05 22 418 859 ou en adressant un mail à l’adresse électronique : serviceclient.bmwmini@smeia.com.
+
+Nous vous remercions pour votre confiance et nous vous prions d’agréer, {!Case.SuppliedName}, nos salutations distinguées.
+
+Le Service Client Smeia,

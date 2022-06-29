@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>BMW Notification essai</name>
+    <style>none</style>
+    <subject>{!Organization.Name}: Merci pour votre intérêt</subject>
+    <textOnly>VOTRE DEMANDE D’ESSAI
+
+Cher/Chère Monsieur/Madame {!Lead.Name}
+
+Votre demande d&apos;essai routier pour la BMW &quot;modèle&quot; a bien été prise en compte.
+
+Vous serez contactés dans les meilleurs délais par un conseiller commercial pour échanger à propos de votre demande d&apos;essai.
+
+A très bientôt dans nos concession et sur notre site www.bmw.ma
+
+L&apos;équipe BMW Maroc
+
+SUIVEZ-NOUS
+
+
+Cet e-mail a été envoyé à {!Lead.Email}
+Se désinscrire</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

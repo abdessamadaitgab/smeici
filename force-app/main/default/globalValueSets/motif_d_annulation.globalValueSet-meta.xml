@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Changement des prix</fullName>
+        <default>false</default>
+        <label>Changement des prix</label>
+    </customValue>
+    <customValue>
+        <fullName>Changement des options</fullName>
+        <default>false</default>
+        <label>Changement des options</label>
+    </customValue>
+    <customValue>
+        <fullName>Le client a change d&apos;avis</fullName>
+        <default>false</default>
+        <label>Le client a change d&apos;avis</label>
+    </customValue>
+    <masterLabel>motif d&apos;annulation</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
