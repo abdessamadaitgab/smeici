@@ -1,10 +1,3 @@
-/**
- * @description       : 
- * @author            : ChangeMeIn@UserSettingsUnder.SFDoc
- * @group             : 
- * @last modified on  : 06-29-2022
- * @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
-**/
 public with sharing class LC001_Case_Timer {
 
   public static Timer__mdt getTimerMetadata(string timer_name){
@@ -30,7 +23,8 @@ public with sharing class LC001_Case_Timer {
         List<Decimal> delais = AX01_TempsEcoule.calculeDelaiDeCloture(new list<String>{param});
         System.debug(delais);
         return (delais.get(0) * 3600000 * -1) - 1;
-      }    
+      }
+        
       else{
         String param = dateTimeStart.format()+';'+Datetime.now().format()+';'+defaultBH.id;    
         List<Decimal> delais = AX01_TempsEcoule.calculeDelaiDeCloture(new list<String>{param});
