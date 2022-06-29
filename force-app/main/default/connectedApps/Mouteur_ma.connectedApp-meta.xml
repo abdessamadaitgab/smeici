@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>yassine.elhachimi@nbs-consulting.net</contactEmail>
+    <label>Mouteur.ma</label>
+    <oauthConfig>
+        <callbackUrl>https://localhost</callbackUrl>
+        <certificate>MIICojCCAYqgAwIBAgIEYhUFqDANBgkqhkiG9w0BAQsFADATMREwDwYDVQQKDAhtb3RldXJtYTAeFw0yMjAyMjIxNTQ3NTJaFw0yMzAyMjIxNTQ3NTJaMBMxETAPBgNVBAoMCG1vdGV1cm1hMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkaKCLISYnNZQu+ph1zV+eQ4Nu/AVFNdXn/WwvsTn1uD9dGTJbch7xSriKboy1UsK14p11cevCnP0XgNlsfsjarYJCyvlisd3sJVdhmOMcO03pe0X6PnDPYr8j5rzwUOu3KA+CgUwGJBskMGwAe0/0ABuf1WZQadeVlWBIO/NynW5bZvbVH/sDQmaEr7DFPEmyuXqi4Dlb/fw/Ne6IayBj15RYLp967CtXdfXSzFrNoOSt6ef77XDy24EaRARDcnWkcyqySj4nF9cGi/ZSLXqWoEZwbc/Jcvznht+7Q726xAUL+FtDn3A0xvrdM4g//UGY8nqGYNXeDEcVneQeUG9NwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQBW3Ll9cdXyNTxrRyNWmrk4o8/qf76UU87fOXnyzcmxYCLEWg/IrAN8IJ9iwmJTOTcSCg0YWuFfG4JFZ0Z8JKRIyiMv4agDxNfJLI9yIcTzX5sPtQM7dfJkbs1Qkz+LZS8k+/CNKkaRi4bJKzZxe1PkX/1Xpe7NhUhJ0+KnHgt/6OYPqpFkmA5hc385Cetu4CdRbpk4txMXXJDg8ypa6TY4YtUsmG7Q7rl4XeuMnczGdgGXpWgA8/0Qnpf+D4s4d2EthiQ+JkK4XezYIaAS9Ihm+SmvHi2pZ0VOde7+sxeVsIZeLS3wIwVTlg/R78vFDhjyRrv8LnOWljcLXWQl47re</certificate>
+        <consumerKey>3MVG9LlLrkcRhGHZYZnynJS1enN3ofrjYH8gMrwOwX9LQ8Oro1p9SfNUyp5GRbE3sNtMqtIeKAe7kJ2HlL7Tz</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>BYPASS</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>Hotesse Event test</profileName>
+    <profileName>Administrateur système</profileName>
+    <sessionPolicy>
+        <sessionTimeout>1440</sessionTimeout>
+    </sessionPolicy>
+</ConnectedApp>
