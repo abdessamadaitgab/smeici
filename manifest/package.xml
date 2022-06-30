@@ -5,5 +5,12 @@
 		<members>Case_FL004_cloture_case</members>
 		<name>Flow</name>
 	</types>
+	<types>
+		<members>Account</members>
+		<members>Case</members>
+		<members>Contact</members>
+		<members>Lead</members>
+		<name>Workflow</name>
+	</types>
 	<version>53.0</version>
 </Package>
