@@ -1,8 +1,16 @@
+/**
+ * @description       : 
+ * @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+ * @group             : 
+ * @last modified on  : 06-30-2022
+ * @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+**/
 public class AX01_TempsEcoule {
     @InvocableMethod(label='Calcule difference Hours')
     public static list<Decimal> calculeDelaiDeCloture(List<string> params){
         List<Decimal> temps = new List<Decimal>();
         for(String param : params){
+            
             List<string> params1 = param.Split(';');
             DateTime date1 =  DateTime.parse(params1.get(0));
             DateTime date2 =  DateTime.parse(params1.get(1));
