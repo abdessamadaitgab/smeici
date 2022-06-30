@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
+		<members>EmailClass</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>emailLwc</members>
+		<name>LightningComponentBundle</name>
+	</types>
+	<types>
 		<members>Case.Envoy_le_d_taille_de_Ticket</members>
 		<name>QuickAction</name>
 	</types>
 	<version>53.0</version>
-	
 </Package>
