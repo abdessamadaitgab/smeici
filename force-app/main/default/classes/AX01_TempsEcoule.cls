@@ -10,8 +10,7 @@ public class AX01_TempsEcoule {
     public static list<Decimal> calculeDelaiDeCloture(List<string> params){
         List<Decimal> temps = new List<Decimal>();
         for(String param : params){
-            
-            List<string> params1 = param.Split(';');
+        List<string> params1 = param.Split(';');
             DateTime date1 =  DateTime.parse(params1.get(0));
             DateTime date2 =  DateTime.parse(params1.get(1));
             Id BussniseHours =  params1.get(2);
