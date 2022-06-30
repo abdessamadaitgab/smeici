@@ -2,6 +2,7 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
 		<members>Case.Trait</members>
+		<members>Case.cloturer_case</members>
 		<name>QuickAction</name>
 	</types>
 	<version>53.0</version>
