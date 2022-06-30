@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
-		<members>EmailClass</members>
+		<members>FieldMergeUtil</members>
 		<name>ApexClass</name>
 	</types>
 	<types>
+		<members>emailInput</members>
 		<members>emailLwc</members>
 		<name>LightningComponentBundle</name>
 	</types>
