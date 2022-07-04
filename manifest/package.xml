@@ -8,5 +8,9 @@
 		<members>Task</members>
 		<name>CustomObject</name>
 	</types>
+	<types>
+		<members>Casablanca</members>
+		<name>Queue</name>
+	</types>
 	<version>53.0</version>
 </Package>
