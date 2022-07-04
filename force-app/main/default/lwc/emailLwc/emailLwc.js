@@ -10,6 +10,7 @@ export default class EmailLwc extends LightningElement {
     toAddress = [];
     ccAddress = [];
     emailTemplate = [] ;
+    
     subject = "";
     body = "";
     @track files = [];
