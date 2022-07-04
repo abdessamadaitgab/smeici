@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR1_Block_Cloture_Tache_web_to_lead</fullName>
+    <active>true</active>
+    <errorConditionFormula>TECH_Cloture_KO__c = true</errorConditionFormula>
+    <errorMessage>Merci de qualifier le prospect avant de clôturer la tâche.</errorMessage>
+</ValidationRule>
