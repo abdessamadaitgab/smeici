@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
-		<members>Case_FL004_Case_Traite</members>
-		<members>Case_FL004_cloture_case</members>
+		<members>Lead_FL01_Affectations_des_leads</members>
+		<members>Lead_FL02_Process_After_Edited_Lead</members>
+		<members>Lead_FL03_Verification_de_marque</members>
+		<members>Lead_FL04_Reaffectation</members>
+		<members>Lead_FL05_Noification_des_prospects</members>
+		<members>Lead_FL06_Lead_Mapping</members>
 		<name>Flow</name>
-	</types>
-	<types>
-		<members>Account</members>
-		<members>Case</members>
-		<members>Contact</members>
-		<members>Lead</members>
-		<name>Workflow</name>
 	</types>
 	<version>53.0</version>
 </Package>
