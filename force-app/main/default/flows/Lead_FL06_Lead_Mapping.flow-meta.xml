@@ -35,8 +35,7 @@
                 <elementReference>$Record.ConvertedAccountId</elementReference>
             </value>
         </filters>
-        <inputAssignments>
-            
+        <inputAssignments> 
             <field>Tech_is_Converted__c</field>
             <value>
                 <booleanValue>true</booleanValue>
