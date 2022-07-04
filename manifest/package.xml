@@ -6,5 +6,9 @@
 		<members>Lead-SMEIA Prospect Professionnel</members>
 		<name>Layout</name>
 	</types>
+	<types>
+		<members>Lead.Reaffectation</members>
+		<name>QuickAction</name>
+	</types>
 	<version>53.0</version>
 </Package>
