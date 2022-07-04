@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
+		<members>User.Agence_web_to_lead__c</members>
+		<members>User.Bypass_VR__c</members>
+		<members>User.Centre_d_appel_web_to_lead__c</members>
+		<members>User.Commercial_web_to_lead_Grands_Comptes__c</members>
+		<members>User.Commercial_web_to_lead_SAV__c</members>
+		<members>User.Commercial_web_to_lead_VN__c</members>
+		<members>User.Commercial_web_to_lead_VO__c</members>
 		<members>User.Date_de_derni_re_affectation_web__c</members>
+		<members>User.Marque__c</members>
+		<members>User.Matricule_SGate__c</members>
+		<members>User.Niveau_d_approbation__c</members>
+		<members>User.Showroom__c</members>
+		<members>User.TECH_Marque_Text__c</members>
 		<name>CustomField</name>
 	</types>
 	<types>

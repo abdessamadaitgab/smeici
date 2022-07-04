@@ -36,6 +36,12 @@
             </value>
         </filters>
         <inputAssignments>
+            <field>Tech_is_Converted__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
             <field>Type</field>
             <value>
                 <elementReference>$Record.Categorie_du_prospect__c</elementReference>
