@@ -1,41 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
-		<members>Account.Canal__c</members>
-		<members>Account.Convention__c</members>
-		<members>Account.Email__c</members>
-		<members>Account.External_Id__c</members>
-		<members>Account.ICE__c</members>
-		<members>Account.Interactions__c</members>
-		<members>Account.Mobile__c</members>
-		<members>Account.Origine__c</members>
-		<members>Account.Principal_contact__c</members>
-		<members>Account.Statut_du_client__c</members>
-		<members>Account.TECH_ICE__c</members>
-		<members>Account.showroom__c</members>
-		<members>User.Agence_web_to_lead__c</members>
-		<members>User.Bypass_VR__c</members>
-		<members>User.Centre_d_appel_web_to_lead__c</members>
-		<members>User.Commercial_web_to_lead_Grands_Comptes__c</members>
-		<members>User.Commercial_web_to_lead_SAV__c</members>
-		<members>User.Commercial_web_to_lead_VN__c</members>
-		<members>User.Commercial_web_to_lead_VO__c</members>
-		<members>User.Date_de_derni_re_affectation_web__c</members>
-		<members>User.Marque__c</members>
-		<members>User.Matricule_SGate__c</members>
-		<members>User.Niveau_d_approbation__c</members>
-		<members>User.Showroom__c</members>
-		<members>User.TECH_Marque_Text__c</members>
-		<name>CustomField</name>
+		<members>Account-fr</members>
+		<members>Case-en_US</members>
+		<members>Case-fr</members>
+		<members>Lead-fr</members>
+		<members>Quote-fr</members>
+		<members>QuoteLineItem-fr</members>
+		<members>Timer__mdt-fr</members>
+		<name>CustomObjectTranslation</name>
 	</types>
 	<types>
-		<members>Lead_FL01_Affectations_des_leads</members>
-		<members>Lead_FL02_Process_After_Edited_Lead</members>
-		<members>Lead_FL03_Verification_de_marque</members>
-		<members>Lead_FL04_Reaffectation</members>
-		<members>Lead_FL05_Noification_des_prospects</members>
-		<members>Lead_FL06_Lead_Mapping</members>
-		<name>Flow</name>
+		<members>*</members>
+		<name>GlobalValueSetTranslation</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>StandardValueSetTranslation</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Translations</name>
 	</types>
 	<version>53.0</version>
 </Package>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Champ de proformas et bons de commande</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Champs de proformas et bons de commande</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <name>quote_field</name>
+    <startsWith>Consonant</startsWith>
+</CustomFieldTranslation>
