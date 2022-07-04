@@ -3,6 +3,11 @@
 	<types>
 		<members>Activity.Email_Manager_N_1__c</members>
 		<members>Activity.Email_Manager_N_2__c</members>
+		<members>Activity.Manager_N_1_Notified__c</members>
+		<members>Activity.Manager_N_2_Notified__c</members>
+		<members>Activity.TECH_Cloture_KO__c</members>
+		<members>Activity.Temps_ecoule__c</members>
+		<members>Activity.is_webLead_Task__c</members>
 		<members>Lead.Email_Manager_N_1__c</members>
 		<members>Lead.Email_Manager_N_2__c</members>
 		<name>CustomField</name>
