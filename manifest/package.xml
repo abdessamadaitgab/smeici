@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
+		<members>User.Date_de_derni_re_affectation_web__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
 		<members>Lead_FL01_Affectations_des_leads</members>
 		<members>Lead_FL02_Process_After_Edited_Lead</members>
 		<members>Lead_FL03_Verification_de_marque</members>
