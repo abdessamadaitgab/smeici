@@ -1,26 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
-		<members>Account-fr</members>
-		<members>Case-en_US</members>
-		<members>Case-fr</members>
-		<members>Lead-fr</members>
-		<members>Quote-fr</members>
-		<members>QuoteLineItem-fr</members>
-		<members>Timer__mdt-fr</members>
-		<name>CustomObjectTranslation</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>GlobalValueSetTranslation</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>StandardValueSetTranslation</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>Translations</name>
+		<members>Case-Case Layout</members>
+		<members>Lead-SMEIA Prospect Particulier</members>
+		<members>Lead-SMEIA Prospect Professionnel</members>
+		<name>Layout</name>
 	</types>
 	<version>53.0</version>
 </Package>
