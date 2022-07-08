@@ -1,3 +1,10 @@
+/**
+ * @description       : 
+ * @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+ * @group             : 
+ * @last modified on  : 07-08-2022
+ * @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+**/
 public with sharing class EmailClass {
     public static OrgWideEmailAddress owea = [select Id from OrgWideEmailAddress where Address = 'smeia.contact@gmail.com' Limit 1];
    
@@ -81,6 +88,7 @@ public with sharing class EmailClass {
             messaging.SingleEmailMessage mail = new messaging.SingleEmailMessage();
             if ( owea != null ) {
                 mail.setOrgWideEmailAddressId(owea.Id);
+                
             }
             
             mail.setToAddresses(emailDetails.toAddress);
