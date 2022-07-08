@@ -3,11 +3,7 @@
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>Equipe CRM</name>
     <queueMembers>
-        <users>
-            <user>a.chichaoui@smeia.com</user>
-            <user>l.barradi@smeia.com</user>
-            <user>s.noussir@smeia.com</user>
-        </users>
+      
     </queueMembers>
     <queueSobject>
         <sobjectType>Case</sobjectType>
