@@ -10,8 +10,33 @@
 		<members>Activity.is_webLead_Task__c</members>
 		<members>Lead.Email_Manager_N_1__c</members>
 		<members>Lead.Email_Manager_N_2__c</members>
-		
 		<name>CustomField</name>
+	</types>
+	<types>
+		<members>Account.AllAccounts</members>
+		<members>Account.MyAccounts</members>
+		<members>Activity.MyActivities</members>
+		<members>Activity.MyDelegatedActivities</members>
+		<members>Activity.MyTeamsActivities</members>
+		<members>Activity.TodaysTasks</members>
+		<members>Activity.UpcomingEvents</members>
+		<members>Case.AllOpenCases</members>
+		<members>Case.Casablanca_Case</members>
+		<members>Case.Equipe_CRM_Case</members>
+		<members>Case.MyCases</members>
+		<members>Case.MyOpenCases</members>
+		<members>Case.Tickets_en_cours_de_mon_quipe</members>
+		<members>Case.Tickets_trait_s_et_clotir_s</members>
+		<members>CollaborationGroup.All_ChatterGroups</members>
+		<members>Contact.AllContacts</members>
+		<members>Contact.BulkMessageContacts</members>
+		<members>Contact.MyContacts</members>
+		<members>ContactRequest.My_ContactRequests</members>
+		<members>Lead.AllOpenLeads</members>
+		<members>Lead.My_Leads</members>
+		<members>Lead.TodaysLeads</members>
+		<members>Lead.Web_to_lead_qualifier</members>
+		<name>ListView</name>
 	</types>
 	<version>53.0</version>
 </Package>
