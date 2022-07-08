@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
-		<members>Activity.Email_Manager_N_1__c</members>
-		<members>Activity.Email_Manager_N_2__c</members>
-		<members>Activity.Manager_N_1_Notified__c</members>
-		<members>Activity.Manager_N_2_Notified__c</members>
-		<members>Activity.TECH_Cloture_KO__c</members>
-		<members>Activity.Temps_ecoule__c</members>
-		<members>Activity.is_webLead_Task__c</members>
-		<members>Lead.Email_Manager_N_1__c</members>
-		<members>Lead.Email_Manager_N_2__c</members>
-		<name>CustomField</name>
-	</types>
-	<types>
-		<members>Equipe_CRM</members>
-		<name>Queue</name>
+		<members>*</members>
+		<name>AssignmentRules</name>
 	</types>
 	<version>53.0</version>
 </Package>
