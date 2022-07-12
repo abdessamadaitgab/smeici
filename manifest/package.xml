@@ -1,26 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
-		<members>Account.Notifier_Responsable_VO_Reprise</members>
-		<members>Case.Alert_for_cases</members>
-		<members>Case.Case_Auto_response</members>
-		<members>Case.Case_envoi_de_la_r_clamation_en_interne</members>
-		<members>Case.Case_refus_de_la_r_clamation_en_interne</members>
-		<members>Case.case_email_de_cloture</members>
-		<members>Case.case_notifier_user_n_1</members>
-		<members>Case.case_notifier_user_n_2</members>
-		<members>Case.case_send_email</members>
-		<members>Contact.Notifier_Responsable_VO_Reprise_person_account</members>
-		<members>Lead.Alert_for_new_lead_BMW_essai</members>
-		<members>Lead.Alert_for_new_lead_BMW_offre</members>
-		<members>Lead.Alert_for_new_lead_MINI_essai</members>
-		<members>Lead.Alert_for_new_lead_MINI_offre</members>
-		<members>Lead.Alert_for_new_lead_MOTORRAD_offre</members>
-		<members>Lead.Email_Alert_for_lead</members>
-		<members>Lead.Email_Alert_for_lead_convertion</members>
-		<members>Lead.Email_Alert_for_owner</members>
-		<members>Quote.BDC_Notifiaction</members>
-		<name>WorkflowAlert</name>
+		<members>Case.email_client__c</members>
+		<members>Quote.ADV_Email__c</members>
+		<name>CustomField</name>
 	</types>
 	<version>53.0</version>
 </Package>
