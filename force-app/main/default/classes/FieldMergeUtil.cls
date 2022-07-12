@@ -191,6 +191,7 @@ public class FieldMergeUtil {
 
         // Loop through each match
         while (theMatcher.find()) {
+            
             // Get the merge field from the match
             String mergeField = theMatcher.group(1).trim();
 
