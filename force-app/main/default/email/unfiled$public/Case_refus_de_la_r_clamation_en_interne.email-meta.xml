@@ -2,9 +2,9 @@
 <EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
     <available>true</available>
     <encodingKey>UTF-8</encodingKey>
-    <name>case notifier user n+1</name>
+    <name>Case refus de la réclamation en interne</name>
     <style>none</style>
-    <subject>ticket N° {!Case.CaseNumber} non traité depuis 24h</subject>
+    <subject>Refus de la réclamation</subject>
     <type>text</type>
     <uiType>Aloha</uiType>
 </EmailTemplate>

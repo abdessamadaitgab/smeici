@@ -1,0 +1,18 @@
+Bonjour,
+
+Nous avons reçu votre réponse relative à la réclamation :
+
+Client : {!Case.Account}
+
+VIN :  {!Case.VIN__c}
+
+Téléphone : {!Case.Telephone__c}
+
+Catégorie : {!Case.Categorie__c}
+
+Cause : {!Case.Cause_de_reclamation__c}
+
+Afin de clôturer la réclamation, merci de nous donner plus de détails par rapport à l’état de
+résolution de la réclamation ainsi que les actions mises en place en faveur du client
+
+Cordialement

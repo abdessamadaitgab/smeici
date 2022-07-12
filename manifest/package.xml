@@ -3,7 +3,56 @@
 	<types>
 		<members>Case.email_client__c</members>
 		<members>Quote.ADV_Email__c</members>
+		<members>Quote.CDV_Email__c</members>
 		<name>CustomField</name>
+	</types>
+	<types>
+		<members>unfiled$public/BDC_Notification</members>
+		<members>unfiled$public/BMW_Notification_essai</members>
+		<members>unfiled$public/BMW_Notification_offre</members>
+		<members>unfiled$public/Case_envoi_de_la_r_clamation_en_interne</members>
+		<members>unfiled$public/Case_information</members>
+		<members>unfiled$public/Case_refus_de_la_r_clamation_en_interne</members>
+		<members>unfiled$public/ContactFollowUpSAMPLE</members>
+		<members>unfiled$public/EmailToManager1</members>
+		<members>unfiled$public/Email_affectation_for_owners</members>
+		<members>unfiled$public/LeadsNewassignmentnotificationSAMPLE</members>
+		<members>unfiled$public/LeadsWebtoLeademailresponseSAMPLE</members>
+		<members>unfiled$public/MINI_Notification_essai</members>
+		<members>unfiled$public/MINI_Notification_offre</members>
+		<members>unfiled$public/MOTORRAD_Notification_offre</members>
+		<members>unfiled$public/Notification_VO_pour_reprise</members>
+		<members>unfiled$public/Notification_VO_pour_reprise_person_account</members>
+		<members>unfiled$public/SUPPORTCaseResponsewithSolutionSAMPLE</members>
+		<members>unfiled$public/SUPPORTCaseescalationnotificationSAMPLE</members>
+		<members>unfiled$public/SUPPORTNewassignmentnotificationSAMPLE</members>
+		<members>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
+		<members>unfiled$public/SUPPORTSelfServiceNewCommentSAMPLE</members>
+		<members>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
+		<members>unfiled$public/SUPPORTSelfServiceNewUserLoginSAMPLE</members>
+		<members>unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE</members>
+		<members>unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE2</members>
+		<members>unfiled$public/SUPPORTWebtoCaseemailresponseSAMPLE</members>
+		<members>unfiled$public/Sample_CallNoAnswer</members>
+		<members>unfiled$public/Sample_CustomerInterest</members>
+		<members>unfiled$public/Sample_DealClosed</members>
+		<members>unfiled$public/Sample_GreatMeetingYou</members>
+		<members>unfiled$public/Sample_HappyBirthday</members>
+		<members>unfiled$public/Sample_MeetOnsite</members>
+		<members>unfiled$public/Sample_NewAccountManager</members>
+		<members>unfiled$public/Sample_NextSteps</members>
+		<members>unfiled$public/Sample_OutofOffice</members>
+		<members>unfiled$public/Sample_Promotion</members>
+		<members>unfiled$public/Sample_Reconnecting</members>
+		<members>unfiled$public/Sample_ScheduleMeeting</members>
+		<members>unfiled$public/case_auto_response</members>
+		<members>unfiled$public/case_email_de_cloture</members>
+		<members>unfiled$public/case_notifier_user_n_1</members>
+		<members>unfiled$public/case_notifier_user_n_2</members>
+		<members>unfiled$public/case_send_email</members>
+		<members>unfiled$public/confirmation_for_lead</members>
+		<members>unfiled$public/conversion_lead</members>
+		<name>EmailTemplate</name>
 	</types>
 	<version>53.0</version>
 </Package>

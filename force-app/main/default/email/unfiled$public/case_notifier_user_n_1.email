@@ -1,1 +1,7 @@
-case {!Case.CaseNumber} a depasse 24 h
+Bonjour,
+
+Merci de noter que le ticket {!Case.CaseNumber} n'a toujours pas été traité par vos soins.
+
+Merci de faire le nécessaire dans les plus brefs délais.
+
+Cordialement
