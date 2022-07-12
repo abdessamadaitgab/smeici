@@ -14,6 +14,7 @@
 		<members>Account.TECH_ICE__c</members>
 		<members>Account.Tech_is_Converted__c</members>
 		<members>Account.showroom__c</members>
+		
 		<members>AccountContactRelation.Relationship_Strength__c</members>
 		<members>Activity.Email_Manager_N_1__c</members>
 		<members>Activity.Email_Manager_N_2__c</members>
