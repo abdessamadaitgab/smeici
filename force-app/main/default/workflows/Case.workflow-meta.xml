@@ -17,7 +17,7 @@
         <description>Case Auto response</description>
         <protected>false</protected>
         <recipients>
-            <field>SuppliedEmail</field>
+            <field>email_client__c</field>
             <type>email</type>
         </recipients>
         <senderAddress>smeia.contact@gmail.com</senderAddress>
@@ -25,11 +25,35 @@
         <template>unfiled$public/case_auto_response</template>
     </alerts>
     <alerts>
+        <fullName>Case_envoi_de_la_r_clamation_en_interne</fullName>
+        <description>Case envoi de la réclamation en interne</description>
+        <protected>false</protected>
+        <recipients>
+            <field>last_email_owner__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>smeia.contact@gmail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Case_envoi_de_la_r_clamation_en_interne</template>
+    </alerts>
+    <alerts>
+        <fullName>Case_refus_de_la_r_clamation_en_interne</fullName>
+        <description>Case refus de la réclamation en interne</description>
+        <protected>false</protected>
+        <recipients>
+            <field>last_email_owner__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>smeia.contact@gmail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Case_refus_de_la_r_clamation_en_interne</template>
+    </alerts>
+    <alerts>
         <fullName>case_email_de_cloture</fullName>
         <description>case email de cloture</description>
         <protected>false</protected>
         <recipients>
-            <field>SuppliedEmail</field>
+            <field>email_client__c</field>
             <type>email</type>
         </recipients>
         <senderAddress>smeia.contact@gmail.com</senderAddress>
@@ -72,14 +96,4 @@
         <senderType>OrgWideEmailAddress</senderType>
         <template>unfiled$public/case_send_email</template>
     </alerts>
-    <fieldUpdates>
-        <fullName>ChangePriorityToHigh</fullName>
-        <field>Priority</field>
-        <literalValue>High</literalValue>
-        <name>Change la priorité de la requête sur éle</name>
-        <notifyAssignee>false</notifyAssignee>
-        <operation>Literal</operation>
-        <protected>false</protected>
-        <reevaluateOnChange>false</reevaluateOnChange>
-    </fieldUpdates>
 </Workflow>

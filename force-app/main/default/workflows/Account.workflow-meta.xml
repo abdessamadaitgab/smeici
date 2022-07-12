@@ -16,5 +16,4 @@
         <senderType>OrgWideEmailAddress</senderType>
         <template>unfiled$public/Notification_VO_pour_reprise</template>
     </alerts>
-    
 </Workflow>
