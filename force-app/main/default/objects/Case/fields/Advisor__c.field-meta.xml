@@ -2,14 +2,15 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Advisor__c</fullName>
     <externalId>false</externalId>
-    <label>Advisor</label>
+    <inlineHelpText>Sophia : je vient de modier ce champs</inlineHelpText>
+    <label>CC / CS</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>
-        <controllingField>Type</controllingField>
+        <controllingField>Origin</controllingField>
         <restricted>true</restricted>
         <valueSetDefinition>
             <sorted>false</sorted>
@@ -295,227 +296,227 @@
             </value>
         </valueSetDefinition>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Abdelaziz Kasbaoui</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Adnane Aouad</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Faycal Lahouiri</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Hind Bouziane</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Hind Laabi</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Iman Labraiki</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Karim Ouahimi</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Youssef Ouanaim</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Omar Ahmadi</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Omar Alaoui</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Lamiae ElAboudy</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Driss Kamel</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Zineb Machkour</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Maria Belhachmi</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Khaoula Boutouil</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Aissam Amine</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Soufiane Assal</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Salaheddine Seyad</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>ElMahdi Benslimane</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Amal Zarktouni</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Anass Lahlou</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Bouchra Lazrak</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Hicham Zenati</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Nawfel Benkirane</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Soumaya Reida</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Younes Ejmal</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Wadie Kerzazi</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Loubna Belkissari</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Mahmoud Seghiri</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Imad Ouazzani</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Iliyass Mokrane</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>ElGhali Razdi</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Mohammed Glaoui</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Mohammed Boudrika</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Imane Chafai</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Amine Derassi</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Maha Taibi</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Mohammed Zitouni</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Morad  Kadi Hamman</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Rachid  Chamrah</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Amal  Jouane</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Youssef Rami Rami</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Ayoub  Fattal</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Ihsane  Laabid</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Nadia Chahraoui</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Dounia Faiz</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Driss Zarroud</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Abdelghani Chehbouni</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Sanaa Iklafen</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Samir Moustarzak</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Redouane Mziouq</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Anass Abakali</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Abdelkrim Maatelah</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Soufiane el Azouzi</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Zakaria El Mij</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Abdelhadi Bouzoubaa</valueName>
         </valueSettings>
     </valueSet>

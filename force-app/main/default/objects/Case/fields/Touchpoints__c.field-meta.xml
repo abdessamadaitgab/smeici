@@ -11,7 +11,7 @@
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>
-        <controllingField>Type</controllingField>
+        <controllingField>Origin</controllingField>
         <restricted>true</restricted>
         <valueSetDefinition>
             <sorted>false</sorted>
@@ -32,15 +32,15 @@
             </value>
         </valueSetDefinition>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>New car sales</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Used car sales</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>VOC</controllingFieldValue>
+            <controllingFieldValue>VOC : Voice of customer</controllingFieldValue>
             <valueName>Service</valueName>
         </valueSettings>
     </valueSet>

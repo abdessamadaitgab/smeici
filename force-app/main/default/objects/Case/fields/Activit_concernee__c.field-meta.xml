@@ -3,8 +3,8 @@
     <fullName>Activit_concernee__c</fullName>
     <description>Anouar : J&apos;ai modifié le nom du champ</description>
     <externalId>false</externalId>
-    <inlineHelpText>Anouar : J&apos;ai modifié le nom du champ</inlineHelpText>
-    <label>Activité concérnée par la réclamation</label>
+    <inlineHelpText>Sophia : J&apos;ai modifié le nom du champ</inlineHelpText>
+    <label>Activité concernée par la réclamation</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

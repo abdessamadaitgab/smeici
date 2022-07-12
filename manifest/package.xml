@@ -1,9 +1,86 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
+		<members>Account.Canal__c</members>
+		<members>Account.Convention__c</members>
+		<members>Account.Email__c</members>
+		<members>Account.External_Id__c</members>
+		<members>Account.ICE__c</members>
+		<members>Account.Interactions__c</members>
+		<members>Account.Mobile__c</members>
+		<members>Account.Origine__c</members>
+		<members>Account.Principal_contact__c</members>
+		<members>Account.Statut_du_client__c</members>
+		<members>Account.TECH_ICE__c</members>
+		<members>Account.Tech_is_Converted__c</members>
+		<members>Account.showroom__c</members>
+		<members>AccountContactRelation.Relationship_Strength__c</members>
+		<members>Activity.Email_Manager_N_1__c</members>
+		<members>Activity.Email_Manager_N_2__c</members>
+		<members>Activity.Manager_N_1_Notified__c</members>
+		<members>Activity.Manager_N_2_Notified__c</members>
+		<members>Activity.TECH_Cloture_KO__c</members>
+		<members>Activity.Temps_ecoule__c</members>
+		<members>Activity.is_webLead_Task__c</members>
+		<members>Case.Action_qualit__c</members>
+		<members>Case.Activit_concernee__c</members>
+		<members>Case.Advisor__c</members>
+		<members>Case.Categorie2__c</members>
+		<members>Case.Categorie3__c</members>
+		<members>Case.Categorie__c</members>
+		<members>Case.Cause_de_reclamation2__c</members>
+		<members>Case.Cause_de_reclamation3__c</members>
+		<members>Case.Cause_de_reclamation__c</members>
+		<members>Case.Contentieux__c</members>
+		<members>Case.Date_de_premier_affectation__c</members>
+		<members>Case.Etat_contact__c</members>
+		<members>Case.EventDate__c</members>
+		<members>Case.Lead__c</members>
+		<members>Case.NPS_Group__c</members>
+		<members>Case.NPS__c</members>
+		<members>Case.Pr_contentieux__c</members>
+		<members>Case.Prive__c</members>
+		<members>Case.Status_coleur__c</members>
+		<members>Case.Tech_is_changed__c</members>
+		<members>Case.Tech_owner_is_current_user__c</members>
+		<members>Case.Telephone__c</members>
+		<members>Case.Touchpoints__c</members>
+		<members>Case.VIN__c</members>
 		<members>Case.email_client__c</members>
+		<members>Case.email_manager__c</members>
+		<members>Case.flag__c</members>
+		<members>Case.iSight__c</members>
+		<members>Case.isManagerNotified__c</members>
+		<members>Case.isNotifiedN_1__c</members>
+		<members>Case.is_Web__c</members>
+		<members>Case.last_email_owner__c</members>
+		<members>Case.last_owner__c</members>
+		<members>Case.showroom__c</members>
 		<members>Quote.ADV_Email__c</members>
+		<members>Quote.ADV_Ville__c</members>
+		<members>Quote.ADV__c</members>
 		<members>Quote.CDV_Email__c</members>
+		<members>Quote.CDV__c</members>
+		<members>Quote.Chef_de_service_ordering__c</members>
+		<members>Quote.DS_Email__c</members>
+		<members>Quote.DS__c</members>
+		<members>Quote.Date_d_approbation_de_bon_de_commande__c</members>
+		<members>Quote.Date_de_derniere_soumission__c</members>
+		<members>Quote.Date_de_premier_soumission__c</members>
+		<members>Quote.Directeur_Commercial__c</members>
+		<members>Quote.Finance__c</members>
+		<members>Quote.Is_Users_notified__c</members>
+		<members>Quote.Motif_d_annulation__c</members>
+		<members>Quote.Motif_d_annulation_picklist__c</members>
+		<members>Quote.National_Email__c</members>
+		<members>Quote.National__c</members>
+		<members>Quote.Prix_plancher_VO_TTC__c</members>
+		<members>Quote.Responsable_Achat_VO__c</members>
+		<members>Quote.Status_d_annulation__c</members>
+		<members>Quote.Tech_Type__c</members>
+		<members>Quote.Tech_rejeter_VO__c</members>
+		<members>Quote.number_of_QuoteDocument__c</members>
+		<members>Quote.prix_plancher_VO_SEMIA_TTC__c</members>
 		<name>CustomField</name>
 	</types>
 	<types>
