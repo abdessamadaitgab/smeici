@@ -1,0 +1,497 @@
+<apex:page applyHtmlTag="false" standardController="Quote" extensions="CTL001_VF001Proforma_BDC"  showHeader="false" title="Proforma" renderAs="PDF" id="proforma">
+    <html>
+        <head>
+            <style>
+                @page {
+                margin-top: 2cm;
+                margin-bottom: 2cm;
+                
+                @top-center {
+                content: element(header);
+                }
+                @bottom-center {
+                content: element(footer);
+                }
+                }
+                div.header {
+                position: running(header);
+                }
+                div.footer {
+                display: block;
+                position: running(footer);
+                }
+                * {
+                font-family: 'Roboto', sans-serif;
+                font-weight: 200;
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                }
+                .bg-gray{
+                color: #ffffff;
+                background: #8b8b8b;
+                width: fit-content;
+                padding: 5px;
+                margin-bottom: 5px;
+                }
+                .main-table table {
+                border-collapse: collapse;
+                font-size: 12px;
+                margin-bottom: 20px;
+                }
+                .main-table th {
+                color: #ffffff;
+                font-weight: bold;
+                background: rgb(75, 172, 198);
+                vertical-align: top;
+                padding: 5px;
+                }
+                .main-table td {
+                font-weight: bold;
+                vertical-align: top;
+                }
+            </style>
+        </head>
+    
+        <body id = "body">
+            <div class="header">
+                <table style="width: 100%;margin-bottom: 12px;">
+                    <tr>
+                        <td style="width: 20%;">
+                            <img src="{!$Resource.SocieteLogo}" alt="Societe Logo" width="150px" />
+                        </td>
+                        <td style="width: 1%;">
+                            <div style="width: 1px;height: 50px;background: rgb(75, 172, 198); margin: 0 5px;"></div>
+                        </td>
+                        <td style="width: 40%;">
+                            <p style="font-size: 22px;color:#8b8b8b;font-weight: bold;">
+                                Smeia
+                            </p>
+                            <p style="font-size: 14px;color:#8b8b8b;font-weight: bold;">
+                                Importateur exclusif
+                            </p>
+                        </td>
+                        <td style="width: 39%;text-align: right;">
+                            <table style="width: 100%;margin-bottom: 12px;">
+                                <tr>
+                                    <td style="text-align: right;">
+                                        <img src="{!$Resource.UrlSiteIcone}" alt="Url" width="20px" />
+                                    </td>
+                                    <td style="text-align: left;">
+                                        <p style="font-size: 10px;color: rgb(75, 172, 198);font-weight: bold;margin-left: 8px;">
+                                            www.bmw.ma 
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>               
+            </div>
+            
+            <div class="footer">
+                <img src="{!$Resource.FooterPDF}" alt="Footer PDF" width="720px" />
+            </div>
+            
+            <div id="main" class="main-container" >
+                <div class="main-top">
+                    <div class="bg-gray">
+                        <p style="text-align: center; font-size: 20px; font-weight: bold; margin-bottom: 3px;">
+                            FACTURE PROFORMA N° {!quote.quoteNumber}
+                        </p>
+                        <p style="text-align: center; font-size: 12px; font-weight: bold;">
+                           {!proforma.productName}
+                        </p>
+                        <p style="text-align: center; font-size: 12px; font-weight: bold;">
+                            Puissance fiscale : {!proforma.puissanceFiscal}
+                        </p>
+                    </div>
+                    <div class="bg-gray" style="padding: 12px 5px;">
+                        <table style="width: 100%">
+                            <tr>
+                                <td style="width: 58%; text-align: left;">
+                                    <p style="font-size: 12px;">
+                                        A l’attention de
+                                    </p>
+                                    <p style="font-size: 20px; font-weight: bold;margin: 6px 0;">
+                                        {!quote.Account.Salutation} {!quote.Account.name}
+                                    </p>
+                                    <p style="font-size: 12px;">
+                                        {!quote.Account.BillingStreet} {!quote.Account.BillingCity}                
+                                   </p>
+                                </td>
+                                <td style="width: 4%;"></td>
+                                <td style="width: 38%;">
+                                    <table style="width: 100%">
+                                        <tr style="margin-bottom: 5px;">
+                                            <td style="width: 12%; text-align: left;">
+                                                <div>
+                                                    <img src="{!$Resource.UserIcone}" alt="User" width="16px" />
+                                                </div>
+                                            </td>
+                                            <td style="width: 88%; text-align: left;">
+                                                <p style="font-size: 12px;">
+                                                    {!quote.Account.Mobile__c}
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr style="margin-bottom: 5px;">
+                                            <td style="width: 12%; text-align: left;">
+                                                <div>
+                                                    <img src="{!$Resource.CalendarIcone}" alt="Calendar" width="16px" />
+                                                </div>
+                                            </td>
+                                            <td style="width: 88%; text-align: left;">
+                                                <p style="font-size: 12px;">
+                                                    <apex:outputText value="{0,date,dd/MM/yyyy HH:mm:ss}"> <apex:param value="{!quote.createdDate}" /> </apex:outputText>
+
+                                                   
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr style="margin-bottom: 5px;">
+                                            <td style="width: 12%; text-align: left;">
+                                                <div>
+                                                    <img src="{!$Resource.UserIcone}" alt="User" width="16px" />
+                                                </div>
+                                            </td>
+                                            <td style="width: 88%; text-align: left;">
+                                                <p style="font-size: 12px;">
+                                                    {!quote.Owner.Name}
+                                                </p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div id ="table" class="main-table">
+                    <table style="width: 100%">
+                        <tr>
+                            <th>Désignation</th>
+                            <th></th> 
+                            <th></th>
+                            <th></th>
+                            <th>Montant</th> 
+                        </tr>
+                        <tr>
+                            <td style="padding: 20px 5px 5px;">
+                                <p style="font-size: 12px;font-weight: bold;">
+                                   {!proforma.productName} {!proforma.optionColor} - {!proforma.optionGarniture}
+                                </p>
+                            </td>
+                            <td style="text-align: center;padding: 20px 5px 5px;">
+                                <p style="white-space: nowrap;">
+                                    
+                                </p>
+                            </td>
+                            <td style="padding: 20px 5px 5px;">
+                                <p style="white-space: nowrap;">
+                                   
+                                </p>
+                            </td>
+                            <td style="padding: 20px 5px 5px;">
+                                <p style="white-space: nowrap;">
+                                
+                                </p>
+                            </td>
+                            <td style="background: #f3f3f3;padding: 20px 5px 5px;">
+                                <p style="white-space: nowrap;">
+                             
+                                    
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 20px 5px 5px;">
+                                <p style="font-size: 10px;font-weight: bold;">
+                                    Détail du véhicule :
+                                </p>
+                            </td>
+                            <td style="text-align: center;padding: 20px 5px 5px;">
+                                <p style="white-space: nowrap;">
+                                
+                                    
+                                </p>
+                            </td>
+                            <td style="padding: 20px 5px 5px;">
+                                <p style="white-space: nowrap;">
+                                    
+                                </p>
+                            </td>
+                            <td style="padding: 20px 5px 5px;">
+                                <p style="white-space: nowrap;">
+                                
+                                    
+                                </p>
+                            </td>
+                            <td style="background: #f3f3f3;padding: 20px 5px 5px;">
+                                <p style="white-space: nowrap;">
+                             
+                                    
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 20px 5px 5px;">
+                                <p>
+                                    Matriculation : {!proforma.immat}
+                                </p>
+                            </td>
+                            <td style="text-align: center;padding: 20px 5px 5px;">
+                                <p style="white-space: nowrap;">
+                                
+                                    
+                                </p>
+                            </td>
+                            <td style="padding: 20px 5px 5px;">
+                                <p style="white-space: nowrap;">
+                                    
+                                </p>
+                            </td>
+                            <td style="padding: 20px 5px 5px;">
+                                <p style="white-space: nowrap;">
+                                
+                                    
+                                </p>
+                            </td>
+                            <td style="background: #f3f3f3;padding: 20px 5px 5px;">
+                                <p style="white-space: nowrap;">
+                             
+                                    
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 20px 5px 5px;">
+                                <p>
+                                    
+                                    Date de MEC : <apex:outputText value="{0,date,dd/MM/yyyy}"> <apex:param value="{!proforma.date_mec}" /> </apex:outputText>
+                                </p>
+                            </td>
+                            <td style="text-align: center;padding: 20px 5px 5px;">
+                                <p style="white-space: nowrap;">
+                                
+                                    
+                                </p>
+                            </td>
+                            <td style="padding: 20px 5px 5px;">
+                                <p style="white-space: nowrap;">
+                                    
+                                </p>
+                            </td>
+                            <td style="padding: 20px 5px 5px;">
+                                <p style="white-space: nowrap;">
+                                
+                                    
+                                </p>
+                            </td>
+                            <td style="background: #f3f3f3;padding: 20px 5px 5px;">
+                                <p style="white-space: nowrap;">
+                             
+                                    
+                                </p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td style="padding: 20px 5px 5px;">
+                                <p>
+                                    Kilométrage : {!proforma.kilometrage}
+                                </p>
+                            </td>
+                            <td style="text-align: center;padding: 20px 5px 5px;">
+                                <p style="white-space: nowrap;">
+                                
+                                    
+                                </p>
+                            </td>
+                            <td style="padding: 20px 5px 5px;">
+                                <p style="white-space: nowrap;">
+                                    
+                                </p>
+                            </td>
+                            <td style="padding: 20px 5px 5px;">
+                                <p style="white-space: nowrap;">
+                                
+                                    
+                                </p>
+                            </td>
+                            <td style="background: #f3f3f3;padding: 20px 5px 5px;">
+                                <p style="white-space: nowrap;">
+                             
+                                    
+                                </p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td style="padding: 20px 5px 5px;">
+                                <p>
+                                    Puissance fiscale : {!proforma.puissanceFiscal}
+                                </p>
+                            </td>
+                            <td style="text-align: center;padding: 20px 5px 5px;">
+                                <p style="white-space: nowrap;">
+                                
+                                    
+                                </p>
+                            </td>
+                            <td style="padding: 20px 5px 5px;">
+                                <p style="white-space: nowrap;">
+                                    
+                                </p>
+                            </td>
+                            <td style="padding: 20px 5px 5px;">
+                                <p style="white-space: nowrap;">
+                                
+                                    
+                                </p>
+                            </td>
+                            <td style="background: #f3f3f3;padding: 20px 5px 5px;">
+                                <p style="white-space: nowrap;">
+                             
+                                    
+                                </p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td style="padding: 20px 5px 5px;">
+                                <p>
+                                    Couleur : {!proforma.optionColor} / {!proforma.optionGarniture}
+                                </p>
+                            </td>
+                            <td style="text-align: center;padding: 20px 5px 5px;">
+                                <p style="white-space: nowrap;">
+                                
+                                    
+                                </p>
+                            </td>
+                            <td style="padding: 20px 5px 5px;">
+                                <p style="white-space: nowrap;">
+                                    
+                                </p>
+                            </td>
+                            <td style="padding: 20px 5px 5px;">
+                                <p style="white-space: nowrap;">
+                                
+                                    
+                                </p>
+                            </td>
+                            <td style="background: #f3f3f3;padding: 20px 5px 5px;">
+                                <p style="white-space: nowrap;">
+                             
+                                    
+                                </p>
+                            </td>
+                        </tr>
+                      
+                        <tr rendered="{!IF(proforma.isTVAVO == true, true, false)}">
+                            <td style="padding: 5px;">
+                               
+                            </td>
+                            <td style="text-align: center;padding: 5px;">
+                                <p style="white-space: nowrap;">
+                                    &nbsp;
+                                </p>
+                            </td>
+                            <td style="padding: 5px;">
+                                <p style="white-space: nowrap;">
+                                    &nbsp;
+                                </p>
+                            </td>
+                            <td style="padding: 5px;">
+                                <p style="white-space: nowrap; margin-bottom: 3px;">
+                                    {!IF(proforma.isTVAVO == true, 'Montant HT', '')} 
+                                </p>
+                                <p style="white-space: nowrap; margin-bottom: 3px;">
+                                    {!IF(proforma.isTVAVO == true, 'TVA (20%)', '')}   
+                                </p>
+                                <p style="white-space: nowrap; margin-bottom: 3px;">
+                                
+                                </p>
+                                <p style="white-space: nowrap; margin-bottom: 3px;">
+                                   
+                                </p>
+                            </td>
+                            <td style="background: #f3f3f3;padding: 5px;">
+                                <p style="white-space: nowrap; margin-bottom: 3px;">
+                                      <apex:outputText value="{0, number, 0,000.00}">
+                                       <apex:param value="{!IF(proforma.isTVAVO == true, proforma.prix_de_vente_HT,'')}" />
+                                    </apex:outputText>
+                               
+                                    
+                                </p>
+                                <p style="white-space: nowrap; margin-bottom: 3px;">
+                                    <apex:outputText value="{0, number, 0,000.00}">
+                                        <apex:param value="{!IF(proforma.isTVAVO == true, proforma.prix_de_vente_HT_TVA,'')}" />
+                                     </apex:outputText>
+                                  
+                                    
+                                </p>
+                                <p style="white-space: nowrap; margin-bottom: 3px;">
+                               
+                                    
+                                </p>
+                                <p style="white-space: nowrap; margin-bottom: 3px;">
+                                
+                                    
+                                </p>
+                            </td>
+                        </tr>
+                       
+               
+                        <tr>
+                            <td style="padding: 5px;background: rgb(75, 172, 198);"><p>&nbsp;</p></td>
+                            <td style="padding: 5px;background: rgb(75, 172, 198);"><p>&nbsp;</p></td>
+                            <td style="padding: 5px;background: rgb(75, 172, 198);"><p>&nbsp;</p></td>
+                            <td style="color: #ffffff;background: rgb(75, 172, 198);padding: 10px;">
+                                <p style="white-space: nowrap; margin-bottom: 3px;font-weight: bold;">
+                                    Montant total TTC*
+                                </p>
+                            </td>
+                            <td style="color: #ffffff;background: rgb(75, 172, 198);padding: 10px;">
+                                <p style="white-space: nowrap; margin-bottom: 3px;font-weight: bold;">
+                                <apex:outputText value="{0, number, 0,000.00}">
+                                       <apex:param value="{!proforma.prix_de_vente_CEM}" />
+                                  </apex:outputText> MAD 
+                                    
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                    <p style="font-size: 12px;margin-bottom:5px;">
+                        Arrêté la présente facture proforma à la somme de :
+                    </p>
+                    <p  id="frenshValue" style="font-size: 13px;font-weight: bold; margin-bottom: 15px;">
+                        {!proforma.prix_frensh}
+                    </p>
+                </div>
+                <div class="main-bottom">
+                    <table style="width: 100%; margin-bottom:30px;">
+                        <tr>
+                            <td style="width: 55%;"><p>&nbsp;</p></td>
+                            <td style="width: 45%;">
+                                <p style="font-size: 10px; padding-right: 10px;margin-bottom: 10px;">
+                                    * Nos prix sont communiqués à titre indicatif 
+                                    et ne constituent aucun engagement de notre part,
+                                    la facturation étant établie d’après le tarif en vigueur le jour de la livraison
+                                </p>
+                                <p style="font-size: 10px; padding-right: 10px;">
+                                 
+                                    
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                    
+      
+                  
+                </div>
+            </div>
+        </body>
+    </html>
+</apex:page>

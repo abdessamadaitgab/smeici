@@ -1,0 +1,147 @@
+<apex:page readOnly="true"
+           standardController="Opportunity"
+           extensions="CTL001_VF001BonLivraison"
+           applyHtmlTag="false"    
+           sidebar="false"    
+           showHeader="false"    
+           renderAs="advanced_pdf"
+           docType="html-5.0">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />    
+    <style type="text/css">
+        
+        table{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        table, tr,td {
+            border: 1px solid black;
+            border-collapse: collapse;
+         }
+         .td1{
+         border-bottom: none !important;
+         border-right: none !important;
+         border-top: none !important;
+
+         text-align:right;
+         color:#7f7f7f;
+         }
+         .td2{
+         border-bottom: none !important;
+         border-top: none !important;
+         border-left: none !important;
+         padding-left: 120px;
+         }
+         .table .td3{
+         border-bottom: none !important;
+         border-top: none !important;
+         }
+         .carre {
+          width  : 15px;
+          height : 15px;
+          border: 1px solid black;
+        }
+    </style>
+  </head>
+  <header>
+    <table>
+        <tr>
+            <td rowspan="3" style="padding: 10px;"><b>Groupe Smeia</b></td>
+            <td rowspan="3" style="padding: 10px;color:#8393BC"><b>Bon de sortie de véhicule neuf</b></td>
+            <td style="padding-left: 10px;text-align:center;border-bottom:none !important">FOR-PRVN.02</td>
+        </tr>
+        <tr>
+            <td style="padding-left: 10px;text-align:center;border-top:none !important;border-bottom:none !important">Version : 1.0</td>
+        </tr>
+        <tr>
+            <td style="padding-left: 10px;text-align:center;border-top:none !important">Date : 17/01/2018</td>
+        </tr>
+    </table>
+    </header>
+    <h4 style="text-align:center;">Bon de sortie du véhicule neuf  : {!bl.product2.name}</h4>
+    <table style="width:92%;">
+
+            <tr>
+                <td colspan="2" style="padding: 10px; background-color:#D9D9D9"><b>Bon de sortie du véhicule neuf :</b></td>
+            </tr>
+            <tr>
+                <td class="td1"><b>Site</b></td>
+                <td class="td2">{!bl.chassis__r.Localisation__c }</td>
+            </tr>
+            <tr>
+                <td class="td1"><b>Date de sortie du véhicule neuf</b></td>
+                <td class="td2"><apex:outputText value="{0,date,yyyy/MM/dd}"> <apex:param value="{!TODAY()}" /> </apex:outputText></td>
+
+            </tr>
+            <tr>
+                <td class="td1"><b>Conseiller Commercial</b></td>
+                <td class="td2">{!bl.Opportunity.Owner.name}</td>
+
+            </tr>
+            <tr>
+                <td class="td1"><b>Nom du client</b></td>
+                <td class="td2">{!bl.Opportunity.Account.Name}</td>
+
+            </tr>
+            <tr>
+                <td class="td1"><b>Marque</b></td>
+                <td class="td2">{!bl.Product2.marque__c}</td>
+
+            </tr>
+            <tr>
+                <td class="td1"><b>Série</b></td>
+                <td class="td2">{!bl.Product2.Serie__c}</td>
+            </tr>
+            <tr>
+                <td class="td1"><b>Modèle</b></td>
+                <td class="td2">{!bl.Product2.Modele__c}</td>
+
+            </tr>
+            <tr>
+                <td class="td1"><b>N° de châssis du véhicule neuf</b></td>
+                <td class="td2">{!bl.chassis__r.N_de_chassis__c}</td>
+            </tr>
+            <tr>
+                <td class="td1"><b>N° d’immatriculation</b></td>
+                <td class="td2">{!bl.chassis__r.WW__c}</td>
+
+            </tr>
+
+            
+            <tr>
+                <td class="td1" style="border-bottom:1px solid black !important;width: 30%"><b>Référence bon de sortie</b></td>
+                <td class="td2" style="border-bottom:1px solid black !important"></td>
+
+            </tr>
+    </table>
+<br/><br/>
+    <table style="width:92%;">
+
+        <tr>
+            <td colspan="2" style="padding: 10px; background-color:#D9D9D9"><b>Validations</b></td>
+        </tr>
+        <tr>
+            <td class="td1"><b>Initié par</b></td>
+            <td class="td2">{!Opportunity.ADV_Ville__r.name}</td>
+        </tr>
+        <tr>
+            <td class="td1" style="border-bottom:1px solid black !important;width: 30%"><b>Validé par</b></td>
+            <td class="td2" style="border-bottom:1px solid black !important">{!Opportunity.DS__r.name}</td>
+
+        </tr>
+      
+    </table>
+    <br/><br/>
+
+    <table style="width:92%;">
+
+        <tr>
+            <td colspan="2" style="padding: 10px; background-color:#D9D9D9"><b>Signature de l’Agent de Sécurité</b></td>
+        </tr>
+        <tr >
+            <td style="height: 30px;" colspan="2"></td>
+        </tr>
+       
+    </table>
+  
+</apex:page>

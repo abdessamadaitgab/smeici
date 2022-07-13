@@ -1,0 +1,363 @@
+<apex:page readOnly="true"
+           standardController="Opportunity"
+           extensions="CTL001_VF001BonLivraison"   
+           applyHtmlTag="false"    
+           sidebar="false"    
+           showHeader="false"    
+           renderAs="advanced_pdf"
+           docType="html-5.0">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />    
+    <style type="text/css">
+        
+        table{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        table, tr,td {
+            border: 1px solid black;
+            border-collapse: collapse;
+         }
+         .td1{
+         border-bottom: none !important;
+         border-right: none !important;
+         border-top: none !important;
+
+         text-align:right;
+         color:#7f7f7f;
+         }
+         .header_table{
+            border :none !important;
+            font-size: 12px;
+         }
+         .ligne_table{
+             width: 50%;
+             border-top: 1px dotted black !important;
+         }
+         .ligne_table td{
+             border: none;
+             border-top: 1px dotted black !important;
+             border-right: 1px dotted black !important;
+         }
+         .label{
+            font-size: 12px;
+            color:#adadad;
+         }
+         .td2{
+         border-bottom: none !important;
+         border-top: none !important;
+         border-left: none !important;
+         padding-left: 120px;
+         }
+         .table .td3{
+         border-bottom: none !important;
+         border-top: none !important;
+         }
+         .carre {
+          width  : 15px;
+          height : 15px;
+          border: 1px solid black;
+        }
+    </style>
+  </head>
+  <header>
+    <table>
+        <tr>
+            <td rowspan="3" style="padding: 10px;"><b>Groupe Smeia</b></td>
+            <td rowspan="3" style="padding: 10px;color:#8393BC"><b>Bon de livraison des véhicules occasion</b></td>
+            <td style="padding-left: 10px;text-align:center;border-bottom:none !important">FOR-PRVN.02</td>
+        </tr>
+        <tr>
+            <td style="padding-left: 10px;text-align:center;border-top:none !important;border-bottom:none !important">Version : 1.0</td>
+        </tr>
+        <tr>
+            <td style="padding-left: 10px;text-align:center;border-top:none !important">Date : 17/01/2018</td>
+        </tr>
+    </table>
+    </header>
+    <h4 style="text-align:center;">Bon de livraison du véhicule : {!bl.product2.name} </h4>
+    <table style="width:92%;">
+
+            <tr>
+                <td colspan="2" style="padding: 10px; background-color:#D9D9D9"><b>Informations sur le véhicule occasion</b></td>
+            </tr>
+            <tr>
+                <td class="td1"><b>Site bénéficiaire</b></td>
+                <td class="td2">{!bl.chassis__r.Localisation__c }</td>
+
+            </tr>
+            <tr>
+                <td class="td1"><b>Date de sortie</b></td>
+                <td class="td2"><apex:outputText value="{0,date,yyyy/MM/dd}"> <apex:param value="{!TODAY()}" /> </apex:outputText></td>
+
+            </tr>
+            <tr>
+                <td class="td1"><b>Nom du client</b></td>
+                <td class="td2">{!bl.Opportunity.Account.Name}</td>
+
+            </tr>
+            <tr>
+                <td class="td1"><b>N° de châssis</b></td>
+                <td class="td2">{!bl.chassis__r.N_de_chassis__c}</td>
+
+            </tr>
+            <tr>
+                <td class="td1"><b>Couleur Intérieure</b></td>
+                <td class="td2">{!bl.chassis__r.Garniture__c}</td>
+            </tr>
+            <tr>
+                <td class="td1"><b>Couleur Extérieure</b></td>
+                <td class="td2">{!bl.chassis__r.Couleur__c}</td>
+
+            </tr>
+            <tr>
+                <td class="td1"><b>Immatriculation</b></td>
+                <td class="td2">{!bl.chassis__r.WW__c} </td>
+
+            </tr>
+            <tr>
+                <td class="td1"><b>Niveau de carburant</b></td>
+                <td class="td2"></td>
+
+            </tr>
+            <tr>
+                <td class="td1" style="border-bottom:1px solid black !important;width: 30%"><b>Référence bon de sortie</b></td>
+                <td class="td2" style="border-bottom:1px solid black !important"></td>
+
+            </tr>
+    </table>
+    <br/>
+    <table style="width:92%;">
+        <tr style="background-color:#D9D9D9">
+            <td colspan="2">
+                <b>Contrôles du véhicule occasion</b>
+            </td>
+            
+        </tr>
+    <tr >
+        
+        <td style="border-bottom :none !important">
+            
+                <b>Vérification de la silhouette à la sortie</b>
+        </td>
+      
+        <td style="border-bottom :none !important">   
+            <b>Vérification de l’intérieur du véhicule</b>
+                
+        </td>
+    </tr>
+    <tr>
+       
+        <td  style="border-top :none !important">            
+            <apex:image style="margin:50px;" url="{!$Resource.TestDrive}" width="200" height="200"/> 
+            <table style="width:92%; border :none !important">
+
+                <tr style="border :none !important">
+                    <td colspan="2" style="border :none !important; font-size:12px"><b>Afficher les dommages avec les codes suivants</b></td>
+                </tr>
+                <tr style="border :none !important">
+                    <td class = "label" style="border :none !important;"><b>X : Eraflures</b></td>
+                    <td class = "label" style="border :none !important;"><b>O : Bosses</b></td>
+        
+                </tr>
+                <tr style="border :none !important">
+                    <td class = "label" style="border :none !important;"><b>A : Rayures</b></td>
+                    <td class = "label" style="border :none !important;"><b>V : Dommages carrosserie</b></td>
+        
+                </tr>
+            </table>       
+        </td> 
+       
+        <td style="border-top :none !important">     
+            <table style="width:100%;">
+
+                <tr style="border :none !important"> 
+                    <td class="header_table"><b>Eléments</b></td>
+                    <td class="header_table"><b>Qté</b></td>
+                    <td class="header_table"><b>Etat (V ou X)</b></td>
+                </tr>
+                <tr class="ligne_table">
+                    <td class = "label"><b>Clés</b></td>
+                    <td ></td>
+                    <td ></td>
+                </tr>
+                <tr class="ligne_table">
+                    <td class = "label" ><b>Conditions générales de garantie</b></td>
+                    <td ></td>
+                    <td ></td>
+                </tr>
+                <tr class="ligne_table">
+                    <td class = "label"><b>Manuel de bord</b></td>
+                    <td ></td>
+                    <td ></td>
+                </tr>
+                <tr class="ligne_table">
+                    <td class = "label"><b>Cric</b></td>
+                    <td ></td>
+                    <td ></td>
+                </tr>
+                <tr class="ligne_table">
+                    <td class = "label"><b>Manivelle</b></td>
+                    <td ></td>
+                    <td ></td>
+                </tr>
+                <tr class="ligne_table">
+                    <td class = "label"><b>Clé démonte roue</b></td>
+                    <td ></td>
+                    <td ></td>
+                </tr>
+                <tr class="ligne_table">
+                    <td class = "label"><b>Roue de secours</b></td>
+                    <td ></td>
+                    <td ></td>
+                </tr>
+                <tr class="ligne_table">
+                    <td class = "label"><b>Kit pneumatique</b></td>
+                    <td ></td>
+                    <td ></td>
+                </tr>
+                <tr class="ligne_table">
+                    <td class = "label"><b>Kit premiers secours</b></td>
+                    <td ></td>
+                    <td ></td>
+                </tr>
+
+                <tr class="ligne_table">
+                    <td class = "label"><b>Crochet de remorquage (Dépannage)</b></td>
+                    <td ></td>
+                    <td ></td>
+                </tr>
+                <tr class="ligne_table">
+                    <td class = "label"><b>Jeu de tapis</b></td>
+                    <td ></td>
+                    <td ></td>
+                </tr>
+                <tr class="ligne_table">
+                    <td class = "label"><b>Cendrier</b></td>
+                    <td ></td>
+                    <td ></td>
+                </tr>
+                <tr class="ligne_table">
+                    <td class = "label"><b>Clé Antivol</b></td>
+                    <td ></td>
+                    <td ></td>
+                </tr>
+                <tr class="ligne_table">
+                    <td class = "label" colspan="3"><b>Autres éléments </b></td>
+                   
+                </tr>
+               
+             
+        </table>       
+        </td> 
+    </tr>
+       </table>
+
+    
+     <table class = "table" style="width:92%; max-height:600px; margin-top:60px">
+
+       
+        <tr style="background-color:#D9D9D9">
+            <td >Etat Intérieur</td>
+            <td >V</td>
+            <td >X</td>
+            <td >Etat Extérieur</td>
+            <td >V</td>
+            <td >X</td>
+        </tr>
+        <tr>
+            <td class = "label"><b>Eclairage</b></td>
+            <td class = "label"></td>
+            <td class = "label"></td>
+            <td class = "label">Balais d’essuie-glace</td>
+            <td class = "label"></td>
+            <td class = "label"></td>
+        </tr>
+        <tr >
+            <td class = "label"><b>Système audio</b></td>
+            <td class = "label"></td>
+            <td class = "label"></td>
+            <td class = "label">Pare-brise</td>
+            <td class = "label"></td>
+            <td class = "label"></td>
+
+        </tr>
+
+        <tr>
+            <td class = "label"><b>Climatisation</b></td>
+            <td class = "label"></td>
+            <td class = "label"></td>
+            <td class = "label">Phare et feux arrières</td>
+            <td class = "label"></td>
+            <td class = "label"></td>
+        </tr>
+        <tr >
+            <td class = "label"><b>Klaxon</b></td>
+            <td class = "label"></td>
+            <td class = "label"></td>
+            <td class = "label">jantes</td>
+            <td class = "label"></td>
+            <td class = "label"></td>
+
+        </tr>
+
+        <tr >
+            <td class = "label"><b>Système de lave-glace</b></td>
+            <td class = "label"></td>
+            <td class = "label"></td>
+            <td class = "label"></td>
+            <td class = "label"></td>
+            <td class = "label"></td>
+
+        </tr>
+
+        <tr>
+            <td class = "label"><b>Vitres électriques</b></td>
+            <td class = "label"></td>
+            <td class = "label"></td>
+            <td class = "label"></td>
+            <td class = "label"></td>
+            <td class = "label"></td>
+        </tr>
+        <tr >
+            <td class = "label"><b>Fermeture centralisée</b></td>
+            <td class = "label"></td>
+            <td class = "label"></td>
+            <td class = "label"></td>
+            <td class = "label"></td>
+            <td class = "label"></td>
+
+        </tr>
+      
+      
+</table>
+<br/><br/><br/>
+<table>
+        <tr>
+            <td rowspan="3" style="padding: 10px;"><b>Groupe Smeia</b></td>
+            <td rowspan="3" style="padding: 10px;color:#8393BC"><b>Bon de livraison des véhicules occasion</b></td>
+            <td style="padding-left: 10px;text-align:center;border-bottom:none !important">FOR-PRVN.02</td>
+        </tr>
+        <tr>
+            <td style="padding-left: 10px;text-align:center;border-top:none !important;border-bottom:none !important">Version : 1.0</td>
+        </tr>
+        <tr>
+            <td style="padding-left: 10px;text-align:center;border-top:none !important">Date : 17/01/2018</td>
+        </tr>
+</table>
+<br/><br/>
+<table style="width:92%;">
+
+    <tr>
+        <td  style="background-color:#D9D9D9"><b>Signature du Conseiller Commercial</b></td>
+        <td  style="background-color:#D9D9D9"><b>Signature du client</b></td> 
+    </tr>
+    <tr style="height : 40px">
+        <td ></td>
+        <td ></td>
+
+    </tr>
+   
+    
+</table>
+</apex:page>
