@@ -9,9 +9,7 @@
 		<members>Lead.GoogleMaps</members>
 		<members>Lead.GoogleNews</members>
 		<members>Lead.GoogleSearch</members>
-		<members>Quote.Test_Test</members>
 		<members>Quote.pdf_test</members>
-		<members>Test_Drive__c.Generer_Silhouette1</members>
 		<members>agf__ADM_Feature_Freeze_Status__c.agf__Update_Metrics</members>
 		<members>agf__ADM_Product_Tag__c.agf__Manage_Additional_Fields</members>
 		<members>agf__ADM_Product_Tag__c.agf__New_Assignment_Rule</members>
