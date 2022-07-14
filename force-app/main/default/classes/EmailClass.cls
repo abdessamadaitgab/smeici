@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : ChangeMeIn@UserSettingsUnder.SFDoc
  * @group             : 
- * @last modified on  : 07-08-2022
+ * @last modified on  : 07-14-2022
  * @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
 **/
 public with sharing class EmailClass {
@@ -83,8 +83,6 @@ public with sharing class EmailClass {
         EmailWrapper emailDetails = (EmailWrapper) JSON.deserialize(emailDetailStr, EmailWrapper.class);
         Messaging.reserveSingleEmailCapacity(1);
         try {
-           
-            
             messaging.SingleEmailMessage mail = new messaging.SingleEmailMessage();
             if ( owea != null ) {
                 mail.setOrgWideEmailAddressId(owea.Id);
