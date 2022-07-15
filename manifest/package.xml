@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
-		<members>Account.Compte_Professionnel</members>
-		<members>Account.PersonAccount</members>
-		<members>Quote.Bon_de_commande</members>
-		<members>Quote.Offer</members>
-		<members>Quote.Proforma</members>
-		<name>RecordType</name>
+		<members>*</members>
+		<name>ProfilePasswordPolicy</name>
 	</types>
 	<types>
-		<members>Accenture_AEM</members>
-		<members>TestWI</members>
-		<members>jobRouter</members>
-		<members>jobRouter3</members>
-		<members>jobRouter4test</members>
-		<members>jobRouter4test2</members>
-		<members>jobRouter5</members>
-		<members>jobRouter6</members>
-		<members>jobRouterTest22</members>
-		<name>RemoteSiteSetting</name>
+		<members>*</members>
+		<name>ProfileSessionSetting</name>
 	</types>
 	<version>53.0</version>
 </Package>
