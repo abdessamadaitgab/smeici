@@ -20,5 +20,6 @@
     <pageAccesses>
         <apexPage>sfleadcaphfprod__Lead_Capture</apexPage>
         <enabled>true</enabled>
+        
     </pageAccesses>
 </PermissionSet>
