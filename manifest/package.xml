@@ -14,7 +14,6 @@
 		<members>Lead.Match_Lead</members>
 		<members>Lead.Match_Lead_Without_ICE</members>
 		<members>Lead.Match_lead_With_only_ICE</members>
-		<members>Lead.Standard_Lead_Match_Rule_v1_0</members>
 		<name>MatchingRule</name>
 	</types>
 	<version>53.0</version>
