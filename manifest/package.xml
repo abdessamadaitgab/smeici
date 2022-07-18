@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
-		<members>*</members>
-		<name>MatchingRules</name>
+		<members>Account.Account_Company_matching</members>
+		<members>Account.Match_Account</members>
+		<members>Account.Match_Person_Account_with_only_ICE</members>
+		<members>Account.Match_person_Account</members>
+		<members>Account.Match_person_Account_without_ICE</members>
+		<members>Account.Standard_Account_Match_Rule_v1_0</members>
+		<members>Account.Standard_PersonAccount_Match_Rule_v1_0</members>
+		<members>Contact.Match_Contact</members>
+		<members>Contact.Standard_Contact_Match_Rule_v1_1</members>
+		<members>Lead.Lead_Company_matching</members>
+		<members>Lead.Match_Lead</members>
+		<members>Lead.Match_Lead_Without_ICE</members>
+		<members>Lead.Match_lead_With_only_ICE</members>
+		<members>Lead.Standard_Lead_Match_Rule_v1_0</members>
+		<name>MatchingRule</name>
 	</types>
 	<version>53.0</version>
 </Package>
