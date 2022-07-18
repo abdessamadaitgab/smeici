@@ -1,20 +1,49 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
-		<members>Account.Account_Company_matching</members>
-		<members>Account.Match_Account</members>
-		<members>Account.Match_Person_Account_with_only_ICE</members>
-		<members>Account.Match_person_Account</members>
-		<members>Account.Match_person_Account_without_ICE</members>
-		<members>Account.Standard_Account_Match_Rule_v1_0</members>
-		<members>Account.Standard_PersonAccount_Match_Rule_v1_0</members>
-		<members>Contact.Match_Contact</members>
-		<members>Contact.Standard_Contact_Match_Rule_v1_1</members>
-		<members>Lead.Lead_Company_matching</members>
-		<members>Lead.Match_Lead</members>
-		<members>Lead.Match_Lead_Without_ICE</members>
-		<members>Lead.Match_lead_With_only_ICE</members>
-		<name>MatchingRule</name>
+		<members>Account.AllAccounts</members>
+		<members>Account.MyAccounts</members>
+		<members>Activity.MyActivities</members>
+		<members>Activity.MyDelegatedActivities</members>
+		<members>Activity.MyTeamsActivities</members>
+		<members>Activity.TodaysTasks</members>
+		<members>Activity.UpcomingEvents</members>
+		<members>Campaign.AllActiveCampaigns</members>
+		<members>Campaign.Campagne_Test_Sophia_f_vrier_20222</members>
+		<members>Campaign.MyActiveCampaigns</members>
+		<members>Campaign.Org_Campaign_Hierarchy</members>
+		<members>Campaign.Toutes_les_campagnes</members>
+		<members>CampaignInfluence.CampaignInfluence</members>
+		<members>Case.AllOpenCases</members>
+		<members>Case.Casablanca_Case</members>
+		<members>Case.Equipe_CRM_Case</members>
+		<members>Case.MyCases</members>
+		<members>Case.MyOpenCases</members>
+		<members>Case.Tickets_en_cours_de_mon_quipe</members>
+		<members>Case.Tickets_trait_s_et_clotir_s</members>
+		<members>CollaborationGroup.All_ChatterGroups</members>
+		<members>Contact.AllContacts</members>
+		<members>Contact.BulkMessageContacts</members>
+		<members>Contact.MyContacts</members>
+		<members>ContactRequest.My_ContactRequests</members>
+		<members>Contract.AllActivatedContracts</members>
+		<members>Contract.AllContracts</members>
+		<members>Contract.AllDraftContracts</members>
+		<members>Contract.AllInApprovalContracts</members>
+		<members>Contract.MyActivatedContracts</members>
+		<members>Contract.MyDraftContracts</members>
+		<members>Contract.MyInApprovalContracts</members>
+		<members>Lead.AllOpenLeads</members>
+		<members>Lead.My_Leads</members>
+		<members>Lead.TodaysLeads</members>
+		<members>Lead.Web_to_lead_qualifier</members>
+		<name>ListView</name>
+	</types>
+	<types>
+		<members>cms_document</members>
+		<members>cms_image</members>
+		<members>news</members>
+		<name>ManagedContentType</name>
 	</types>
 	<version>53.0</version>
 </Package>
