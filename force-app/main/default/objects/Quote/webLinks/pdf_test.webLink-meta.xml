@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pdf_test</fullName>
+    <availability>online</availability>
+    <displayType>link</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>pdf test</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/24.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/24.0/apex.js&quot;)}
+
+var pdfOverlay = QuotePDFPreview.quotePDFObjs[&apos;quotePDFOverlay&apos;];
+pdfOverlay.dialog.buttonContents = &apos;&lt;input value=\&quot;Cancel\&quot; class=\&quot;btn\&quot; name=\&quot;cancel\&quot; onclick=\&quot;QuotePDFPreview.getQuotePDFObject(\&apos;quotePDFOverlay\&apos;).close();\&quot; title=\&quot;Cancelar\&quot; type=\&quot;button\&quot; /&gt;&apos;;
+
+pdfOverlay.setSavable(true);
+pdfOverlay.setPDFContents(&apos;/apex/VF001Proforma?id={!Quote.Id}&apos;,null,null);
+pdfOverlay.display();</url>
+</WebLink>

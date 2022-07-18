@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Alert_for_cases</fullName>
+        <description>Alert for cases</description>
+        <protected>false</protected>
+        <recipients>
+            <field>email_manager__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>smeia.contact@gmail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/SUPPORTCaseescalationnotificationSAMPLE</template>
+    </alerts>
+    <alerts>
+        <fullName>Case_Auto_response</fullName>
+        <description>Case Auto response</description>
+        <protected>false</protected>
+        <recipients>
+            <field>email_client__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>smeia.contact@gmail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/case_auto_response</template>
+    </alerts>
+    <alerts>
+        <fullName>Case_envoi_de_la_r_clamation_en_interne</fullName>
+        <description>Case envoi de la réclamation en interne</description>
+        <protected>false</protected>
+        <recipients>
+            <field>last_email_owner__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>smeia.contact@gmail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Case_envoi_de_la_r_clamation_en_interne</template>
+    </alerts>
+    <alerts>
+        <fullName>Case_refus_de_la_r_clamation_en_interne</fullName>
+        <description>Case refus de la réclamation en interne</description>
+        <protected>false</protected>
+        <recipients>
+            <field>last_email_owner__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>smeia.contact@gmail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Case_refus_de_la_r_clamation_en_interne</template>
+    </alerts>
+    <alerts>
+        <fullName>case_email_de_cloture</fullName>
+        <description>case email de cloture</description>
+        <protected>false</protected>
+        <recipients>
+            <field>email_client__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>smeia.contact@gmail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/case_email_de_cloture</template>
+    </alerts>
+    <alerts>
+        <fullName>case_notifier_user_n_1</fullName>
+        <description>case notifier user n+1</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>yassine.elhachimi@nbs-consulting.net.smeia</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>smeia.contact@gmail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/case_notifier_user_n_1</template>
+    </alerts>
+    <alerts>
+        <fullName>case_notifier_user_n_2</fullName>
+        <description>case notifier user n+2</description>
+        <protected>false</protected>
+        <recipients>
+            <field>email_manager__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>smeia.contact@gmail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/case_notifier_user_n_2</template>
+    </alerts>
+    <alerts>
+        <fullName>case_send_email</fullName>
+        <description>case send email</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SuppliedEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>smeia.contact@gmail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/case_send_email</template>
+    </alerts>
+</Workflow>

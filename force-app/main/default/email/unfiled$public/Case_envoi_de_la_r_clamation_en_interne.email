@@ -1,0 +1,18 @@
+Bonjour,
+
+Vous avez une nouvelle réclamation client à traiter relative à :
+
+Client : {!Case.Account}
+
+VIN :  {!Case.VIN__c}
+
+Téléphone : {!Case.Telephone__c}
+
+Catégorie : {!Case.Categorie__c}
+
+Cause : {!Case.Cause_de_reclamation__c}
+
+Merci de bien vouloir traiter la réclamation sur Salesforce et de renseigner les actions réalisées avec
+le client.
+
+Cordialement

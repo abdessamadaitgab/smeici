@@ -1,0 +1,11 @@
+.timerClass {
+    display: inline-block;
+    line-height: 1.875rem;
+    min-height: calc(1.875rem + (1px * 2));
+    width:50%;
+    font-size: 30px;
+    margin:3%;
+    border: none !important;
+    text-align:center;
+    color: rgb(3, 148, 63);
+}

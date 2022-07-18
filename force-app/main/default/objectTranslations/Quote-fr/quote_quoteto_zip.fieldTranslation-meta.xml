@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Code postal de l&apos;adresse d&apos;expédition du proformas et bons de commande</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <name>quote_quoteto_zip</name>
+    <startsWith>Consonant</startsWith>
+</CustomFieldTranslation>
